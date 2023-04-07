@@ -1,16 +1,4 @@
 ﻿DIPLOMACY = {
-	c:HBC = {
-		create_diplomatic_pact = {
-			country = c:GBR
-			type = trade_agreement
-		}
-	}
-	c:HBC = {
-		create_diplomatic_pact = {
-			country = c:USA
-			type = trade_agreement
-		}
-	}
 	c:SWE = {
 		create_diplomatic_pact = {
 			country = c:PRU
@@ -23,11 +11,7 @@
 			type = trade_agreement
 		}
 	}	
-	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:POR
-			type = trade_agreement
-		}		
+	c:GBR = {		
 		create_diplomatic_pact = {
 			country = c:BEL
 			type = trade_agreement

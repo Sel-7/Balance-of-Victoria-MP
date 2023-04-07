@@ -1086,7 +1086,7 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 21234140
+				size = 2123414
 			}
 			create_pop = {
 				culture = tupinamba

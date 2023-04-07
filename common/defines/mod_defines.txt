@@ -1,7 +1,7 @@
 ﻿NPops = {
 
-	LOW_POP_THRESHOLD = 1000				# If a state has less than this amount of pops per arable land, apply the low pop modifier
-	HIGH_POP_THRESHOLD = 100000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
+	LOW_POP_THRESHOLD = 2500				# If a state has less than this amount of pops per arable land, apply the low pop modifier
+	HIGH_POP_THRESHOLD = 11000			# If a state has more than this amount of pops per arable land, apply the high pop modifier
 	
 	
 	# The below factors are applied *after* migration pull threshold checks, so they only impact how large a share of migration a state gets
@@ -50,13 +50,13 @@
 } 
 
 ### Pop Growth Constants   
-@min_birthrate = 0.0008
-@max_birthrate = 0.0040
-@min_mortality = 0.0004
-@max_mortality = 0.0050
+@min_birthrate = 0.0004
+@max_birthrate = 0.0045
+@min_mortality = 0.0008
+@max_mortality = 0.0052
 @pop_growth_sol_equilibrium = 7						# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
-@pop_growth_sol_delta_cap = 22					# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
-@pop_growth_sol_cap = 30								# SoL Cap is where they birthrate/death-rate stop dropping
+@pop_growth_sol_delta_cap = 25					# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
+@pop_growth_sol_cap = 28								# SoL Cap is where they birthrate/death-rate stop dropping
 
 
 NPops = {
@@ -74,14 +74,14 @@ NPops = {
 }
 
 NTechnology = {
-	TECH_SPREAD_RANDOM_RANGE = 0.5 # How much can distribution of tech spread vary each week
-	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.5	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+	TECH_SPREAD_RANDOM_RANGE = 0.75 # How much can distribution of tech spread vary each week
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.4	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
 }
 
 NEconomy = { 
 		DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 3		# How many years does it take for penalties from declaring bankruptcy to fully decay
 		PRICE_RANGE = 0.6
-		URBANIZATION_PER_BUILDING = 90
+		URBANIZATION_PER_BUILDING = 100
 		}
 NAI = {
 	AUTONOMOUS_INVESTMENT_CONSTRUCTION_ENABLED = no # If this is set to no, the autonomous investment AI won't construct anything even if the game rule for it is enabled
