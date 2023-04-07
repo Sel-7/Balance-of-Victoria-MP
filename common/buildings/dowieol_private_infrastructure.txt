@@ -1,0 +1,33 @@
+﻿building_cruise_line = {
+	building_group = bg_dowieol_infrastructure	
+	texture = "gfx/interface/icons/building_icons/dowieol_building_port_cruiseline.dds" # contributed by warhammer_ita
+	
+	unlocking_technologies = {
+		liners_1
+	}
+    port = yes
+	production_method_groups = {
+		pmg_base_building_cruiseline
+		pmg_passenger_cruiseline
+		pmg_ownership_capital_building_railway
+	}
+
+	required_construction = construction_cost_high
+	ai_value = 100
+	
+	possible = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
+	
+	should_auto_expand = { 
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		state.market_access < 1
+		owner.construction_queue_duration < max_autoexpand_queue_weeks
+	}
+}

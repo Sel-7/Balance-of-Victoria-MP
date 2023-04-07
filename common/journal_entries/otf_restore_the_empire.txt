@@ -1,0 +1,89 @@
+﻿otf_north_africa_je = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_TUNISIA
+		country_or_subject_owns_entire_state_region = STATE_ALGIERS
+		country_or_subject_owns_entire_state_region = STATE_CONSTANTINE
+		country_or_subject_owns_entire_state_region = STATE_TLEMCEN
+		country_or_subject_owns_entire_state_region = STATE_AL_RIF
+		country_or_subject_owns_entire_state_region = STATE_LIBYA
+		country_or_subject_owns_entire_state_region = STATE_TRIPOLI
+	}
+	on_complete = {
+		trigger_event = {
+			id = otf_events.4
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+otf_balkans_je = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_DOBRUDJA
+		country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+		country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
+		country_or_subject_owns_entire_state_region = STATE_BESSARABIA
+		country_or_subject_owns_entire_state_region = STATE_CRETE
+		custom_tooltip = {
+			text = otf_balkan_conquer_txt
+			country_or_subject_owns_entire_state_region = STATE_WEST_AEGEAN_ISLANDS
+			country_or_subject_owns_entire_state_region = STATE_PELOPONNESE
+			country_or_subject_owns_entire_state_region = STATE_ATTICA
+			country_or_subject_owns_entire_state_region = STATE_IONIAN_ISLANDS
+			country_or_subject_owns_entire_state_region = STATE_THESSALIA
+			country_or_subject_owns_entire_state_region = STATE_MACEDONIA
+			country_or_subject_owns_entire_state_region = STATE_WESTERN_THRACE
+			country_or_subject_owns_entire_state_region = STATE_EASTERN_THRACE
+			country_or_subject_owns_entire_state_region = STATE_NORTHERN_THRACE
+			country_or_subject_owns_entire_state_region = STATE_BULGARIA
+			country_or_subject_owns_entire_state_region = STATE_ALBANIA
+			country_or_subject_owns_entire_state_region = STATE_SKOPIA
+			country_or_subject_owns_entire_state_region = STATE_SOUTHERN_SERBIA
+			country_or_subject_owns_entire_state_region = STATE_MONTENEGRO
+			country_or_subject_owns_entire_state_region = STATE_DALMATIA
+			country_or_subject_owns_entire_state_region = STATE_BOSNIA
+			country_or_subject_owns_entire_state_region = STATE_NORTHERN_SERBIA
+			country_or_subject_owns_entire_state_region = STATE_SLAVONIA
+			country_or_subject_owns_entire_state_region = STATE_CROATIA
+			country_or_subject_owns_entire_state_region = STATE_SLOVENIA
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = otf_events.3
+		}
+		every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_DOBRUDJA
+					state_region = s:STATE_WALLACHIA
+					state_region = s:STATE_MOLDAVIA
+					state_region = s:STATE_BESSARABIA
+				}
+				owner = ROOT
+			}
+			set_state_type = incorporated
+		}
+	}
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+otf_crimea_je = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_CRIMEA
+		country_or_subject_owns_entire_state_region = STATE_CHERSON
+		country_or_subject_owns_entire_state_region = STATE_LUHANSK
+		country_or_subject_owns_entire_state_region = STATE_ROSTOV
+	}
+	on_complete = {
+		trigger_event = {
+			id = otf_events.2
+		}
+	}
+	weight = 5000
+	should_be_pinned_by_default = yes
+}

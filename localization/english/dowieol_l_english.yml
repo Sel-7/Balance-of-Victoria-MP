@@ -1,0 +1,32 @@
+﻿l_english:
+ #Technology
+ liners_1:0 "Ocean Liners"
+ liners_1_desc:0 "Magnificent, prestigious and often luxurious ships built for transporting passengers across oceans."
+ liners_2:0 "Floating Hotels"
+ liners_2_desc:0 "Magnificent, decedent and awe inspiring, these ships are truley impressive works of engineering, capable of carrying passengers in excessive comfort and luxury."
+ liners_3:0 "Cities of the Sea"
+ liners_3_desc:0 "“God himself could not sink this ship!”"
+ #Buildings
+ building_cruise_line:0 "Cruise Line"
+ #Production Methods
+ pm_liner_1:0 "Small Liners"
+ pm_liner_2:0 "Medium Liners"
+ pm_liner_3:0 "Large Liners"
+ pm_liner_class_1:0 "Basic Cabins"
+ pm_liner_class_2:0 "Comfortable Cabins"
+ pm_liner_class_3:0 "Luxury Cabins"
+ pmg_base_building_cruiseline:0 "Liner Size"
+ pmg_passenger_cruiseline:0 "Passenger Classes"
+ #Goods
+ fctransportation:0 "First Class Transport"
+ #Modifiers
+ modifier_building_cruise_line_throughput_mult:0 "$building_cruise_line$ building [concept_throughput]"
+ modifier_building_cruise_line_throughput_mult_desc:0 "A bonus or penalty to both input and output of $building_cruise_line$"
+ modifier_building_output_fctransportation_add:0 "@fctransportation! First Class Transport output per level"
+ modifier_building_output_fctransportation_add_desc:0 "The amount of @fctransportation! First Class Transport produced by buildings"
+ #Events - Unused so deleted
+ 
+ #Other
+ popneed_luxury_travel:0 "Luxury Travel"
+ trade_route_import_lens_option_fctransportation_tooltip:0 "Establish a First Class Transport import route"
+ trade_route_export_lens_option_fctransportation_tooltip:0 "Establish a First Class Transport export route"

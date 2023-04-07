@@ -1,0 +1,11 @@
+subsistence_construction = {
+	default = subsistence_has_construction
+
+	subsistence_has_construction = {
+	}
+
+	subsistence_no_construction = {
+		flag = disable_pm_subsistence_buildings
+		flag = force_pm_no_subsistence_buildings
+	}
+}

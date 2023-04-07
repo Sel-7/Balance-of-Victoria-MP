@@ -1,0 +1,7 @@
+﻿popneed_luxury_travel = {
+	default = fctransportation
+
+	entry = {
+		goods = fctransportation
+	}
+}

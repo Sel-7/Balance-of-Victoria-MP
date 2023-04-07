@@ -1,0 +1,99 @@
+﻿namespace = guarani
+
+guarani.1 = {
+	type = country_event
+	placement = scope:guarany_play
+	
+	
+
+
+
+	title = guarani.1.t
+	desc = guarani.1.d
+	flavor = guarani.1.f
+	
+	event_image = {
+		video = "gfx/event_pictures/unspecific_world_fair.bk2"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/world_fair"
+	
+	duration = 3
+
+	trigger = {
+		exists = c:BRZ
+		c:BRZ = ROOT
+		has_technology_researched = realism
+        NOT = { c:BRZ = {has_variable = opera_event}}
+		game_date >= 1870.1.1
+				
+		any_scope_building = {
+					is_building_type = building_arts_academy
+				}
+			
+		
+	}
+
+	immediate = {
+
+		random_country = {
+			limit = {
+				country_rank >= rank_value:major_power
+				capital = {
+					OR = {
+						region = sr:region_england
+						region = sr:region_france
+						region = sr:region_rhine
+						region = sr:region_italy
+						region = sr:region_north_germany
+						region = sr:region_south_germany
+
+					}
+				}
+				NOT = { this = ROOT }
+			}
+			save_scope_as = guarany_play
+		}
+		
+
+
+			set_variable = {
+			name = opera_event
+		}
+		random_scope_state = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_arts_academy
+				}
+			}
+			save_scope_as = guarani_opera
+		}
+	}
+
+	option = { #International Prestige
+		name = guarani.1.a
+		default_option = yes
+		add_modifier = {
+			name = opera_br_mod
+			months = 25
+		}
+		change_relations = {
+			country = scope:guarany_play
+			value = 20
+		}
+
+	}
+	option = { #Arts academy throughput
+		name = guarani.1.b
+		scope:guarani_opera = {
+			add_modifier = {
+			name = br_art_production_mod #CHANGE THIS LOYALISTS
+			months = 25
+			}
+		}
+	}
+	
+}

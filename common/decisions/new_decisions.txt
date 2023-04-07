@@ -1,0 +1,80 @@
+﻿annex_Dutch_East_Indies_decision = {
+	is_shown = {
+		exists = c:NET
+		exists = c:DEI
+		this = c:NET
+	}
+
+	possible = {
+		c:DEI = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:JMB = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:YOG = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:SRK = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:SMB = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:PON = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:BNJ = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:TID = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+	}
+	
+	when_taken = {
+		annex = c:DEI
+		annex = c:JMB
+		annex = c:YOG
+		annex = c:SRK
+		annex = c:SMB
+		annex = c:PON
+		annex = c:BNJ
+		annex = c:TID
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
+
+annex_Luxembourg_decision = {
+	is_shown = {
+		exists = c:NET
+		exists = c:LUX
+		this = c:NET
+	}
+	
+	possible = {
+		c:LUX = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+	}
+	
+	when_taken = {
+		annex = c:LUX
+	}
+	
+	ai_chance = {
+		base = 0
+	}
+}

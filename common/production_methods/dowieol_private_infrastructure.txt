@@ -1,0 +1,151 @@
+﻿pm_liner_1 = {
+	texture = "gfx/interface/icons/production_method_icons/dowieol_liners1.dds"
+	pollution_generation = 15
+    unlocking_technologies = {
+		screw_frigate
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_clippers_add = 60
+			building_input_coal_add = 120
+			building_output_transportation_add = 60
+            building_output_fctransportation_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 200
+		}
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.05
+		}
+	}
+}
+pm_liner_2 = {
+	texture = "gfx/interface/icons/production_method_icons/dowieol_liners2.dds"
+	pollution_generation = 25
+    unlocking_technologies = {
+		ironclad_tech
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steamers_add = 90
+			building_input_coal_add = 80
+			building_output_transportation_add = 80
+            building_output_fctransportation_add = 10
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 400
+		}
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.1
+		}
+	}
+}
+pm_liner_3 = {
+	texture = "gfx/interface/icons/production_method_icons/dowieol_liners3.dds"
+	pollution_generation = 35
+    unlocking_technologies = { dreadnought }
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steamers_add = 125
+			building_input_coal_add = 130
+			building_output_transportation_add = 100
+            building_output_fctransportation_add = 25
+		}
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 600
+            building_employment_engineers_add = 200
+		}
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.15
+		}
+	}
+}
+pm_liner_class_1 = {
+	texture = "gfx/interface/icons/production_method_icons/dowieol_liner_class3.dds"
+	pollution_generation = 35
+    unlocking_technologies = {
+		liners_1
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+            building_input_meat_add = 20
+			building_output_transportation_add = -15
+            building_output_fctransportation_add = 20
+		}
+		level_scaled = {
+            building_employment_clerks_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+
+		}
+	}
+}
+pm_liner_class_2 = {
+	texture = "gfx/interface/icons/production_method_icons/dowieol_liner_class2.dds"
+	pollution_generation = 35
+    unlocking_technologies = {
+		liners_2
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+            building_input_meat_add = 20
+            building_input_luxury_furniture_add = 20
+			building_output_transportation_add = -30
+            building_output_fctransportation_add = 50
+		}
+		level_scaled = {
+            building_employment_clerks_add = 2000
+			building_employment_officers_add = 200
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+
+		}
+	}
+}
+pm_liner_class_3 = {
+	texture = "gfx/interface/icons/production_method_icons/dowieol_liner_class1.dds"
+	pollution_generation = 35
+    unlocking_technologies = { liners_3 }
+	building_modifiers = {
+		workforce_scaled = {
+            building_input_meat_add = 20
+            building_input_luxury_furniture_add = 20
+            building_input_fine_art_add = 2
+            building_output_transportation_add = -45
+            building_output_fctransportation_add = 100
+		}
+		level_scaled = {
+            building_employment_clerks_add = 3000
+			building_employment_officers_add = 300
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+
+		}
+	}
+}

@@ -1,0 +1,11 @@
+﻿bg_dowieol_infrastructure = {
+	parent_group = bg_infrastructure
+	
+	is_government_funded = no
+	subsidized = no
+	
+	cash_reserves_max = 60000
+	
+	urbanization = 5
+    infrastructure_usage_per_level = 5
+}

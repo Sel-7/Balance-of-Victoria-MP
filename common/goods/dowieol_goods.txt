@@ -1,0 +1,9 @@
+﻿fctransportation = {
+	texture = "gfx/interface/icons/goods_icons/dowieol_fctransportation.dds"
+	cost = 230
+	category = luxury
+	#tradeable = no
+    obsession_chance = 1.8
+	prestige_factor = 10
+	consumption_tax_cost = 100
+}

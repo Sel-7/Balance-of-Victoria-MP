@@ -1,0 +1,217 @@
+﻿je_la_plata_crysis.1 = { #just a favlour ticker timer, might be expanded later with events
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_shown_when_inactive = {
+			#no
+		}
+	
+	immediate = {
+		set_variable = {
+			name = crysis_timer_var
+			value = 0
+			}
+		}
+	
+	possible = {
+		
+		}
+
+		current_value = {
+			value = root.var:crysis_timer_var
+		}
+
+		goal_add_value = {
+			add = 12 #CHANGE VALUES HERE FOR THE MONTHS
+		}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+			}
+		}
+
+		on_monthly_pulse = {
+			effect = {
+				change_variable = {
+					name = crysis_timer_var
+					add = 1
+				}
+			}
+		}
+	on_complete = {
+		hidden_effect = {
+			trigger_event = {
+				id = paraguay_war.2
+				days = 7
+				popup = yes
+				}
+		}
+	}
+on_timeout = {
+	}
+
+weight = 200
+	
+progressbar = yes
+inheritable = no
+should_be_pinned_by_default = yes
+	
+}
+
+je_la_plata_crysis.2 = { #just a favlour ticker timer, might be expanded later with events 
+#sets the event brazil demands compensation - MIGHT PUT HERE OBJECTIVE TO SET THE FLEET TO URU SEA
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_shown_when_inactive = {
+			#no
+		}
+	
+	immediate = {
+		set_variable = {
+			name = crysis_timer_var
+			value = 0
+			}
+		}
+	
+	possible = {
+		
+		}
+
+		current_value = {
+			value = root.var:crysis_timer_var
+		}
+
+		goal_add_value = {
+			add = 6
+		}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+			}
+		}
+
+		on_monthly_pulse = {
+			effect = {
+				change_variable = {
+					name = crysis_timer_var
+					add = 1
+				}
+			}
+		}
+	on_complete = {
+		hidden_effect = {
+		trigger_event = {
+			id = paraguay_war.3
+			days = 7
+			popup = yes
+			}
+		}
+	}
+
+on_timeout = {
+	}
+
+weight = 200
+	
+progressbar = yes
+inheritable = no
+should_be_pinned_by_default = yes
+	
+}
+
+je_la_plata_crysis.3 = { #just a favlour ticker timer, might be expanded later with events 
+#change name to crysis escalates even more - Civil war in URU on going
+icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	is_shown_when_inactive = {
+			#no
+		}
+	
+	immediate = {
+		set_variable = {
+			name = crysis_timer_var
+			value = 0
+			}
+		
+			c:URU = {
+				save_scope_as = uru_scope
+				}
+			c:ARG = {
+				save_scope_as = arg_scope
+				}
+			c:PRG = {
+				save_scope_as = prg_scope
+				}
+					
+		}
+
+	
+	possible = {
+		
+		}
+
+		current_value = {
+			value = root.var:crysis_timer_var
+		}
+
+		goal_add_value = {
+			add = 6
+		}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+			}
+		}
+
+		on_monthly_pulse = {
+			effect = {
+					if = {
+						limit = {
+							c:BRZ = {
+								has_diplomatic_pact = {
+									who = scope:uru_scope
+									type = bankroll
+									 }
+							}
+						}
+					
+					change_variable = {
+						name = crysis_timer_var
+						add = 1
+							}
+						}
+					}			
+			
+		
+		}
+
+	is_progressing = {
+		has_diplomatic_pact = {
+			who = scope:uru_scope
+			type = bankroll
+			 }
+		}
+	on_complete = {
+		hidden_effect = {
+		trigger_event = {
+			id = paraguay_war.4
+			days = 7
+			popup = yes
+			}
+		}
+	}
+
+on_timeout = {
+	}
+
+weight = 200
+	
+progressbar = yes
+inheritable = no
+should_be_pinned_by_default = yes
+	
+}
+
+

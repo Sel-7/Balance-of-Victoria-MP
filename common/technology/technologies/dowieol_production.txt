@@ -1,0 +1,40 @@
+﻿liners_1 = {
+	era = era_2 #1836-1861
+	texture = "gfx/interface/icons/invention_icons/dowieol_ocean_liners.dds"
+	category = military
+	
+	modifier = {
+		
+	}
+	
+	unlocking_technologies = {
+		paddle_steamer
+	}
+}
+liners_2 = {
+	era = era_3 #1862-1886
+	texture = "gfx/interface/icons/invention_icons/dowieol_ocean_liners.dds"
+	category = military
+	
+	modifier = {
+		
+	}
+	
+	unlocking_technologies = {
+        liners_1
+	}
+}
+liners_3 = {
+	era = era_4 #1887-1911 Titanic = 1912
+	texture = "gfx/interface/icons/invention_icons/dowieol_ocean_liners.dds"
+	category = military
+	
+	modifier = {
+		
+	}
+	
+	unlocking_technologies = {
+        liners_2
+        floating_harbor
+	}
+}

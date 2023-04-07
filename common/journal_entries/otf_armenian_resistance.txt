@@ -1,0 +1,59 @@
+﻿otf_anti_armenian_policy_je = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	on_monthly_pulse = {
+		random_events = {
+			40 = otto_arm_res_events.2			#Local Rebel
+			15 = otto_arm_res_events.3			#Diaspora
+			15 = otto_arm_res_events.4			#Assasination
+			30 = otto_arm_res_events.6			#Kurd vs Armenian Rebel
+		}
+	}
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = otto_arm_res_events.8
+		}
+	}
+	current_value = {
+		value = var:anti_armenian_policy_var
+	}
+	goal_add_value = {
+		add = 20
+	}
+	fail = {
+		has_variable = completed_armeninan_integration
+	}
+	weight = 10000
+	progressbar = yes
+	should_be_pinned_by_default = yes
+}
+
+otf_armenian_integration_je = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = otto_arm_res_events.9
+		}
+	}
+	current_value = {
+		value = var:armenian_integration_var
+	}
+	goal_add_value = {
+		add = 20
+	}
+	fail = {
+		has_variable = completed_anti_armenian_policy
+	}
+	weight = 10000
+	progressbar = yes
+	should_be_pinned_by_default = yes
+}

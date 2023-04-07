@@ -1,0 +1,330 @@
+﻿otf_born_of_jon_turks = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	is_shown_when_inactive = {
+		exists = c:TUR
+		this = c:TUR
+	}
+	possible = {
+	
+	}
+	complete = {
+		ig:ig_intelligentsia = {
+			is_in_government = yes
+		}
+		literacy_rate >= 0.40
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_born_of_jon_turks_mdf
+			months = -1
+		}
+		set_variable = born_of_jon_turks
+		add_journal_entry = {
+			type = otf_reduce_the_sultans_rights_je
+		}
+		add_journal_entry = {
+			type = otf_ban_slavery_je
+		}
+		add_journal_entry = {
+			type = otf_educate_people_je
+		}
+		add_journal_entry = {
+			type = otf_improve_public_service_je
+		}
+		add_journal_entry = {
+			type = otf_women_and_children_je
+		}
+		add_journal_entry = {
+			type = otf_strong_market_je
+		}
+		add_journal_entry = {
+			type = otf_black_gold_je
+		}
+		add_journal_entry = {
+			type = otf_strong_market_je
+		}
+		add_journal_entry = {
+			type = otf_black_gold_je
+		}
+		add_journal_entry = {
+			type = otf_western_diplomacy_je
+		}
+		add_journal_entry = {
+			type = otf_improve_army_equipment_je
+		}
+		add_loyalists = {
+			value = 0.1
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+otf_reduce_the_sultans_rights_je = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+	is_shown_when_inactive = {
+		has_variable = born_of_jon_turks
+		has_law = law_type:law_monarchy
+		has_law = law_type:law_autocracy
+	}
+	timeout = 7300
+	on_timeout = {
+		trigger_event = {
+			id = otto_egypt_events.14
+		}
+	}
+	complete = {
+		NOT = {
+			has_law = law_type:law_autocracy
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_no_more_autocracy
+			months = 180
+		}
+		add_loyalists = {
+			value = 0.1
+		}
+	}
+	should_be_pinned_by_default = yes
+	weight = 10000
+}
+
+#Social CONTENTS
+otf_ban_slavery_je = {
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	complete = {
+		has_law = law_type:law_slavery_banned
+	}
+	on_complete = {
+		random_scope_character = {
+			limit = {
+				is_ruler = yes
+			}
+			add_modifier = {
+				name = otf_freedom_for_everyone
+				months = -1
+			}
+		}
+		add_loyalists = {
+			value = 0.05
+			strata = poor
+		}
+	}
+	weight = 10000
+}
+
+otf_educate_people_je = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	complete = {
+		OR = {
+			has_law = law_type:law_religious_schools
+			has_law = law_type:law_private_schools
+			has_law = law_type:law_public_schools
+		}
+		literacy_rate >= 0.7
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_educated_people
+			months = -1
+		}
+		add_loyalists = {
+			value = 0.05
+		}
+	}
+	weight = 10000
+}
+
+otf_improve_public_service_je = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	complete = {
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 4
+		}
+		institution_investment_level = {
+			institution = institution_health_system
+			value >= 4
+		}
+		institution_investment_level = {
+			institution = institution_social_security
+			value >= 4
+		}
+		institution_investment_level = {
+			institution = institution_workplace_safety
+			value >= 4
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_modern_public_administration
+			months = -1
+		}
+		add_loyalists = {
+			value = 0.05
+		}
+	}
+	weight = 10000
+}
+
+otf_women_and_children_je = {
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	complete = {
+		has_law = law_type:law_compulsory_primary_school
+		has_law = law_type:law_womens_suffrage
+		NOT = {
+			has_law = law_type:law_state_religion
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_equal_rights
+			months = -1
+		}
+		add_loyalists = {
+			value = 0.05
+		}
+	}
+	weight = 1004
+	inheritable = yes
+}
+
+#Economic Content
+otf_strong_market_je = {
+	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
+	complete = {
+		gdp > {
+			value = global_gdp
+			multiply = 0.05
+		}
+		market = {
+			owner = ROOT
+			participants >= 6
+		}
+		NOT = {
+			has_law = law_type:law_isolationism
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_developed_market
+			months = -1
+		}
+	}
+	weight = 1012
+}
+
+otf_black_gold_je = {
+	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
+	complete = {
+		market_capital.market = {
+			mg:oil = {
+				market_goods_cheaper < 0.3
+			}
+		}
+		any_scope_building = {
+			is_building_type = building_oil_rig
+			cash_reserves_ratio > 0.25
+			weekly_profit > 7
+			occupancy >= 0.8
+			level >= 20
+		}
+		has_technology_researched = pumpjacks
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_black_gold_mdf
+			months = -1
+		}
+	}
+	weight = 1010
+}
+
+#Dip-Mil Content
+otf_western_diplomacy_je = {
+	icon = "gfx/interface/icons/objectives/hegemon.dds"
+	complete = {
+		OR = {
+			AND = {
+				OR = {
+					c:PRU = {
+						has_diplomatic_pact = {
+							who = root
+							type = alliance
+						}
+						relations:root >= relations_threshold:amicable
+					}
+					c:NGF = {
+						has_diplomatic_pact = {
+							who = root
+							type = alliance
+						}
+						relations:root >= relations_threshold:amicable
+					}
+				}
+			}
+			AND = {
+				c:FRA = {
+					has_diplomatic_pact = {
+						who = root
+						type = alliance
+					}
+					relations:root >= relations_threshold:amicable
+				}
+			}
+			AND = {
+				c:GBR = {
+					has_diplomatic_pact = {
+						who = root
+						type = alliance
+					}
+					relations:root >= relations_threshold:amicable
+				}
+			}
+			AND = {
+				c:RUS = {
+					has_diplomatic_pact = {
+						who = root
+						type = alliance
+					}
+					relations:root >= relations_threshold:amicable
+				}
+			}
+			AND = {
+				c:AUS = {
+					has_diplomatic_pact = {
+						who = root
+						type = alliance
+					}
+					relations:root >= relations_threshold:amicable
+				}
+			}
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_balance_politics
+			months = -1
+		}
+	}
+	weight = 1003
+	inheritable = yes
+}
+
+otf_improve_army_equipment_je = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	complete = {
+		has_technology_researched = bolt_action_rifles
+		has_technology_researched = automatic_machine_guns
+		has_technology_researched = wargaming
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_advanced_weapons_industry
+			months = -1
+		}
+	}
+	weight = 1010
+}

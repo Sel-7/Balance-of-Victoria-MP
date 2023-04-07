@@ -1,0 +1,47 @@
+﻿otf_legislate_kanuni_esasi_je = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	complete = {
+		NOR = {
+			has_law = law_type:law_state_religion
+			has_law = law_type:law_autocracy
+		}
+		radical_fraction = {
+			value <= 0.35
+		}
+	}
+	on_complete = {
+		every_scope_state = {
+			limit = {
+				owner = c:TUR
+			}
+			add_modifier = {
+				name = otf_legislate_kanuni_esasi_mdf
+				months = -1
+			}
+		}
+	}
+	should_be_pinned_by_default = yes
+	weight = 10000
+}
+
+otf_peoples_empire_je = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	complete = {
+		global_country_ranking <= 3
+		has_law = law_type:law_multicultural
+		NOT = {
+			has_law = law_type:law_closed_borders
+		}
+		radical_fraction = {
+			value <= 0.15
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_peoples_empire_mdf
+			months = -1
+		}
+	}
+	should_be_pinned_by_default = yes
+	weight = 10000
+}

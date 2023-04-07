@@ -1,0 +1,142 @@
+﻿je_slavery_debate.1 = { #ENGLISH PRESSURE PULSE - WE STILL NEED TO MAKE SURE IT WONT REPEAT IF EUSEBIO TAKEN WHILE THIS IS ON RENEWAL
+icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	immediate = {
+		set_variable = {
+			name = slavery_timer_var
+			value = 0
+			}
+
+		}
+	
+
+	possible = {
+		NOT = {has_global_variable = name = eusebio_enacted}
+	}
+
+	current_value = {
+		value = root.var:slavery_timer_var
+	}
+
+	goal_add_value = {
+		add = 12 #HOW LONG
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+			}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = slavery_timer_var
+				add = 1
+			}
+		}
+	}
+
+	on_yearly_pulse = {
+		random_events = {
+			20 = 0
+			20 = alberdeen_act.3 # Slave Safe Haven
+			20 = alberdeen_act.4 # Death of a Character
+			20 = alberdeen_act.5 #Free State
+			20 = alberdeen_act.6 # Slave punished
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = alberdeen_act.2 #JOURNAL ENDS, BAD EVENT - REPEAT JOURNAL AFTER
+			days = 7
+			popup = yes
+			}
+
+		change_variable = { #keeps adding up the convoy raiding and the cash grab
+				name = alberdeen_act_malus
+				add = 0.5
+				}
+		}
+
+
+	
+	invalid = {
+		has_global_variable = eusebio_enacted
+		}
+
+	on_timeout = {
+
+	}
+
+	
+	weight = 200
+
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+
+je_slavery_debate.2 = { #SLAVERY BAN APPROVAL
+icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	immediate = {
+		set_variable = {
+			name = slavery_ban_var
+			value = 0
+			}
+
+		}
+	
+
+	possible = {
+		NOT = {has_global_variable = name = eusebio_enacted}
+	}
+
+	current_value = {
+		value = root.var:slavery_ban_var
+	}
+
+	goal_add_value = {
+		add = 5 #HOW MANY TICKS?
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+			}
+	}
+
+	on_monthly_pulse = {
+
+	}
+
+	on_yearly_pulse = {
+
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = eusebio_law.1 #JOURNAL ENDS, TRIGGER EUSÉBIO LAW
+			days = 7
+			popup = yes
+			}
+
+		remove_journal_entry = {
+			type = je_slavery_debate.1 #ends journal
+				}
+		}
+
+
+	on_timeout = {
+
+	}
+
+	
+	weight = 200
+
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}

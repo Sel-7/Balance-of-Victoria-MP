@@ -1,0 +1,24 @@
+﻿l_english:
+  pmg_construction_subsistence:1 "$pm_base$"
+  pm_subsistence_buildings:0 "Subsistence Construction"
+  pm_no_subsistence_buildings:0 "No Subsistence Construction"
+
+  rule_subsistence_construction:0 "Subsistence Buildings"
+  setting_subsistence_has_construction:0 "Has Construction"
+  setting_subsistence_has_construction_desc:0 "Allow subsistence buildings to have construction"
+  setting_subsistence_no_construction:0 "No Construction"
+  setting_subsistence_no_construction_desc:0 "Prevents subsistence buildings from having construction"
+
+  rule_base_construction:0 "Base Construction"
+  setting_no_base_construction:0 "No Construction"
+  setting_no_base_construction_desc:0 "Countries do not start with a base construction value of 5"
+  setting_has_base_construction:0 "Has Construction"
+  setting_has_base_construction_desc:0 "Countries start with a base construction value of 5"
+
+  modifier_no_base_construction:0 "No Base Construction"
+  modifier_no_base_construction_desc:0 "A game rule that removes all countries' base construction"
+  state_trait_british_hygiene:0 "Bri'ish Hygiene"
+  state_trait_american_expansion:0 "Manifesting Destiny"
+  state_trait_germanic_explosion:0 "Germanic Explosion"
+  STATE_SOUTH_ATLANTIC_ISLANDS:0 "Las Malvinas"
+  state_trait_latin_romance:0 "Latin Romance"

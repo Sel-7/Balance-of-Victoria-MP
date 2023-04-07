@@ -1,0 +1,94 @@
+﻿otf_azerbaijan_je = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_AZERBAIJAN
+		country_or_subject_owns_entire_state_region = STATE_ARMENIA
+		country_or_subject_owns_entire_state_region = STATE_TABRIZ
+	}
+	on_complete = {
+		add_primary_culture = cu:azerbaijani
+		every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_AZERBAIJAN
+					state_region = s:STATE_ARMENIA
+					state_region = s:STATE_TABRIZ
+				}
+				owner = ROOT
+			}
+			set_state_type = incorporated
+			add_modifier = {
+				name = otf_guaranteed_life
+				months = 180
+			}
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+otf_central_asia_je = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		custom_tooltip = {
+			text = otf_central_asia_conquer_txt
+			country_or_subject_owns_entire_state_region = STATE_SAMARA
+			country_or_subject_owns_entire_state_region = STATE_URALSK
+			country_or_subject_owns_entire_state_region = STATE_KHIVA
+			country_or_subject_owns_entire_state_region = STATE_AKMOLINSK
+			country_or_subject_owns_entire_state_region = STATE_TURKMENIA
+			country_or_subject_owns_entire_state_region = STATE_UZBEKIA
+			country_or_subject_owns_entire_state_region = STATE_TAJIKISTAN
+			country_or_subject_owns_entire_state_region = STATE_KIRGHIZIA
+			country_or_subject_owns_entire_state_region = STATE_JETISY
+			country_or_subject_owns_entire_state_region = STATE_SEMIRECHE
+			country_or_subject_owns_entire_state_region = STATE_JETISY
+			country_or_subject_owns_entire_state_region = STATE_SKOPIA
+			country_or_subject_owns_entire_state_region = STATE_DZUNGARIA
+			country_or_subject_owns_entire_state_region = STATE_TIANSHAN
+		}
+	}
+	on_complete = {
+		add_modifier = {
+			name = otf_turkic_unification_mdf
+			months = -1
+		}
+	}
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+otf_modernize_army_pan_turkic_je = {
+	icon = "gfx/interface/icons/objectives/hegemon.dds"
+	complete = {
+		ig:ig_armed_forces = {
+			is_powerful = no
+		}
+		NOT = {
+			has_law = law_type:law_serfdom
+			has_law = law_type:law_monarchy
+			has_law = law_type:law_peasant_levies
+		}
+		has_technology_researched = general_staff
+		NOT = {
+			any_scope_building = {
+				is_building_type = building_barracks
+				OR = {
+					has_active_production_method = pm_irregular_infantry
+					has_active_production_method = pm_line_infantry
+				}
+				OR = {
+					has_active_production_method = pm_no_artillery
+					has_active_production_method = pm_cannon_artillery
+				}
+			}
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = otf_events.12
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

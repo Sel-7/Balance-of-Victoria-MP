@@ -1,0 +1,69 @@
+﻿
+
+tax_modifier_very_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_legitimacy_base_add = 10
+	state_radicals_from_sol_change_mult = -0.2	
+    
+	state_assimilation_mult = 0.05
+	state_conversion_mult = 0.05
+	state_migration_pull_mult = 0.05
+	state_birth_rate_mult = 0.01
+	country_trade_route_competitiveness_mult = 0.25
+	state_colony_growth_speed_mult = 0.1
+    country_loan_interest_rate_add = -0.04
+}
+
+tax_modifier_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_legitimacy_base_add = 5
+	state_radicals_from_sol_change_mult = -0.1
+
+	state_assimilation_mult = 0.025
+	state_conversion_mult = 0.025
+	state_migration_pull_mult = 0.025
+	state_birth_rate_mult = 0.005
+
+	state_aristocrats_investment_pool_contribution_add = 0.025
+	state_capitalists_investment_pool_contribution_add = 0.025
+	country_trade_route_competitiveness_mult = 0.125
+	state_colony_growth_speed_mult = 0.05
+    country_loan_interest_rate_add = -0.02
+}	
+
+tax_modifier_medium = {
+}	
+
+tax_modifier_high = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_legitimacy_base_add = -5
+	state_radicals_from_sol_change_mult = 0.25
+
+	state_assimilation_mult = -0.025
+	state_conversion_mult = -0.025
+	state_migration_pull_mult = -0.025
+	state_birth_rate_mult = -0.005
+
+	state_aristocrats_investment_pool_contribution_add = -0.025
+	state_capitalists_investment_pool_contribution_add = -0.025
+	country_trade_route_competitiveness_mult = -0.125
+	state_colony_growth_speed_mult = -0.05
+    country_loan_interest_rate_add = 0.02
+}	
+
+tax_modifier_very_high = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_legitimacy_base_add = -10
+	state_radicals_from_sol_change_mult = 0.5
+
+	state_assimilation_mult = -0.05
+	state_conversion_mult = -0.05
+	state_migration_pull_mult = -0.05
+	state_birth_rate_mult = -0.01
+
+	state_aristocrats_investment_pool_contribution_add = -0.05
+	state_capitalists_investment_pool_contribution_add = -0.05
+	country_trade_route_competitiveness_mult = -0.25
+	state_colony_growth_speed_mult = -0.1
+    country_loan_interest_rate_add = 0.04
+}	
