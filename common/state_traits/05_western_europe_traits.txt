@@ -161,8 +161,7 @@ state_trait_american_expansion = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_mortality_mult = -0.02
-		state_birth_rate_mult = 0.06
+		state_birth_rate_mult = 0.08
 	}
 }
 
@@ -170,14 +169,13 @@ state_trait_germanic_explosion = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {
-		state_mortality_mult = -0.02
-		state_birth_rate_mult = 0.04
+		state_birth_rate_mult = 0.07
 	}
 }
 state_trait_latin_romance = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.07
+		state_birth_rate_mult = 0.05
 	}
 }
