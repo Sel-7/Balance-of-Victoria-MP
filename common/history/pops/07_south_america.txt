@@ -989,7 +989,7 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 647988
+				size = 2647988
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1023,7 +1023,7 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 29902
+				size = 129902
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1044,7 +1044,7 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 69779
+				size = 569779
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1086,7 +1086,7 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 234140
+				size = 21234140
 			}
 			create_pop = {
 				culture = tupinamba

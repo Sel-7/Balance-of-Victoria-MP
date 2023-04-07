@@ -1460,7 +1460,7 @@
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 251061
+				size = 2251061
 			}		
 		}
 	}
@@ -1528,7 +1528,7 @@
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 226764
+				size = 2226764
 			}
 			create_pop = {
 				culture = mayan
@@ -1548,7 +1548,7 @@
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 763486
+				size = 2763486
 			}
 			create_pop = {
 				culture = mixtec

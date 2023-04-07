@@ -41,7 +41,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10479900
+				size = 4479900
 			}
 		}
 	}
@@ -49,7 +49,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7778092
+				size = 3778092
 			}
 		}
 	}
@@ -57,7 +57,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7188456
+				size = 3188456
 			}
 		}
 	}
@@ -65,7 +65,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5568000
+				size = 2568000
 			}
 		}
 	}
@@ -89,7 +89,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 12306504
+				size = 4306504
 			}
 		}
 	}
@@ -279,7 +279,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6216000
+				size = 4216000
 			}
 		}
 	}
@@ -342,7 +342,7 @@
 		region_state:SIA = {
 			create_pop = {
 				culture = khmer
-				size = 176400
+				size = 1176400
 			}
 			create_pop = {
 				pop_type = slaves
@@ -361,7 +361,7 @@
 		region_state:CAM = {
 			create_pop = {
 				culture = khmer
-				size = 623202
+				size = 3623202
 			}
 			create_pop = {
 				culture = yue
@@ -387,7 +387,7 @@
 		region_state:SIA = {
 			create_pop = {
 				culture = thai
-				size = 1534004
+				size = 4534004
 			}
 			create_pop = {
 				culture = malay
@@ -607,7 +607,7 @@
 			}
 			create_pop = {
 				culture = thai
-				size = 494312
+				size = 3494312
 			}
 			create_pop = {
 				culture = khmer

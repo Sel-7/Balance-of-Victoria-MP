@@ -1414,8 +1414,8 @@ STATE_BAJIO = {
     arable_land = 100
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 23
-        bg_gold_mining = 4
+        bg_iron_mining = 30
+        bg_gold_mining = 7
     }
 }
 
@@ -1428,7 +1428,7 @@ STATE_YUCATAN = {
     farm = "x54250B"
     mine = "xCE98DE"
     wood = "x23EF68"
-    arable_land = 80
+    arable_land = 165
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 18
@@ -1436,7 +1436,7 @@ STATE_YUCATAN = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 44
     }
     naval_exit_id = 3060
 }
@@ -1450,16 +1450,16 @@ STATE_MEXICO = {
     farm = "x5A9469"
     mine = "x6BEB21"
     wood = "x10B080"
-    arable_land = 160
+    arable_land = 233
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 9
+        bg_iron_mining = 60
         bg_lead_mining = 12
         bg_logging = 7
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 8
+        undiscovered_amount = 104
     }
 }
 
@@ -1473,7 +1473,7 @@ STATE_VERACRUZ = {
     farm = "x1C69F0"
     mine = "x5ED62A"
     wood = "x5ED62A"
-    arable_land = 160
+    arable_land = 275
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_iron_mining = 9
@@ -1483,11 +1483,11 @@ STATE_VERACRUZ = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 8
+        undiscovered_amount = 65
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 20
+        undiscovered_amount = 63
     }
     naval_exit_id = 3060
 }
@@ -1588,12 +1588,12 @@ STATE_ZACATECAS = {
     arable_land = 80
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 23
+        bg_iron_mining = 40
     }
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        undiscovered_amount = 21
     }
 }
 
