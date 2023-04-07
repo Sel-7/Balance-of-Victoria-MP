@@ -1,0 +1,143 @@
+types shared_types {
+	#goods
+	type icon_with_number_and_bar_list = container {
+		layoutpolicy_vertical = shrinking
+		layoutpolicy_horizontal = shrinking
+
+		block "size" {
+			min_width = 25
+			max_width = 25
+		}
+		block "tooltip" {
+		}
+
+		block "onmousehierarchy" {
+		}
+
+		icon = {
+			block "icon_size" {
+				size = { 25 25 }
+			}
+			alpha = 0.5
+			block "texture" {
+				texture = "gfx/interface/icons/generic_icons/flotillas.dds"
+			}
+		}
+
+		vbox = {
+			position = { 12 -2 }
+			spacing = 3
+			layoutpolicy_horizontal = shrinking
+			layoutpolicy_vertical = expanding
+
+			textbox = {
+				align = center|vcenter
+				using = fontsize_small
+				block "text" {
+				}
+			}
+	
+			default_progressbar_horizontal = {
+				block "bar_size" {
+					size = { 30 4 }
+				}
+
+				block "bar_visible" {
+					visible = yes
+				}
+
+	
+				block "bar_tooltip" {
+					tooltip = ""
+				}
+				
+				block "bar_value" {
+					blockoverride "values" {
+						min = 0
+						max = 1
+					}
+				}
+				
+				block "bar_onmousehierarchy" {
+					
+				}
+	
+				alwaystransparent = no				
+			}
+		}
+	}
+	#goods
+	type icon_with_number_and_bar_list_gold = container {
+		layoutpolicy_vertical = shrinking
+		layoutpolicy_horizontal = shrinking
+
+		block "size" {
+			min_width = 25
+			max_width = 25
+		}
+		block "tooltip" {
+		}
+
+		block "onmousehierarchy" {
+		}
+
+		icon = {
+			block "icon_size" {
+				size = { 25 25 }
+			}
+			alpha = 0.5
+			block "texture" {
+				texture = "gfx/interface/icons/generic_icons/flotillas.dds"
+			}
+		}
+
+		vbox = {
+			position = { 12 -2 }
+			spacing = 3
+			layoutpolicy_horizontal = shrinking
+			layoutpolicy_vertical = expanding
+
+			textbox = {
+				align = center|vcenter
+				using = fontsize_small
+				block "text" {
+				}
+			}
+	
+			gold_progressbar_horizontal = {
+				block "bar_size" {
+					size = { 30 4 }
+				}
+
+				block "bar_visible" {
+					visible = yes
+				}
+
+	
+				block "bar_tooltip" {
+					tooltip = ""
+				}
+				
+				block "bar_value" {
+					blockoverride "values" {
+						min = 0
+						max = 1
+					}
+				}
+				
+				block "bar_onmousehierarchy" {
+					
+				}
+				
+				block "highlight" {
+					
+				}
+	
+				alwaystransparent = no	
+				
+
+			}
+			
+		}
+	}
+}
