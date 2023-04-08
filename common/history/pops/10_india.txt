@@ -182,7 +182,7 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 2370101
+				size = 7870101
 			}
 		}
 	}

@@ -78,3 +78,5 @@ annex_Luxembourg_decision = {
 		base = 0
 	}
 }
+
+

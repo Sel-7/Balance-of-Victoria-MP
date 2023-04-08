@@ -52,10 +52,10 @@ pm_iron_frame_buildings = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 15
-			building_input_fabric_add = 7.5
-			building_input_iron_add = 10.5
-			building_input_tools_add = 2.5
+			building_input_wood_add = 13.5
+			building_input_fabric_add = 6.5
+			building_input_iron_add = 12.5
+			building_input_tools_add = 3.5
 		}
 
 		level_scaled = {

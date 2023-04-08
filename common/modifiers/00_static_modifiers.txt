@@ -5,7 +5,7 @@
 
 # Global Static Modifiers
 base_values = {
-	country_weekly_innovation_add = 20
+	country_weekly_innovation_add = 30
 	country_weekly_innovation_max_add = 40
 	country_tech_spread_add = 40
 	
@@ -61,7 +61,7 @@ working_conditions = {
 
 malnourishment = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
-	state_birth_rate_mult = -0.02	# per level below equilibrium
+	state_birth_rate_mult = -0.03	# per level below equilibrium
 }
 
 commander_battle_end_victory = {
@@ -104,8 +104,9 @@ unincorporated_state = {
 	state_building_port_max_level_add = -4
 	state_building_barracks_max_level_add = -95
 	building_group_bg_army_throughput_mult = -0.1 #army, conscription
-	building_economy_of_scale_level_cap_add = -50
+	building_economy_of_scale_level_cap_add = -20
 	state_building_naval_base_max_level_add = -20
+	state_birth_rate_mult = 0.05
 	state_pop_pol_str_mult = -0.9
 }
 
@@ -269,8 +270,8 @@ pm_retooling = {
 
 pm_offense_defense_readjustment = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
-	unit_offense_mult = -0.75
-	unit_defense_mult = -0.75
+	unit_offense_mult = -0.60
+	unit_defense_mult = -0.60
 }
 
 insufficient_urbanization = {
@@ -281,7 +282,7 @@ insufficient_urbanization = {
 # Excess BUR increases construction speed by +10% at 2x production to usage
 efficient_bureaucracy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	state_construction_mult = 0.20
+	state_construction_mult = 0.30
 }
 
 # Insufficient BUR reduces tax collected by 100% at 2x usage to production
@@ -305,7 +306,7 @@ political_dysfunction = {
 # Excess DIP increases Infamy decay by up to 25% at 2x production to usage
 diplomatic_mitigation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	country_infamy_decay_mult = 0.05
+	country_infamy_decay_mult = 0.10
 }
 
 # Insufficient DIP reduces prestige by up to 50% at 2x usage to production
@@ -410,7 +411,7 @@ infamy_pariah = {
 state_region_devastation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	state_infrastructure_mult = -1.0
-	state_mortality_mult = 1.0
+	state_mortality_mult = 3.0
 	state_migration_pull_mult = -1.0
 }
 
@@ -502,13 +503,13 @@ modifier_tangena_ordeal = {
 modifier_french_independence_payments = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_prestige_mult = -0.25
-	country_expenses_add = 2000
+	country_expenses_add = 4000
 }
 
 modifier_haitian_independence_payments = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_prestige_mult = 0.05
-	country_tax_income_add = 2000
+	country_tax_income_add = 4000
 }
 
 law_enactment_chance = {

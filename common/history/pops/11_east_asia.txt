@@ -408,7 +408,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 1841220
+				size = 3441220
 			}
 			create_pop = {
 				culture = miao
@@ -438,7 +438,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 2040333
+				size = 3040333
 			}
 			create_pop = {
 				culture = yue
@@ -464,7 +464,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 1152396
+				size = 2152396
 			}
 			create_pop = {
 				culture = vietnamese
@@ -649,7 +649,7 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = kachin
-				size = 408000
+				size = 908000
 			}
 			create_pop = {
 				culture = shan
@@ -675,7 +675,7 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = shan
-				size = 553996
+				size = 1553996
 			}
 			create_pop = {
 				culture = kachin
@@ -693,7 +693,7 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
-				size = 1059596
+				size = 2959596
 			}
 			create_pop = {
 				culture = kachin
@@ -710,7 +710,7 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
-				size = 787900
+				size = 2787900
 			}
 			create_pop = {
 				culture = mon
@@ -729,7 +729,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = burmese
-				size = 100888
+				size = 200888
 			}
 			create_pop = {
 				culture = british
