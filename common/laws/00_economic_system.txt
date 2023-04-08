@@ -20,18 +20,11 @@ law_traditionalism = {
 	}
 	
 	modifier = {
-		state_shopkeepers_investment_pool_efficiency_mult = -0.5
-		state_capitalists_investment_pool_efficiency_mult = -0.5
-		state_aristocrats_investment_pool_efficiency_mult = -0.25	
 		state_bureaucracy_population_base_cost_factor_mult = -0.25
-		state_tax_capacity_mult = -0.25
-		country_private_construction_allocation_mult = 0.25
+		state_tax_capacity_mult = -0.15
 		building_group_bg_agriculture_throughput_mult = 0.05
-		building_group_bg_plantations_throughput_mult = 0.05
-		building_group_bg_ranching_throughput_mult = 0.05
-		building_group_bg_logging_throughput_mult = 0.05
-		building_group_bg_fishing_throughput_mult = 0.05
-		building_group_bg_whaling_throughput_mult = 0.05
+		building_group_bg_plantations_throughput_mult = 0.10
+		building_group_bg_logging_throughput_mult = 0.10
 		building_group_bg_mining_throughput_mult = 0.05
 		
 		country_subsidies_bg_infrastructure = yes
@@ -82,7 +75,6 @@ law_interventionism = {
 	
 	modifier = {
 		country_subsidies_all = yes
-		country_private_construction_allocation_mult = 0.5
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
 		building_group_bg_agriculture_throughput_mult = 0.05
@@ -93,6 +85,7 @@ law_interventionism = {
 		building_group_bg_fishing_throughput_mult = 0.05
 		building_group_bg_oil_extraction_throughput_mult = 0.05
 		building_group_bg_rubber_throughput_mult = 0.05
+		building_group_bg_manufacturing_throughput_mult = 0.05
 	}
 
 	build_from_investment_pool = {
@@ -155,16 +148,13 @@ law_agrarianism = {
 	}
 	
 	modifier = {
-		state_aristocrats_investment_pool_efficiency_mult = 0.25
-		state_farmers_investment_pool_efficiency_mult = 0.25
-		state_capitalists_investment_pool_efficiency_mult = -0.25
-		country_private_construction_allocation_mult = 0.5
 		building_group_bg_agriculture_throughput_mult = 0.1
 		building_group_bg_plantations_throughput_mult = 0.1
 		building_group_bg_ranching_throughput_mult = 0.1
-		building_group_bg_logging_throughput_mult = 0.05
+		building_group_bg_logging_throughput_mult = 0.10
 		building_group_bg_fishing_throughput_mult = 0.05
 		building_group_bg_whaling_throughput_mult = 0.05
+		building_group_bg_rubber_throughput_mult = 0.05
 		
 		country_subsidies_bg_agriculture = yes
 		country_subsidies_bg_ranching = yes
@@ -255,15 +245,10 @@ law_laissez_faire = {
 	}
 	
 	modifier = {
-		state_shopkeepers_investment_pool_efficiency_mult = 0.15	
-		state_capitalists_investment_pool_efficiency_mult = 0.15
-		country_private_construction_allocation_mult = 0.75
-		building_group_bg_logging_throughput_mult = 0.05
-		building_group_bg_mining_throughput_mult = 0.05
-		building_group_bg_fishing_throughput_mult = 0.05
-		building_group_bg_oil_extraction_throughput_mult = 0.05
-		building_group_bg_rubber_throughput_mult = 0.05
-		building_urban_center_throughput_mult = 0.075
+		building_group_bg_manufacturing_throughput_mult = 0.10
+		building_group_bg_oil_extraction_throughput_mult = 0.10
+		building_group_bg_rubber_throughput_mult = 0.10
+		building_urban_center_throughput_mult = 0.10
 		
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
@@ -305,17 +290,10 @@ law_cooperative_ownership = {
 	}
 	
 	modifier = {
-		state_shopkeepers_investment_pool_efficiency_mult = 0.25	
-		state_farmers_investment_pool_efficiency_mult = 0.25
-		country_private_construction_allocation_mult = 0.35
-		building_group_bg_agriculture_throughput_mult = 0.05
-		building_group_bg_plantations_throughput_mult = 0.05
-		building_group_bg_ranching_throughput_mult = 0.05
-		building_group_bg_logging_throughput_mult = 0.05
-		building_group_bg_mining_throughput_mult = 0.05
-		building_group_bg_fishing_throughput_mult = 0.05
-		building_group_bg_oil_extraction_throughput_mult = 0.05
-		building_group_bg_rubber_throughput_mult = 0.05
+		building_group_bg_mining_throughput_mult = 0.10
+		building_group_bg_manufacturing_throughput_mult = 0.15
+		building_group_bg_oil_extraction_throughput_mult = 0.075
+		building_group_bg_rubber_throughput_mult = 0.075
 
 		country_subsidies_all = yes
 	}
@@ -386,6 +364,7 @@ law_command_economy = {
 	modifier = {
 		country_subsidies_all = yes
 		country_disable_investment_pool = yes
+		building_group_bg_manufacturing_throughput_mult = 0.10
 		building_group_bg_agriculture_throughput_mult = 0.05
 		building_group_bg_plantations_throughput_mult = 0.05
 		building_group_bg_ranching_throughput_mult = 0.05
@@ -393,7 +372,7 @@ law_command_economy = {
 		building_group_bg_mining_throughput_mult = 0.05
 		building_group_bg_fishing_throughput_mult = 0.05
 		building_group_bg_oil_extraction_throughput_mult = 0.10
-		building_group_bg_rubber_throughput_mult = 0.05
+		building_group_bg_rubber_throughput_mult = 0.10
 		
 		country_authority_mult = 0.25								
 	}

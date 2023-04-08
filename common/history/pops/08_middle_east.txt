@@ -526,7 +526,7 @@
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
-				size = 312000
+				size = 512000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -559,7 +559,7 @@
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
-				size = 172000
+				size = 372000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -621,7 +621,7 @@
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
-				size = 204608
+				size = 1204608
 			}
 			create_pop = {
 				culture = mashriqi
@@ -738,7 +738,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = mashriqi
-				size = 272000
+				size = 672000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -1207,7 +1207,7 @@
 		region_state:EGY = {
 			create_pop = {
 				culture = turkish
-				size = 270062
+				size = 470062
 			}
 			create_pop = {
 				culture = kurdish
@@ -1405,7 +1405,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 1206365
+				size = 1806365
 			}
 			create_pop = {
 				culture = kurdish
