@@ -59,7 +59,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 3657596
+				size = 3057596
 			}
 			create_pop = {
 				culture = british
@@ -76,7 +76,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2986404
+				size = 2086404
 			}
 			create_pop = {
 				culture = british
@@ -93,7 +93,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = welsh
-				size = 1378557
+				size = 978557
 			}
 			create_pop = {
 				culture = british
@@ -105,7 +105,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 3026592
+				size = 2026592
 			}
 			create_pop = {
 				culture = irish
@@ -122,7 +122,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 1272396
+				size = 672396
 			}
 			create_pop = {
 				culture = scottish
@@ -135,7 +135,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 3543604
+				size = 2543604
 			}
 			create_pop = {
 				culture = british
@@ -152,7 +152,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2565208
+				size = 2065208
 			}
 			create_pop = {
 				culture = british
@@ -165,7 +165,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2969600
+				size = 1969600
 			}
 			create_pop = {
 				culture = british
@@ -182,7 +182,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 2397200
+				size = 1397200
 			}
 			create_pop = {
 				culture = scottish

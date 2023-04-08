@@ -181,3 +181,20 @@ state_trait_latin_romance = {
 		state_mortality_mult = -0.02
 	}
 }
+
+state_trait_east_asian_explosion = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+		state_birth_rate_mult = 0.07
+	}
+}
+
+state_trait_scandanavian_healthcare = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+		state_birth_rate_mult = 0.05
+		state_mortality_mult = -0.03
+	}
+}
