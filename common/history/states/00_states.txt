@@ -5513,6 +5513,8 @@ STATES = {
 		}
 		
 		add_homeland = korean
+		add_homeland = japanese
+		
 	}
 	s:STATE_BUSAN = {
 		create_state = {
@@ -5523,6 +5525,7 @@ STATES = {
 		}
 		
 		add_homeland = korean
+		add_homeland = japanese
 	}
 	s:STATE_YANGHO = {
 		create_state = {
@@ -5533,6 +5536,7 @@ STATES = {
 		}
 		
 		add_homeland = korean
+		add_homeland = japanese
 	}
 	s:STATE_SARIWON = {
 		create_state = {
@@ -5543,6 +5547,7 @@ STATES = {
 		}
 		
 		add_homeland = korean
+		add_homeland = japanese
 	}
 	s:STATE_PYONGYANG = {
 		create_state = {
@@ -5553,6 +5558,7 @@ STATES = {
 		}
 		
 		add_homeland = korean
+		add_homeland = japanese
 	}
 	s:STATE_SAKHALIN = {
 		create_state = {
