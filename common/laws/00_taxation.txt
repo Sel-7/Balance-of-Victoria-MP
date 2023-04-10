@@ -219,7 +219,7 @@ law_proportional_taxation = {
 	tax_modifier_low = {
 		tax_consumption_add = 0.275
 		tax_income_add = 0.20
-		tax_dividends_add = 0.10
+		tax_dividends_add = 0.20
 	}
 	
 	tax_modifier_medium = {
