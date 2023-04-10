@@ -25,13 +25,13 @@ pm_wooden_buildings = {
 		level_scaled = {
 			building_employment_bureaucrats_add = 125
 			building_employment_clerks_add = 125
-			building_employment_laborers_add = 750
+			building_employment_laborers_add = 375
 		}
 	}
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.001
 		}	
 	}
 }
@@ -52,10 +52,10 @@ pm_iron_frame_buildings = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 13.5
-			building_input_fabric_add = 6.5
-			building_input_iron_add = 12.5
-			building_input_tools_add = 3.5
+			building_input_wood_add = 10.0
+			building_input_fabric_add = 3.5
+			building_input_iron_add = 13.0
+			building_input_tools_add = 4.0
 		}
 
 		level_scaled = {
@@ -68,7 +68,7 @@ pm_iron_frame_buildings = {
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.02
+			state_construction_mult = 0.002
 		}	
 	}
 }
@@ -105,7 +105,7 @@ pm_steel_frame_buildings = {
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.03
+			state_construction_mult = 0.003
 		}	
 	}
 }
@@ -144,7 +144,7 @@ pm_arc_welded_buildings = {
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.04
+			state_construction_mult = 0.004
 		}	
 	}
 }
