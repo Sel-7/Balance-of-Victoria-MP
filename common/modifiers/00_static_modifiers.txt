@@ -384,7 +384,7 @@ low_pop_state = {
 
 high_pop_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_mortality_mult = 0.15
+	state_mortality_mult = 0.10
 }
 
 country_rivalry = {
