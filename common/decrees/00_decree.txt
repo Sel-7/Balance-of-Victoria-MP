@@ -231,7 +231,7 @@ decree_promote_national_values = {
 	modifier = {
 		state_assimilation_mult = 3
 		state_conversion_mult = 3
-		state_accepted_birth_rate_mult = 0.5
+		state_accepted_birth_rate_mult = 0.05
 	    state_birth_rate_mult = -0.03
 	}
 	cost = 25
