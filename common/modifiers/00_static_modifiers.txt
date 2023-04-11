@@ -378,13 +378,13 @@ battle_navy_average_kill_rate = {
 # Scales with how much population is under low pop threshold
 low_pop_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_birth_rate_mult = 0.50
+	state_birth_rate_mult = 0.30
 	state_migration_pull_mult = 1.0
 }
 
 high_pop_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_mortality_mult = 0.10
+	state_mortality_mult = 0.15
 }
 
 country_rivalry = {
