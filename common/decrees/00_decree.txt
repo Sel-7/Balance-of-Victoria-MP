@@ -367,7 +367,7 @@ decree_encourage_agricultural_industry = {
 		building_group_bg_ranching_throughput_mult = 0.10
 		building_group_bg_plantations_throughput_mult = 0.10
 	}
-	cost = 100
+	cost = 25
 	
 	ai_weight = {
 		value = 0
