@@ -113,7 +113,7 @@ je_quinine = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	is_shown_when_inactive = {
-		is_player = yes
+	game_date > 1839.12.30
 	}
 	possible = {
 	}
@@ -129,7 +129,7 @@ je_malaria = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	is_shown_when_inactive = {
-		is_player = yes
+	game_date > 1859.12.30
 	}
 	possible = {
 	}

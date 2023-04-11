@@ -288,20 +288,6 @@ egalitarianism = {
 	}
 }
 
-pharmaceuticals = {
-	# Increases the ratio of pop casualties that survive a battle
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
-	category = society
-	
-	modifier = {
-		country_institution_health_system_max_investment_add = 1
-	}
-	
-	unlocking_technologies = {
-		medical_degrees
-	}
-}
 
 modern_sewerage = {
 	# Unlocks Maintained Sewers PM in Urban Centers
@@ -655,8 +641,38 @@ identification_documents = {
 		central_archives
 	}
 }
+pharmaceuticals = {
+	# Increases the ratio of pop casualties that survive a battle
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
+	category = society
+	
+	modifier = {
+		country_institution_health_system_max_investment_add = 1
+	}
+	
+	unlocking_technologies = {
+		medical_degrees
+		dialectics
+	}
+}
 
 ### ERA 4
+vitamins = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/vitamins.dds"
+	category = society
+	
+	modifier = {
+		state_mortality_mult = -0.03
+	}
+	
+	
+	
+	unlocking_technologies = {
+		pharmaceuticals
+	}
+}
 elevator = {
 	# Unlocks Arcades PM in Urban Center
 	era = era_4
@@ -746,6 +762,9 @@ international_exchange_standards = {
 	modifier = {
 		country_minting_mult = 0.1
 		country_loan_interest_rate_add = -0.02
+		country_trade_route_quantity_mult = 0.10
+		country_trade_route_competitiveness_mult = 0.10
+		
 	}
 	
 	unlocking_technologies = {
@@ -800,7 +819,23 @@ multilateral_alliances = {
 	}
 }
 
+
 ### ERA 5
+
+antibiotics = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
+	category = society
+	
+	modifier = {
+		country_institution_health_system_max_investment_add = 1
+	}
+	
+	unlocking_technologies = {
+		vitamins
+		
+	}
+}
 
 mass_surveillance = {
 	# Unlocks Personal Files PM in Government Administrations
@@ -818,34 +853,6 @@ mass_surveillance = {
 	}
 }
 
-antibiotics = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
-	category = society
-	
-	modifier = {
-		country_institution_health_system_max_investment_add = 1
-	}
-	
-	unlocking_technologies = {
-		malaria_prevention
-		
-	}
-}
-
-vitamins = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/vitamins.dds"
-	category = society
-	
-	modifier = {
-		state_mortality_mult = -0.04
-	}
-	
-	unlocking_technologies = {
-		pharmaceuticals
-	}
-}
 
 mass_propaganda = {
 	# Unlocks Better Radios PM in Electrics Industries
