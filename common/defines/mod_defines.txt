@@ -1,7 +1,7 @@
 ﻿NPops = {
 
-	LOW_POP_THRESHOLD = 3500			# If a state has less than this amount of pops per arable land, apply the low pop modifier
-	HIGH_POP_THRESHOLD = 15000		# If a state has more than this amount of pops per arable land, apply the high pop modifier
+	LOW_POP_THRESHOLD = 3000			# If a state has less than this amount of pops per arable land, apply the low pop modifier
+	HIGH_POP_THRESHOLD = 12000		# If a state has more than this amount of pops per arable land, apply the high pop modifier
 	
 	
 	# The below factors are applied *after* migration pull threshold checks, so they only impact how large a share of migration a state gets
