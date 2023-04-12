@@ -231,8 +231,8 @@ decree_promote_national_values = {
 	modifier = {
 		state_assimilation_mult = 3
 		state_conversion_mult = 3
-		state_accepted_birth_rate_mult = 0.05
-	    state_birth_rate_mult = -0.03
+		state_accepted_birth_rate_mult = 0.02
+	    state_mortality_mult = 0.05
 	}
 	cost = 25
 	
@@ -506,7 +506,7 @@ decree_greener_grass_campaign = {
 		is_isolated_from_market = no
 	}
 	modifier = {
-		state_migration_pull_mult = 0.25
+		state_migration_pull_mult = 0.40
 	}
 	unlocking_technologies = { 
 		romanticism
@@ -565,8 +565,8 @@ decree_land_conversion = {
 	}
 	modifier = {
 		state_migration_pull_mult = -0.75
-		state_construction_mult = 0.20
-		state_mortality_mult = 0.03
+		state_construction_mult = 0.10
+		state_mortality_mult = 0.04
 	}
 	unlocking_technologies = { 
 		romanticism
