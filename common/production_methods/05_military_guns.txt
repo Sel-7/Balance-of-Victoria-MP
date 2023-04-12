@@ -58,7 +58,7 @@ pm_barracks_rifles = {
 
 		unscaled = {
 			unit_morale_damage_mult = 0.15
-			unit_kill_rate_add = 0.20
+			unit_kill_rate_add = 0.15
 			unit_provinces_captured_mult = 0.1
 		}
 	}
@@ -91,7 +91,7 @@ pm_barracks_repeating_rifles = {
 
 		unscaled = {
 			unit_morale_damage_mult = 0.2
-			unit_kill_rate_add = 0.25
+			unit_kill_rate_add = 0.20
 			unit_provinces_captured_mult = 0.15
 		}
 	}
@@ -124,7 +124,7 @@ pm_barracks_bolt_action_rifles = {
 
 		unscaled = {
 			unit_morale_damage_mult = 0.35
-			unit_kill_rate_add = 0.40
+			unit_kill_rate_add = 0.35
 			unit_provinces_captured_mult = 0.2
 		}
 	}
