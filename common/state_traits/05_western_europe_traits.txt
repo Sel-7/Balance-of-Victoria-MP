@@ -148,14 +148,7 @@ state_trait_po_river = {
 	}
 }
 
-state_trait_british_hygiene = {
-	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
-	modifier = {
-		state_mortality_mult = -0.02
-		state_birth_rate_mult = 0.03
-	}
-}
 
 state_trait_american_expansion = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
