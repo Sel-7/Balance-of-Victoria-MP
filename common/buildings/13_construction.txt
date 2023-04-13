@@ -13,6 +13,7 @@ building_construction_sector = {
 		mass_surveillance
 	}
 	production_method_groups = {
+		pmg_base_building_construction_sector
 	}
 	
 
