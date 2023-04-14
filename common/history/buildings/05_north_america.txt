@@ -95,7 +95,7 @@
 			}
 			create_building={
 				building="building_paper_mills"
-				level=2
+				level=9
 				reserves=1
 				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
 			}
@@ -107,7 +107,7 @@
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=2
+				level=11
 				reserves=1
 				activate_production_methods={ "pm_lathe" "pm_privately_owned_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
@@ -1690,9 +1690,9 @@
 		region_state:MEX={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=16
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -1702,13 +1702,13 @@
 			}
 			create_building={
 				building="building_glassworks"
-				level=1
+				level=9
 				reserves=1
 				activate_production_methods={ "pm_forest_glass" "pm_disabled_ceramics" "pm_manual_glassblowing" "pm_merchant_guilds_building_glassworks" }
 			}			
 			create_building={
 				building="building_textile_mills"
-				level=2
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
 			}
@@ -1874,13 +1874,13 @@
 			}
 			create_building={
 				building="building_university"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
