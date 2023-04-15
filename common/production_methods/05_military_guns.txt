@@ -303,7 +303,7 @@ pm_offensive_action = {
 	}
 
 	timed_modifiers = {
-		pm_offense_defense_readjustment
+		pm_change_of_strategy
 	}
 }
 
@@ -329,7 +329,7 @@ pm_defensive_action = {
 		}
 	}
 	timed_modifiers = {
-		pm_offense_defense_readjustment
+		pm_change_of_strategy
 	}
 }
 
@@ -351,7 +351,7 @@ pm_balanced_approach = {
 		}
 	}
 	timed_modifiers = {
-		pm_offense_defense_readjustment
+		pm_change_of_strategy
 	}
 }
 
@@ -380,7 +380,7 @@ pm_human_wave_offensive = {
 	}
 
 	timed_modifiers = {
-		pm_offense_defense_readjustment
+		pm_change_of_strategy
 	}
 }
 
@@ -388,6 +388,6 @@ pm_barracks_no_approach = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 
 	timed_modifiers = {
-		pm_offense_defense_readjustment
+		pm_change_of_strategy
 	}
 }

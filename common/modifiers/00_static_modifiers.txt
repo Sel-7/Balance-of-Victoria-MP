@@ -270,8 +270,14 @@ pm_retooling = {
 
 pm_offense_defense_readjustment = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
-	unit_offense_mult = -0.60
-	unit_defense_mult = -0.60
+	unit_offense_mult = -0.50
+	unit_defense_mult = -0.50
+}
+
+pm_change_of_strategy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_offense_mult = -0.25
+	unit_defense_mult = -0.25
 }
 
 insufficient_urbanization = {
