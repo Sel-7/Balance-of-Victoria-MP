@@ -379,7 +379,10 @@ pm_human_wave_offensive = {
 		unit_provinces_lost_mult = 0.30
 		unit_devastation_mult = 0.50
 		unit_kill_rate_add = -0.50
-	}
+		}
+		level_scaled = {
+			building_employment_soldiers_add = 250
+		}
 	}
 
 	timed_modifiers = {
