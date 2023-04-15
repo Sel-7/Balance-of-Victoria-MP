@@ -36,7 +36,7 @@ state_trait_loire_coalfield = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
-		building_coal_mine_throughput_mult = 0.1
+		building_coal_mine_throughput_mult = 0.15
 	}
 }
 
@@ -100,7 +100,8 @@ state_trait_seine_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		state_infrastructure_add = 25
+		building_group_bg_agriculture_throughput_mult = 0.10
 	}
 }
 
