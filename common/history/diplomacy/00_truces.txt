@@ -1,10 +1,18 @@
-﻿DIPLOMACY = {
-	c:NET = {
+﻿#DIPLOMACY = {
+	#c:NET = {
+	#	create_truce = {
+	#		country = c:BEL
+	#		months = 7
+	#	}
+	#}	
+#}
+DIPLOMACY = {
+	c:FRA = {
 		create_truce = {
 			country = c:BEL
-			months = 7
+			months = 3
 		}
-	}	
+	}
 }
 
 DIPLOMACY = {
