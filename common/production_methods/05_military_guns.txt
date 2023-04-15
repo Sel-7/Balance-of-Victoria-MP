@@ -296,7 +296,8 @@ pm_offensive_action = {
 			
 		}
 		unscaled = {
-		unit_provinces_captured_mult = 0.20
+		unit_provinces_captured_mult = 0.15
+		unit_provinces_lost_mult = 0.15
 		unit_devastation_mult = 0.10
 		unit_kill_rate_add = -0.10
 	}
@@ -324,7 +325,8 @@ pm_defensive_action = {
 		}
 
 		unscaled = {
-			unit_provinces_captured_mult = -0.20
+			unit_provinces_captured_mult = -0.15
+			unit_provinces_lost_mult = -0.15
 			unit_kill_rate_add = 0.10
 		}
 	}
@@ -373,7 +375,8 @@ pm_human_wave_offensive = {
 			
 		}
 		unscaled = {
-		unit_provinces_captured_mult = 0.25
+		unit_provinces_captured_mult = 0.30
+		unit_provinces_lost_mult = 0.30
 		unit_devastation_mult = 0.50
 		unit_kill_rate_add = -0.50
 	}
