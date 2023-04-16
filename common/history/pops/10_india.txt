@@ -348,5 +348,11 @@
 				size = 4312854
 			}
 		}
+		region_state:FRA = {
+			create_pop = {
+				culture = marathi
+				size = 1312854
+			}
+		}
 	}
 }
