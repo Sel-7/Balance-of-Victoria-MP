@@ -59,3 +59,11 @@ DIPLOMACY = {
 		}
 	}	
 }
+DIPLOMACY = {
+	c:HAB= {
+		create_truce = {
+			country = c:PRU
+			months = 60
+		}
+	}	
+}
