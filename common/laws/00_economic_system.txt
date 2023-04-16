@@ -245,6 +245,7 @@ law_laissez_faire = {
 	}
 	
 	modifier = {
+		country_loan_interest_rate_mult = -0.25
 		building_group_bg_manufacturing_throughput_mult = 0.10
 		building_group_bg_oil_extraction_throughput_mult = 0.10
 		building_group_bg_rubber_throughput_mult = 0.10
