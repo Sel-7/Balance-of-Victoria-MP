@@ -1,7 +1,7 @@
 ﻿NPops = {
 
 	LOW_POP_THRESHOLD = 4000			# If a state has less than this amount of pops per arable land, apply the low pop modifier
-	HIGH_POP_THRESHOLD = 12500		# If a state has more than this amount of pops per arable land, apply the high pop modifier
+	HIGH_POP_THRESHOLD = 15000		# If a state has more than this amount of pops per arable land, apply the high pop modifier
 	
 	
 	# The below factors are applied *after* migration pull threshold checks, so they only impact how large a share of migration a state gets
@@ -50,10 +50,10 @@
 } 
 
 ### Pop Growth Constants   
-@min_birthrate = 0.0013
+@min_birthrate = 0.0012
 @max_birthrate = 0.0040
-@min_mortality = 0.0012
-@max_mortality = 0.0080
+@min_mortality = 0.0013
+@max_mortality = 0.0070
 @pop_growth_sol_equilibrium = 6						# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
 @pop_growth_sol_delta_cap = 23					# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
 @pop_growth_sol_cap = 26								# SoL Cap is where they birthrate/death-rate stop dropping
