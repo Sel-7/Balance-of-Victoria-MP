@@ -257,6 +257,7 @@ empiricism = {
 	modifier = {
 		country_influence_mult = 0.1
 		country_institution_schools_max_investment_add = 1
+		country_infamy_decay_mult = 0.05
 		state_education_access_wealth_add = 0.005
 	}
 	
@@ -387,6 +388,7 @@ psychiatry = {
 	
 	modifier = {
 		country_influence_mult = 0.1
+		country_infamy_decay_mult = 0.10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
 	
@@ -807,6 +809,7 @@ multilateral_alliances = {
 	modifier = {
 		country_diplomatic_play_maneuvers_add = 25
 		country_allow_multiple_alliances = yes
+		country_infamy_decay_mult = 0.10
 	}
 	
 	unlocking_technologies = {	
