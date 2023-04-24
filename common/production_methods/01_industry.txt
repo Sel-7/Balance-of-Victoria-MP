@@ -1287,9 +1287,9 @@ pm_eletric_tools = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 1500
+			building_employment_laborers_add = 1000
 			building_employment_machinists_add = 2000
-			building_employment_engineers_add = 1000
+			building_employment_engineers_add = 1500
 		}
 	}
 }
