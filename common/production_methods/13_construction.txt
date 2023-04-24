@@ -45,7 +45,7 @@ pm_iron_frame_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 1.25
+			country_construction_add = 1.20
 			country_minting_add = 75
 		}
 
@@ -53,7 +53,7 @@ pm_iron_frame_buildings = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_wood_add = 10.0
-			building_input_fabric_add = 3.5
+			building_input_fabric_add = 4.0
 			building_input_iron_add = 13.0
 			building_input_tools_add = 4.0
 		}
@@ -82,17 +82,16 @@ pm_steel_frame_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 1.75
+			country_construction_add = 1.50
 			country_minting_add = 150
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_steel_add = 15
-			building_input_glass_add = 10.5
-			building_input_tools_add = 10
-			building_input_electricity_add = 3
+			building_input_steel_add = 16.5
+			building_input_glass_add = 12.0
+			building_input_tools_add = 8
 		}
 
 		level_scaled = {
@@ -119,7 +118,7 @@ pm_arc_welded_buildings = {
 		
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 3.5
+			country_construction_add = 2.5
 			country_minting_add = 200
 		}
 	}

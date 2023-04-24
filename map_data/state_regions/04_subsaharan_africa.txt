@@ -490,16 +490,16 @@ STATE_TANGANYIKA = {
     farm = "xD0FF5C"
     mine = "x16915A"
     wood = "x0E2596"
-    arable_land = 374
+    arable_land = 500
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_coal_mining = 99
+        bg_coal_mining = 100
         bg_iron_mining = 75
         bg_logging = 50
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 32
+        undiscovered_amount = 90
     }
 }
 
@@ -717,14 +717,14 @@ STATE_UGANDA = {
     farm = "x7183C4"
     mine = "x7CE297"
     wood = "xA09C30"
-    arable_land = 218
+    arable_land = 545
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 33
+        bg_logging = 76
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 31
+        undiscovered_amount = 176
     }
 }
 

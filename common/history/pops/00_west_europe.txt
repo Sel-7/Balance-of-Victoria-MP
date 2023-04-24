@@ -226,151 +226,6 @@
 			}
 		}
 	}
-	s:STATE_HOME_COUNTIES = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 1657596
-			}
-			create_pop = {
-				culture = british
-				religion = jewish
-				size = 20000
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 100000
-			}
-			create_pop = {
-				culture = irish
-				size = 28400
-			}
-		}
-	}
-	s:STATE_LANCASHIRE = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 1286404
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 85700
-			}
-			create_pop = {
-				culture = irish
-				size = 80700
-			}
-		}
-	}
-	s:STATE_WALES = {
-		region_state:GBR = {
-			create_pop = {
-				culture = welsh
-				size = 778557
-			}
-			create_pop = {
-				culture = british
-				size = 194639
-			}
-		}
-	}
-	s:STATE_YORKSHIRE = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 1526592
-			}
-			create_pop = {
-				culture = irish
-				size = 16000
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 48000
-			}
-		}
-	}
-	s:STATE_HIGHLANDS = {
-		region_state:GBR = {
-			create_pop = {
-				culture = scottish
-				size = 672396
-			}
-			create_pop = {
-				culture = scottish
-				religion = catholic
-				size = 8000
-			}
-		}
-	}
-	s:STATE_MIDLANDS = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 1843604
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 24400
-			}
-			create_pop = {
-				culture = irish
-				size = 12000
-			}
-		}
-	}
-	s:STATE_EAST_ANGLIA = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 1265208
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 8000
-			}
-		}
-	}
-	s:STATE_WEST_COUNTRY = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 1369600
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 12400
-			}
-			create_pop = {
-				culture = irish
-				size = 4400
-			}
-		}
-	}
-	s:STATE_LOWLANDS = {
-		region_state:GBR = {
-			create_pop = {
-				culture = scottish
-				size = 897200
-			}
-			create_pop = {
-				culture = scottish
-				religion = catholic
-				size = 188000
-			}
-			create_pop = {
-				culture = irish
-				size = 52400
-			}
-		}
-	}
 	s:STATE_ULSTER = {
 		region_state:GBR = {
 			create_pop = {
@@ -691,7 +546,7 @@
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
-				size = 842331
+				size = 1542331
 			}
 			create_pop = {
 				culture = dutch
@@ -722,7 +577,7 @@
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
-				size = 528678
+				size = 1028678
 			}
 			create_pop = {
 				culture = dutch
@@ -745,12 +600,12 @@
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
-				size = 192091
+				size = 1092091
 			}
 			create_pop = {
 				culture = dutch
 				religion = catholic
-				size = 673889
+				size = 373889
 			}
 			create_pop = {
 				culture = wallonian # French or Walloon Reformed
@@ -772,7 +627,7 @@
 		region_state:LUX = {
 			create_pop = {
 				culture = wallonian
-				size = 103992
+				size = 153992
 			}
 			create_pop = {
 				culture = north_german
@@ -783,7 +638,7 @@
 		region_state:BEL = {
 			create_pop = {
 				culture = wallonian
-				size = 1462000
+				size = 1362000
 			}
 			create_pop = {
 				culture = north_german
@@ -803,7 +658,7 @@
 		region_state:BEL = {
 			create_pop = {
 				culture = flemish
-				size = 2317000
+				size = 1817000
 			}
 			create_pop = {
 				culture = wallonian
@@ -915,7 +770,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 1018800
+				size = 2018800
 			}
 			create_pop = {
 				culture = north_german
@@ -1111,7 +966,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 1558704
+				size = 2558704
 			}
 			create_pop = {
 				culture = ashkenazi
