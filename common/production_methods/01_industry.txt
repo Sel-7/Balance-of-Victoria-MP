@@ -1280,7 +1280,7 @@ pm_eletric_tools = {
 			# input goods
 			building_input_wood_add = 30
 			building_input_steel_add = 20
-			building_input_electricity_add = 15
+			building_input_electricity_add = 8
 			
 			# output goods
 			building_output_tools_add = 120
