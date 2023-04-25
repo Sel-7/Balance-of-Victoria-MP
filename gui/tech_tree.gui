@@ -377,33 +377,33 @@ types tech_tree
 				}
 
 				#Navy
-				blockoverride "fourth_button" {
-					text = "NAVY"
+				blockoverride "first_button" {
+					text = "PRODUCTION_NO_CONCEPT"
 				}
-				blockoverride "fourth_button_tooltip" {
-					tooltip = "NAVY"
+				blockoverride "first_button_tooltip" {
+					tooltip = "PRODUCTION_NO_CONCEPT"
 				}
-				blockoverride "fourth_button_background" {
+				blockoverride "first_button_background" {
 					background = {
 						margin = { 0 -2 }
 						using = fade_right_entry_fancy_header_colored
-						using = color_light_blue
+						using = Color_Orange
 					}
 				}
-				blockoverride "fouth_button_click" {
-					onclick = "[InformationPanel.SelectTab('navy')]"
+				blockoverride "first_button_click" {
+					onclick = "[InformationPanel.SelectTab('production')]"
 				}
-				blockoverride "fourth_button_visibility" {
-					visible = "[InformationPanel.IsTabSelected('navy')]"
+				blockoverride "first_button_visibility" {
+					visible = "[InformationPanel.IsTabSelected('production')]"
 				}
-				blockoverride "fourth_button_visibility_checked" {
-					visible = "[Not( InformationPanel.IsTabSelected('navy') )]"
+				blockoverride "first_button_visibility_checked" {
+					visible = "[Not( InformationPanel.IsTabSelected('production') )]"
 				}
-				blockoverride "fourth_button_selected" {
-					text = "NAVY"
+				blockoverride "first_button_selected" {
+					text = "PRODUCTION_NO_CONCEPT"
 				}
 
-				blockoverride "fourth_button_background_selected" {
+				blockoverride "first_button_background_selected" {
 					background = {
 						using = fade_right_entry_fancy_header_colored
 						using = Color_Orange
@@ -473,12 +473,12 @@ types tech_tree
 					}
 				}
 				#navy
-				blockoverride "fourth_button_icon" {
+				blockoverride "second_button_icon" {
 					
 					container = {
 						parentanchor = vcenter
 						# light bulb
-						visible = "[ObjectsEqual(Technology.GetCategoryName, 'Navy')]"
+						visible = "[ObjectsEqual(Technology.GetCategoryName, 'Military')]"
 						
 						icon = {
 							using = rotate_glow_animation_02
@@ -523,14 +523,7 @@ types tech_tree
 					visible = "[InformationPanel.IsTabSelected('society')]"
 					using = default_content_fade
 				}
-				#navy
-				background = {
-					using = illu_alpha
-					fittype = center
-					texture = "gfx/interface/illustrations/tech_tree/illustration_tech_military.dds"
-					visible = "[InformationPanel.IsTabSelected('navy')]"
-					using = default_content_fade
-				}
+
 				### TECH TREES
 				tech_tree_graph = {
 					name = "tech_tree_panel_production"
@@ -638,42 +631,6 @@ types tech_tree
 					}
 				}
 
-				#navy		
-				tech_tree_graph = {
-					name = "tech_tree_panel_navy"
-					visible = "[InformationPanel.IsTabSelected('navy')]"
-					using = default_content_fade
-
-					blockoverride "datamodel_lines" {
-						datamodel = "[TechTreePanel.GetNavyTechTreeLines]"
-					}
-
-					blockoverride "datamodel_items" {
-						datamodel = "[TechTreePanel.GetNavyTechTreeItems]"
-					}
-
-					blockoverride "extra_lines" {
-						icon = {
-							using = tech_tree_divider
-							position = { 0 -100 }
-							size = { 200% 1830 }
-						}
-						icon = {
-							using = tech_tree_divider
-							position = { 0 2650 }
-							size = { 200% 960 }
-						}
-						icon = {
-							using = tech_tree_divider
-							position = { 0 4540 }
-							size = { 200% 950 }
-						}
-					}
-
-					blockoverride "starting_pan_position" {
-						pan_position = "[GetDefine('NGUI', 'TECH_TREE_MILITARY_INITIAL_POSITION')]"
-					}
-				}
 				container = {
 					parentanchor = top|right
 					position = { -10 10 }
@@ -693,12 +650,6 @@ types tech_tree
 						visible = "[InformationPanel.IsTabSelected('society')]"
 						tooltip = "TOOLTIP_RESET"
 						onclick = "[TechTreePanel.ResetSocietyView]"
-						size = { 42 42 }
-					}
-					button_icon_reset = {
-						visible = "[InformationPanel.IsTabSelected('navy')]"
-						tooltip = "TOOLTIP_RESET"
-						onclick = "[TechTreePanel.ResetNavyView]"
 						size = { 42 42 }
 					}
 				}
