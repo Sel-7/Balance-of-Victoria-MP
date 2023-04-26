@@ -52,8 +52,8 @@
 } 
 
 ### Pop Growth Constants   
-@min_birthrate = 0.0014
-@max_birthrate = 0.0040
+@min_birthrate = 0.0013
+@max_birthrate = 0.0038
 @min_mortality = 0.0020
 @max_mortality = 0.0070
 @pop_growth_sol_equilibrium = 6					# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
