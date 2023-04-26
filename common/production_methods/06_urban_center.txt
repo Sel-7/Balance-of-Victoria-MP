@@ -10,15 +10,15 @@
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_clerks_add = 500
-			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3500
+			building_employment_clerks_add = 900
+			building_employment_shopkeepers_add = 400
 		}
 	}
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_minting_add = 450
+			country_minting_add = 400
 		}
 	}	
 }		
@@ -39,15 +39,15 @@ pm_market_squares = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 1000
-			building_employment_clerks_add = 1500
-			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_clerks_add = 1900
+			building_employment_shopkeepers_add = 400
 		}
 	}
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_minting_add = 750
+			country_minting_add = 440
 		}
 	}
 }
@@ -68,15 +68,15 @@ pm_covered_markets = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 1500
-			building_employment_clerks_add = 2000
-			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_clerks_add = 2400
+			building_employment_shopkeepers_add = 400
 		}
 	}
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_minting_add = 1050
+			country_minting_add = 980
 		}
 	}
 }
@@ -98,14 +98,14 @@ pm_arcades = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 1500
+			building_employment_laborers_add = 1000
 			building_employment_clerks_add = 3000
 			building_employment_shopkeepers_add = 1000
 		}
 	}
 	country_modifiers = {
 		workforce_scaled = {
-			country_minting_add = 1350
+			country_minting_add = 1110
 		}
 	}
 }
