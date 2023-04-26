@@ -1199,7 +1199,7 @@
 			}
 			create_building={
 				building="building_rice_farm"
-				level=2
+				level=39
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -1405,6 +1405,12 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_opium_plantation"
+				level=23
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
 		}
 	}
 	s:STATE_TENASSERIM={
@@ -1499,6 +1505,12 @@
 	}
 	s:STATE_PEGU={
 		region_state:BUR={
+			create_building={
+				building="building_opium_plantation"
+				level=12
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
 			create_building={
 				building="building_rice_farm"
 				level=1

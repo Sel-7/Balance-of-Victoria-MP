@@ -161,6 +161,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:MAK
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:BHO
 			type = puppet
 		}			
@@ -245,12 +249,6 @@
 			type = puppet
 		}	
 	}	
-	c:KAL = {
-		create_diplomatic_pact = {
-			country = c:MAK
-			type = puppet
-		}
-	}
 	c:DEI = {
 		create_diplomatic_pact = {
 			country = c:YOG

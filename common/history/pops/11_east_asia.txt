@@ -105,7 +105,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6291006
+				size = 3291006
 			}
 		}
 	}
@@ -177,7 +177,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5546404
+				size = 3546404
 			}
 		}
 	}
@@ -263,7 +263,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5173408
+				size = 2173408
 			}
 		}
 	}
@@ -271,7 +271,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6512000
+				size = 4512000
 			}
 		}
 	}
@@ -279,7 +279,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4216000
+				size = 2216000
 			}
 		}
 	}
@@ -310,7 +310,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6588000
+				size = 3588000
 			}
 		}
 	}

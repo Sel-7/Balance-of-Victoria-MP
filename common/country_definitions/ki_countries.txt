@@ -150,8 +150,6 @@ IFR = {
 		franco_canadian
 		anglo_canadian
 		australian
-		irish
-		welsh
 	}
 	capital = STATE_HOME_COUNTIES
 }

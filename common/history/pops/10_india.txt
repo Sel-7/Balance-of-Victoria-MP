@@ -16,12 +16,12 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 4062032
+				size = 3062032
 			}
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 1062032
+				size = 462032
 			}
 		}
 	}
@@ -49,12 +49,12 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 1100320
+				size = 400320
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 2100320
+				size = 1100320
 			}
 		}
 	}
@@ -78,7 +78,7 @@
 		region_state:BER = {
 			create_pop = {
 				culture = gujarati
-				size = 1634412
+				size = 1434412
 			}
 		}
 		region_state:KUT = {
@@ -88,7 +88,7 @@
 			}
 			create_pop = {
 				culture = gujarati
-				size = 1634412
+				size = 1034412
 			}
 		}
 	}
@@ -182,7 +182,7 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 7870101
+				size = 4870101
 			}
 		}
 	}
@@ -198,7 +198,7 @@
 		region_state:BIK = {
 			create_pop = {
 				culture = rajput
-				size = 1001004
+				size = 0501004
 			}
 		}
 		region_state:JAS = {
@@ -210,19 +210,19 @@
 		region_state:MEW = {
 			create_pop = {
 				culture = rajput
-				size = 1903300
+				size = 1003300
 			}
 		}
 		region_state:JOD = {
 			create_pop = {
 				culture = rajput
-				size = 1067504
+				size = 567504
 			}
 		}
 		region_state:JAI = {
 			create_pop = {
 				culture = rajput
-				size = 2300217
+				size = 1000217
 			}
 		}
 	}
@@ -278,7 +278,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = telegu
-				size = 5712168
+				size = 3212168
 			}
 		}
 	}
@@ -287,14 +287,14 @@
 			create_pop = {
 				culture = kannada
 				religion = hindu
-				size = 2332290
+				size = 2032290
 			}
 		}
 		region_state:BIC = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
-				size = 1320582
+				size = 420582
 			}
 		}
 	}
@@ -330,7 +330,7 @@
 		region_state:HYD = {
 			create_pop = {
 				culture = telegu
-				size = 4724685
+				size = 3724685
 			}
 		}
 	}

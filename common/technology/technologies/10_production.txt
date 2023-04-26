@@ -253,7 +253,7 @@ mechanized_workshops = {
 	category = production
 	
 	modifier = {
-		building_economy_of_scale_level_cap_add =5
+		building_economy_of_scale_level_cap_add = 10
 	}
 	
 	unlocking_technologies = {
@@ -431,7 +431,7 @@ shift_work = {
 	category = production
 	
 	modifier = {
-		building_economy_of_scale_level_cap_add = 10
+		building_economy_of_scale_level_cap_add = 20
 	}
 	
 	unlocking_technologies = {	
@@ -452,6 +452,10 @@ steel_railway_cars = {
 	}
 }
 
+
+
+### ERA 4
+
 electrical_generation = {
 	# Unlocks Power Plants
 	# Unlocks Electric Sewing Machines PM and Automatic Power Looms PM in Textile Mills
@@ -460,7 +464,7 @@ electrical_generation = {
 	# Unlocks Refrigerated Storage PM in Fishing Wharfs
 	# Unlocks Electric Saw Mills PM in Logging Camps
 	# Unlocks Electric Streetlights PM in Urban Centers
-	era = era_3
+	era = era_4
 	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 	category = production
 	
@@ -468,8 +472,6 @@ electrical_generation = {
 		rotary_valve_engine
 	}
 }
-
-### ERA 4
 
 mechanized_farming = {
 	# Unlocks Tractors PM in Rye Farms, Wheat Farms, Millet Farms

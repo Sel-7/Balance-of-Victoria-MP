@@ -14,7 +14,7 @@ GBR = {
 
 	country_type = recognized
 
-	tier = empire	
+	tier = empire
 	
 	cultures = { british scottish }
 	capital = STATE_HOME_COUNTIES
@@ -2467,7 +2467,7 @@ BIC = {
 	
 	tier = principality
 	
-	cultures = { british }
+	cultures = { irish welsh }
 	capital = STATE_SOUTH_BENGAL
 }
 
@@ -3707,9 +3707,9 @@ BHT = {
 	
 	country_type = recognized
 
-	tier = hegemony
+	tier = empire
 	
-	cultures = { british }
+	cultures = { irish welsh }
 	capital = STATE_NORTH_BENGAL
 }
 

@@ -66,10 +66,6 @@
 				religion = catholic
 				size = 100000
 			}
-			create_pop = {
-				culture = irish
-				size = 28400
-			}
 		}
 	}
 	s:STATE_LANCASHIRE = {
@@ -93,7 +89,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = welsh
-				size = 978557
+				size = 1978557
 			}
 			create_pop = {
 				culture = british
@@ -105,7 +101,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2026592
+				size = 2426592
 			}
 			create_pop = {
 				culture = irish
@@ -122,7 +118,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 672396
+				size = 572396
 			}
 			create_pop = {
 				culture = scottish
@@ -135,7 +131,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2543604
+				size = 2243604
 			}
 			create_pop = {
 				culture = british
@@ -152,7 +148,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2065208
+				size = 2465208
 			}
 			create_pop = {
 				culture = british
@@ -165,7 +161,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1969600
+				size = 2369600
 			}
 			create_pop = {
 				culture = british
@@ -182,7 +178,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 1397200
+				size = 1097200
 			}
 			create_pop = {
 				culture = scottish

@@ -284,29 +284,7 @@ CZH = {
 	ai_will_do = { always = yes }
 }
 
-CAN = {
-	use_culture_states = yes
 
-	required_states_fraction = 0.75	
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = nationalism
-	}
-}
-
-AST = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.75	
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = nationalism
-	}
-}
 
 POL = {
 	use_culture_states = yes
@@ -525,6 +503,9 @@ BHT = {
 		STATE_SINDH 
 		STATE_SOUTH_BENGAL 
 		STATE_TRAVANCORE
+	}
+	possible = {
+		has_technology_researched = nationalism
 	}
 	
 	possible = {

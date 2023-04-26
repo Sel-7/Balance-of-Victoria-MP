@@ -12,20 +12,20 @@ pm_wooden_buildings = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_construction_add = 1
-			country_minting_add = 25
+			country_minting_add = 50
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fabric_add = 3.25
-			building_input_wood_add = 6.75
+			building_input_fabric_add = 6.5
+			building_input_wood_add = 13.5
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 65
-			building_employment_clerks_add = 65
-			building_employment_laborers_add = 370
+			building_employment_bureaucrats_add = 125
+			building_employment_clerks_add = 125
+			building_employment_laborers_add = 375
 		}
 	}
 	
@@ -45,24 +45,24 @@ pm_iron_frame_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 1.25
-			country_minting_add = 47.5
+			country_construction_add = 1.20
+			country_minting_add = 75
 		}
 
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 5.0
-			building_input_fabric_add = 1.75
-			building_input_iron_add = 6.5
-			building_input_tools_add = 2.0
+			building_input_wood_add = 10.0
+			building_input_fabric_add = 4.0
+			building_input_iron_add = 13.0
+			building_input_tools_add = 4.0
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 65
-			building_employment_clerks_add = 65
-			building_employment_machinists_add = 50
-			building_employment_laborers_add = 320
+			building_employment_bureaucrats_add = 125
+			building_employment_clerks_add = 125
+			building_employment_machinists_add = 100
+			building_employment_laborers_add = 650
 		}
 	}
 	
@@ -82,23 +82,23 @@ pm_steel_frame_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 1.80
-			country_minting_add = 75
+			country_construction_add = 1.50
+			country_minting_add = 150
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_steel_add = 7.5
-			building_input_glass_add = 5.25
-			building_input_tools_add = 5
+			building_input_steel_add = 16.5
+			building_input_glass_add = 12.0
+			building_input_tools_add = 8
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 65
-			building_employment_clerks_add = 65
-			building_employment_machinists_add = 100
-			building_employment_laborers_add = 270
+			building_employment_bureaucrats_add = 125
+			building_employment_clerks_add = 125
+			building_employment_machinists_add = 200
+			building_employment_laborers_add = 550
 		}
 	}
 	
@@ -119,25 +119,25 @@ pm_arc_welded_buildings = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_construction_add = 2.5
-			country_minting_add = 100
+			country_minting_add = 200
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_steel_add = 10
-			building_input_glass_add = 7.5
-			building_input_explosives_add = 2.5
-			building_input_tools_add = 7.5
-			building_input_electricity_add = 5
+			building_input_steel_add = 20
+			building_input_glass_add = 15
+			building_input_explosives_add = 5
+			building_input_tools_add = 15
+			building_input_electricity_add = 10
 		} 
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 65
-			building_employment_clerks_add = 65
-			building_employment_engineers_add = 65
-			building_employment_machinists_add = 65
-			building_employment_laborers_add = 240
+			building_employment_bureaucrats_add = 125
+			building_employment_clerks_add = 125
+			building_employment_engineers_add = 125
+			building_employment_machinists_add = 125
+			building_employment_laborers_add = 500
 		}
 	}
 	
