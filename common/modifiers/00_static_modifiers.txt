@@ -96,7 +96,7 @@ incorporated_state = {
 unincorporated_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	state_infrastructure_mult = -0.15
-	state_construction_mult = -0.15
+	state_construction_mult = -0.10
 	building_group_bg_manufacturing_throughput_mult = -0.95 #industries
 	building_government_administration_throughput_mult = -0.95
 	state_conscription_rate_mult = -1
@@ -105,7 +105,7 @@ unincorporated_state = {
 	state_building_barracks_max_level_add = -95
 	building_group_bg_army_throughput_mult = -0.1 #army, conscription
 	building_economy_of_scale_level_cap_add = -20
-	state_building_naval_base_max_level_add = -20
+	state_building_naval_base_max_level_add = -35
 	state_birth_rate_mult = 0.05
 	state_pop_pol_str_mult = -0.9
 }
