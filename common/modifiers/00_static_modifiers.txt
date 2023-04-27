@@ -5,7 +5,7 @@
 
 # Global Static Modifiers
 base_values = {
-	country_weekly_innovation_add = 30
+	country_weekly_innovation_add = 20
 	country_weekly_innovation_max_add = 40
 	country_tech_spread_add = 50
 	
@@ -18,7 +18,7 @@ base_values = {
 
 	country_revolution_secession_speed_add = 0.05
 	
-	state_education_access_wealth_add = 0.02
+	state_education_access_wealth_add = 0.01
 	
 	country_minting_add = 500
 
@@ -34,7 +34,7 @@ base_values = {
 	
 	country_construction_add = 40
 	
-	building_mobilization_cost_mult = 0.6
+	building_mobilization_cost_mult = 0.65
 	
 	building_economy_of_scale_level_cap_add = 10
 }
