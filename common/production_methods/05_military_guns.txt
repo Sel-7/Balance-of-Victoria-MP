@@ -296,6 +296,7 @@ pm_offensive_action = {
 			unit_defense_mult = 0.20
 			unit_recovery_rate_add = 0.20
 			unit_morale_loss_mult = -0.20
+			building_mobilization_cost_mult = 0.20
 			
 		}
 	}
@@ -314,7 +315,7 @@ pm_defensive_action = {
 
 		building_modifiers = {
 			workforce_scaled = {
-			building_input_small_arms_add = 2.5
+			building_input_small_arms_add = 2.0
 		}
 
 		throughput_scaled = {
@@ -322,6 +323,7 @@ pm_defensive_action = {
 			unit_defense_mult = 0.15
 			unit_recovery_rate_add = 0.15
 			unit_morale_loss_mult = -0.15
+			building_mobilization_cost_mult = 0.15
 		}
 
 	}
@@ -346,6 +348,7 @@ pm_balanced_approach = {
 			unit_offense_mult = 0.10
 			unit_defense_mult = 0.10
 			unit_recovery_rate_add = 0.10
+			building_mobilization_cost_mult = 0.10
 		}
 	}
 	timed_modifiers = {
@@ -375,6 +378,7 @@ pm_human_wave_offensive = {
 		unscaled = {
 		unit_provinces_captured_mult = 0.15
 		unit_devastation_mult = 0.50
+		building_mobilization_cost_mult = 0.25
 		}
 	}
 

@@ -31,8 +31,8 @@ pmg_strategic_approaches = {
 	production_methods = {
 		pm_barracks_no_approach
 		pm_balanced_approach
-		pm_offensive_action
 		pm_defensive_action
+		pm_offensive_action
 		pm_human_wave_offensive
 	}
 }
