@@ -72,7 +72,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2086404
+				size = 2386404
 			}
 			create_pop = {
 				culture = british
@@ -101,7 +101,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2426592
+				size = 2726592
 			}
 			create_pop = {
 				culture = irish
@@ -131,7 +131,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2243604
+				size = 2843604
 			}
 			create_pop = {
 				culture = british
