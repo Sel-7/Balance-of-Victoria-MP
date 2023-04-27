@@ -81,9 +81,9 @@ annex_Luxembourg_decision = {
 
 annex_Brititsh_Raj = {
 	is_shown = {
-		exists = c:GBR
+		exists = c:IFR
 		exists = c:BHT
-		this = c:GBR
+		this = c:IFR
 	}
 
 	possible = {

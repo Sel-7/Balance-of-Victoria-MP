@@ -286,6 +286,12 @@ pm_offensive_action = {
 		standing_army
 	}
 
+	disallowing_laws = {
+		law_peasant_levies
+		law_mass_conscription
+		law_national_militia
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_small_arms_add = 2.0
@@ -363,6 +369,11 @@ pm_human_wave_offensive = {
 		stormtroopers
 	}
 
+	disallowing_laws = {
+		law_peasant_levies
+		law_mass_conscription
+		law_national_militia
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_small_arms_add = 2.0
