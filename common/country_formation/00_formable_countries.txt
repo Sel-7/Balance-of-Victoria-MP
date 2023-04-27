@@ -504,9 +504,6 @@ BHT = {
 		STATE_SOUTH_BENGAL 
 		STATE_TRAVANCORE
 	}
-	possible = {
-		has_technology_researched = nationalism
-	}
 	
 	possible = {
 		is_player = no
