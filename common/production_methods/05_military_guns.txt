@@ -288,19 +288,16 @@ pm_offensive_action = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 0.1
+			building_input_small_arms_add = 3.0
 		}
 
 		throughput_scaled = {
-			unit_offense_add = 15
+			unit_offense_mult = 0.20
+			unit_defense_mult = 0.20
+			unit_recovery_rate_add = 0.20
+			unit_morale_loss_mult = -0.20
 			
 		}
-		unscaled = {
-		unit_provinces_captured_mult = 0.15
-		unit_provinces_lost_mult = 0.15
-		unit_devastation_mult = 0.10
-		unit_kill_rate_add = -0.10
-	}
 	}
 
 	timed_modifiers = {
@@ -317,18 +314,16 @@ pm_defensive_action = {
 
 		building_modifiers = {
 			workforce_scaled = {
-			building_input_small_arms_add = 0.1
+			building_input_small_arms_add = 2.5
 		}
 
 		throughput_scaled = {
-			unit_defense_add = 15
+			unit_offense_mult = 0.15
+			unit_defense_mult = 0.15
+			unit_recovery_rate_add = 0.15
+			unit_morale_loss_mult = -0.15
 		}
 
-		unscaled = {
-			unit_provinces_captured_mult = -0.15
-			unit_provinces_lost_mult = -0.15
-			unit_kill_rate_add = 0.10
-		}
 	}
 	timed_modifiers = {
 		pm_change_of_strategy
@@ -344,12 +339,13 @@ pm_balanced_approach = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 0.1
+			building_input_small_arms_add = 1.0
 		}
 
 		throughput_scaled = {
-			unit_offense_add = 5
-			unit_defense_add = 5
+			unit_offense_mult = 0.10
+			unit_defense_mult = 0.10
+			unit_recovery_rate_add = 0.10
 		}
 	}
 	timed_modifiers = {
@@ -361,26 +357,24 @@ pm_human_wave_offensive = {
 	texture = "gfx/interface/ACL_command_limit/ACL_over_25_trait.dds"
 	
 	unlocking_technologies = {
-		war_propaganda
+		stormtroopers
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 0.4
+			building_input_small_arms_add = 4.0
 		}
 
 		throughput_scaled = {
-			unit_offense_add = 30
+			unit_offense_mult = 0.25
+			unit_defense_mult = 0.25
+			unit_recovery_rate_add = 0.25
+			unit_morale_loss_mult = -0.25
 			
 		}
 		unscaled = {
-		unit_provinces_captured_mult = 0.30
-		unit_provinces_lost_mult = 0.30
+		unit_provinces_captured_mult = 0.15
 		unit_devastation_mult = 0.50
-		unit_kill_rate_add = -0.25
-		}
-		level_scaled = {
-			building_employment_soldiers_add = 200
 		}
 	}
 
