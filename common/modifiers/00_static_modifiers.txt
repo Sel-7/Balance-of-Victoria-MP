@@ -5,9 +5,9 @@
 
 # Global Static Modifiers
 base_values = {
-	country_weekly_innovation_add = 20
+	country_weekly_innovation_add = 15
 	country_weekly_innovation_max_add = 40
-	country_tech_spread_add = 50
+	country_tech_spread_add = 70
 	
 	country_loan_interest_rate_add = 0.2
 	
@@ -18,7 +18,7 @@ base_values = {
 
 	country_revolution_secession_speed_add = 0.05
 	
-	state_education_access_wealth_add = 0.01
+	state_education_access_wealth_add = 0.005
 	
 	country_minting_add = 500
 
@@ -83,10 +83,10 @@ in_default = {
 
 declared_bankruptcy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	country_prestige_mult = -0.25
-	country_loan_interest_rate_mult = 0.25
-	unit_offense_mult = -0.3
-	unit_defense_mult = -0.15
+	country_prestige_mult = -0.50
+	country_loan_interest_rate_mult = 0.50
+	unit_offense_mult = -0.50
+	unit_defense_mult = -0.50
 	state_construction_mult = -0.5
 }
 

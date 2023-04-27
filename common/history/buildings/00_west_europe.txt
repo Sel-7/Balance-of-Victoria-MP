@@ -637,7 +637,7 @@
 			}				
 			create_building={
 				building="building_university"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}
@@ -711,6 +711,12 @@
 	}
 	s:STATE_LANCASHIRE={
 		region_state:GBR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -846,6 +852,12 @@
 	s:STATE_YORKSHIRE={
 		region_state:GBR={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=5
 				reserves=1
@@ -962,6 +974,12 @@
 	s:STATE_MIDLANDS={
 		region_state:GBR={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=25
 				reserves=1
@@ -1045,7 +1063,7 @@
 			}			
 			create_building={
 				building="building_university"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}
@@ -1125,6 +1143,12 @@
 	}
 	s:STATE_WEST_COUNTRY={
 		region_state:GBR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1810,6 +1834,12 @@
 	s:STATE_ALSACE_LORRAINE={
 		region_state:FRA={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_steel_mills"
 				level=1
 				reserves=1
@@ -1933,6 +1963,12 @@
 	}
 	s:STATE_BRITTANY={
 		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -3000,6 +3036,12 @@
 	s:STATE_WESTPHALIA={
 		region_state:PRU={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=2
 				reserves=1
@@ -3108,6 +3150,12 @@
 	s:STATE_RHINELAND={
 		region_state:PRU={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=5
 				reserves=1
@@ -3162,6 +3210,12 @@
 	s:STATE_NORTH_RHINE={
 		region_state:PRU={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_arms_industry"
 				level=8
 				reserves=1
@@ -3207,6 +3261,12 @@
 	}
 	s:STATE_BRANDENBURG={
 		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_government_administration"
 				level=13
