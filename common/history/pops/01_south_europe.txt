@@ -324,7 +324,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 1579992
+				size = 2579992
 			}
 		}
 	}
@@ -332,7 +332,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 1389604
+				size = 2389604
 			}
 			create_pop = {
 				culture = catalan
