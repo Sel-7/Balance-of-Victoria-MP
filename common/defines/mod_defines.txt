@@ -76,13 +76,13 @@ NPops = {
 }
 
 NTechnology = {
-	TECH_SPREAD_RANDOM_RANGE = 0.25 # How much can distribution of tech spread vary each week
-	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.5	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+	TECH_SPREAD_RANDOM_RANGE = 0.2 # How much can distribution of tech spread vary each week
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 1.0	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
 }
 
 NEconomy = { 
 		DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 3		# How many years does it take for penalties from declaring bankruptcy to fully decay
-		PRICE_RANGE = 0.6
+		PRICE_RANGE = 0.60
 		URBANIZATION_PER_BUILDING = 100
 		}
 NAI = {
@@ -98,8 +98,8 @@ NWar = {
 }
 
 NDiplomacy = {
-	WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR = 9000 # The amount of population by which the factor below is multiplied
-	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER = 0.056 # For each WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR population in a country/state, multiply infamy by this
+	WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR = 8000 # The amount of population by which the factor below is multiplied
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER = 0.055 # For each WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR population in a country/state, multiply infamy by this
 	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 15 # Infamy population multiplier can't be higher than this for each state affected
 	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_TOTAL = 150 # Infamy population multiplier can't be higher than this, regardless of number of states affected
 	WAR_GOAL_INFAMY_HOMELAND_FACTOR = -0.5 # Infamy is adjusted by this if the states taken/puppeted etc are Homelands of the aggressor
