@@ -279,6 +279,67 @@ pm_barracks_bolt_action_rifles_conscription = {
 
 #Strategic Position
 
+pm_balanced_approach = {
+	texture = "gfx/interface/icons/character_trait_icons/cautious.dds"
+	
+	unlocking_technologies = {
+		standing_army
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_small_arms_add = 1.5
+		}
+
+		throughput_scaled = {
+			unit_offense_mult = 0.10
+			unit_defense_mult = 0.10
+			building_mobilization_cost_mult = 0.10
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+	timed_modifiers = {
+		pm_change_of_strategy
+	}
+}
+
+pm_defensive_action = {
+	texture = "gfx/interface/icons/character_trait_icons/defense_in_depth_specialist.dds"
+	
+	unlocking_technologies = {
+		standing_army
+	}
+
+		building_modifiers = {
+			workforce_scaled = {
+			building_input_small_arms_add = 2.5
+			building_input_artillery_add = 1.5
+			building_input_ammunition_add = 1.0
+		}
+
+		throughput_scaled = {
+			unit_offense_mult = 0.15
+			unit_defense_mult = 0.15
+			unit_recovery_rate_add = 0.15
+			building_mobilization_cost_mult = 0.15
+		}
+
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 3
+		}
+	}
+	timed_modifiers = {
+		pm_change_of_strategy
+	}
+}
+
 pm_offensive_action = {
 	texture = "gfx/interface/icons/character_trait_icons/experienced_offensive_planner.dds"
 	
@@ -294,8 +355,9 @@ pm_offensive_action = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 2.0
-			building_input_ammunition_add = 1.5
+			building_input_small_arms_add = 4.0
+			building_input_artillery_add = 3.0
+			building_input_ammunition_add = 2.0
 		}
 
 		throughput_scaled = {
@@ -307,56 +369,13 @@ pm_offensive_action = {
 			
 		}
 	}
-
-	timed_modifiers = {
-		pm_change_of_strategy
-	}
-}
-
-pm_defensive_action = {
-	texture = "gfx/interface/icons/character_trait_icons/defense_in_depth_specialist.dds"
 	
-	unlocking_technologies = {
-		standing_army
-	}
-
-		building_modifiers = {
-			workforce_scaled = {
-			building_input_small_arms_add = 2.0
-			building_input_ammunition_add = 1.0
-		}
-
-		throughput_scaled = {
-			unit_offense_mult = 0.15
-			unit_defense_mult = 0.15
-			unit_recovery_rate_add = 0.15
-			building_mobilization_cost_mult = 0.15
-		}
-
-	}
-	timed_modifiers = {
-		pm_change_of_strategy
-	}
-}
-
-pm_balanced_approach = {
-	texture = "gfx/interface/icons/character_trait_icons/cautious.dds"
-	
-	unlocking_technologies = {
-		standing_army
-	}
-
-	building_modifiers = {
+	country_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 1.0
-		}
-
-		throughput_scaled = {
-			unit_offense_mult = 0.10
-			unit_defense_mult = 0.10
-			building_mobilization_cost_mult = 0.10
+			country_army_power_projection_add = 5
 		}
 	}
+	
 	timed_modifiers = {
 		pm_change_of_strategy
 	}
@@ -376,8 +395,9 @@ pm_human_wave_offensive = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 2.0
-			building_input_ammunition_add = 2.0
+			building_input_small_arms_add = 5.0
+			building_input_ammunition_add = 3.0
+			building_input_artillery_add = 4.0
 		}
 
 		throughput_scaled = {
@@ -393,6 +413,13 @@ pm_human_wave_offensive = {
 		building_mobilization_cost_mult = 0.25
 		}
 	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 10
+		}
+	}
+	
 
 	timed_modifiers = {
 		pm_change_of_strategy
