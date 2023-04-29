@@ -288,7 +288,9 @@ pm_balanced_approach = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 1.5
+			building_input_small_arms_add = 1.0
+			building_input_grain_add = 1.0
+			building_input_liquor_add = 0.25
 		}
 
 		throughput_scaled = {
@@ -317,9 +319,11 @@ pm_defensive_action = {
 
 		building_modifiers = {
 			workforce_scaled = {
-			building_input_small_arms_add = 2.5
-			building_input_artillery_add = 1.5
-			building_input_ammunition_add = 1.0
+			building_input_small_arms_add = 2.0
+			building_input_artillery_add = 1.0
+			building_input_meat_add = 0.25
+			building_input_grain_add = 0.75
+			building_input_liquor_add = 0.5
 		}
 
 		throughput_scaled = {
@@ -355,9 +359,12 @@ pm_offensive_action = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 4.0
-			building_input_artillery_add = 3.0
-			building_input_ammunition_add = 2.0
+			building_input_small_arms_add = 3.0
+			building_input_artillery_add = 2.0
+			building_input_ammunition_add = 1.5
+			building_input_meat_add = 0.5
+			building_input_grain_add = 0.5
+			building_input_liquor_add = 0.75
 		}
 
 		throughput_scaled = {
@@ -395,9 +402,12 @@ pm_human_wave_offensive = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_small_arms_add = 5.0
-			building_input_ammunition_add = 3.0
-			building_input_artillery_add = 4.0
+			building_input_small_arms_add = 4.0
+			building_input_artillery_add = 2.0
+			building_input_ammunition_add = 2.0
+			building_input_meat_add = 0.5
+			building_input_groceries_add = 0.5
+			building_input_liquor_add = 1.0
 		}
 
 		throughput_scaled = {
