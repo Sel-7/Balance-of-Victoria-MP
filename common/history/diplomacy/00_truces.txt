@@ -50,15 +50,6 @@ DIPLOMACY = {
 		}
 	}	
 }
-
-DIPLOMACY = {
-	c:SIA= {
-		create_truce = {
-			country = c:DAI
-			months = 36
-		}
-	}	
-}
 DIPLOMACY = {
 	c:HAB= {
 		create_truce = {
