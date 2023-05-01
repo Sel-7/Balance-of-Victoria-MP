@@ -21,6 +21,9 @@
  state_trait_east_asian_explosion:0 "East Asian Explosion"
  state_trait_scandanavian_healthcare:0 "Scandanavian Healthcare"
  pm_change_of_strategy:0 "Drill Changes"
+ state_trait_south_italian_agrarianism:0 "Southern Agrarianism"
+ state_north_italian_industrialisation:0 "Northern Industrialisation"
+ 
  
  pm_no_fertilizer_coffee:0 "No Fertilizer"
  pm_no_fertilizer_cotton:0 "No Fertilizer"

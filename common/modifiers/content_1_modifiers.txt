@@ -705,6 +705,7 @@ garibaldi_popularity = {
 italian_unifier_prestige = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_prestige_mult = 0.1
+	unit_offense_mult = 0.35
 }
 
 italian_unifiers_ig = {

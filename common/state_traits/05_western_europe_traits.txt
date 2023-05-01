@@ -216,3 +216,21 @@ state_trait_fields_of_the_europe = {
 		building_group_bg_agriculture_throughput_mult = 0.15
 	}
 }
+
+state_north_italian_industrialisation = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+		state_construction_mult = 0.10
+		state_accepted_birth_rate_mult = 0.03
+		state_infrastructure_mult = 0.10
+	}
+}
+
+state_trait_south_italian_agrarianism = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.15
+	}
+}
