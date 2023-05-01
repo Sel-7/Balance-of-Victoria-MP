@@ -10,13 +10,13 @@
     arable_land = 300
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
-        bg_iron_mining = 27
+        bg_iron_mining = 154
         bg_lead_mining = 19
-        bg_logging = 7
+        bg_logging = 32
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 26
     }
 }
 
@@ -309,9 +309,9 @@ STATE_VENETIA = {
     arable_land = 300
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" }
     capped_resources = {
-        bg_coal_mining = 44
-        bg_sulfur_mining = 36
-        bg_logging = 7
+        bg_coal_mining = 140
+        bg_sulfur_mining = 81
+        bg_logging = 53
         bg_fishing = 12
     }
     naval_exit_id = 3033
@@ -406,8 +406,8 @@ STATE_CASTILE = {
     arable_land = 200
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_coal_mining = 36
-        bg_iron_mining = 27
+        bg_coal_mining = 60
+        bg_iron_mining = 80
         bg_logging = 6
     }
 }
@@ -775,8 +775,8 @@ STATE_BOSNIA = {
     arable_land = 40
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_iron_mining = 48
-        bg_lead_mining = 39
+        bg_iron_mining = 120
+        bg_lead_mining = 65
         bg_logging = 14
     }
 }
@@ -901,10 +901,10 @@ STATE_ISTRIA = {
     farm = "xF0A040"
     mine = "x56C78A"
     wood = "x56C78A"
-    arable_land = 25
+    arable_land = 67
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 44
+        bg_coal_mining = 90
         bg_logging = 5
         bg_fishing = 14
     }
@@ -925,7 +925,7 @@ STATE_MONTENEGRO = {
     arable_land = 13
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_lead_mining = 24
+        bg_lead_mining = 90
         bg_logging = 4
     }
     naval_exit_id = 3033
@@ -943,7 +943,7 @@ STATE_NORTHERN_SERBIA = {
     arable_land = 35
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 24
+        bg_iron_mining = 140
         bg_logging = 13
     }
 }

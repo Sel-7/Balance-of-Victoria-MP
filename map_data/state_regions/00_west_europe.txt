@@ -738,9 +738,9 @@ STATE_ALSACE_LORRAINE = {
     arable_land = 271
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 80
-        bg_iron_mining = 80
-        bg_logging = 29
+        bg_coal_mining = 140
+        bg_iron_mining = 120
+        bg_logging = 79
     }
 }
 
@@ -1048,9 +1048,9 @@ STATE_BOHEMIA = {
     arable_land = 650
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 90
-        bg_iron_mining = 60
-        bg_logging = 37
+        bg_coal_mining = 140
+        bg_iron_mining = 90
+        bg_logging = 78
     }
 }
 
@@ -1271,8 +1271,8 @@ STATE_NORTH_RHINE = {
     arable_land = 169
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 80
-        bg_iron_mining = 30
+        bg_coal_mining = 130
+        bg_iron_mining = 70
         bg_logging = 11
     }
 }
@@ -1422,7 +1422,7 @@ STATE_FRANCONIA = {
     arable_land = 241
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 30
+        bg_iron_mining = 80
         bg_logging = 17
     }
 }

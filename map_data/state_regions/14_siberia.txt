@@ -70,7 +70,7 @@ STATE_TOBOLSK = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 67
+        undiscovered_amount = 181
     }
 }
 
@@ -134,7 +134,7 @@ STATE_NENETSIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 37
+        undiscovered_amount = 165
     }
 }
 
@@ -240,9 +240,9 @@ STATE_TRANS_BAIKAL = {
     arable_land = 340
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 218
-        bg_iron_mining = 171
-        bg_sulfur_mining = 182
+        bg_coal_mining = 100
+        bg_iron_mining = 120
+        bg_sulfur_mining = 90
         bg_logging = 151
     }
     resource = {
@@ -268,7 +268,7 @@ STATE_IRKUTSK = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 78
+        undiscovered_amount = 190
     }
 }
 
