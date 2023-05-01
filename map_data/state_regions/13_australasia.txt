@@ -8,10 +8,10 @@
     farm = "x8B56F5"
     mine = "x24AEFA"
     wood = "x799B34"
-    arable_land = 648
+    arable_land = 400
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_coal_mining = 145
+        bg_coal_mining = 60
         bg_iron_mining = 101
         bg_logging = 72
         bg_whaling = 10
@@ -24,7 +24,7 @@
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 16
+        undiscovered_amount = 160
     }
     naval_exit_id = 3122
 }
@@ -49,7 +49,7 @@ STATE_VICTORIA = {
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
-        undiscovered_amount = 10
+        undiscovered_amount = 16
     }
     naval_exit_id = 3122
 }
@@ -91,11 +91,11 @@ STATE_QUEENSLAND = {
     farm = "x0E58D6"
     mine = "x57456E"
     wood = "xA70E88"
-    arable_land = 1151
+    arable_land = 400
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_iron_mining = 167
-        bg_lead_mining = 167
+        bg_iron_mining = 60
+        bg_lead_mining = 100
         bg_logging = 127
         bg_whaling = 10
         bg_fishing = 19
@@ -114,11 +114,11 @@ STATE_SOUTH_AUSTRALIA = {
     farm = "xC53983"
     mine = "x6F472E"
     wood = "xD471D4"
-    arable_land = 524
+    arable_land = 453
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 98
-        bg_lead_mining = 104
+        bg_lead_mining = 40
         bg_sulfur_mining = 128
         bg_whaling = 8
         bg_fishing = 12
@@ -137,7 +137,7 @@ STATE_WESTERN_AUSTRALIA = {
     farm = "x98FA26"
     mine = "x8D829F"
     wood = "x74551C"
-    arable_land = 1360
+    arable_land = 540
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 223
@@ -165,7 +165,7 @@ STATE_NORTHERN_TERRITORY = {
     farm = "xF943B8"
     mine = "x3F7FA7"
     wood = "xA4B8B3"
-    arable_land = 717
+    arable_land = 350
     arable_resources = { "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 102

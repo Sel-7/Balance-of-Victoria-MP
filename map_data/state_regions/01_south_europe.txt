@@ -309,8 +309,8 @@ STATE_VENETIA = {
     arable_land = 300
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" }
     capped_resources = {
-        bg_coal_mining = 140
-        bg_sulfur_mining = 81
+        bg_coal_mining = 50
+        bg_sulfur_mining = 13
         bg_logging = 53
         bg_fishing = 12
     }
