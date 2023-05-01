@@ -31,7 +31,6 @@ alberdeen_act.1 = {
 
 		set_variable = {
 			name = alberdeen_act_malus #var for the convoy raiding modifier and cash grab
-			integer = yes
 			value = 0.5
 		}
 		set_variable = {
@@ -103,7 +102,7 @@ alberdeen_act.2 = { #event that gives bonus and malus for the tick of the englis
 			exists = c:BRZ
 			c:BRZ = ROOT
 			is_player = yes
-			NOT = {has_global_variable = name = eusebio_enacted}
+			NOT = { has_global_variable = eusebio_enacted }
 	
 		}
 	immediate = {

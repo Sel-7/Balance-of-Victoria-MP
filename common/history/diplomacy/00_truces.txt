@@ -51,7 +51,7 @@ DIPLOMACY = {
 	}	
 }
 DIPLOMACY = {
-	c:HAB= {
+	c:AUS= {
 		create_truce = {
 			country = c:PRU
 			months = 60
