@@ -5,9 +5,9 @@
 
 # Global Static Modifiers
 base_values = {
-	country_weekly_innovation_add = 30
+	country_weekly_innovation_add = 15
 	country_weekly_innovation_max_add = 40
-	country_tech_spread_add = 50
+	country_tech_spread_add = 70
 	
 	country_loan_interest_rate_add = 0.2
 	
@@ -18,7 +18,7 @@ base_values = {
 
 	country_revolution_secession_speed_add = 0.05
 	
-	state_education_access_wealth_add = 0.02
+	state_education_access_wealth_add = 0.005
 	
 	country_minting_add = 500
 
@@ -29,14 +29,17 @@ base_values = {
 	state_middle_expected_sol = 10
 	state_rich_expected_sol = 15
 	state_expected_sol_from_literacy = 5
-
-	character_health_add = 1	# Must be != 0. Even better if it's > 0
 	
 	country_construction_add = 40
 	
-	building_mobilization_cost_mult = 0.6
+	building_mobilization_cost_mult = 0.65
 	
 	building_economy_of_scale_level_cap_add = 10
+}
+
+
+character_base_values = {
+	character_health_add = 1	# Must be != 0. Even better if it's > 0
 }
 
 discrimination = {
@@ -83,10 +86,10 @@ in_default = {
 
 declared_bankruptcy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	country_prestige_mult = -0.25
-	country_loan_interest_rate_mult = 0.25
-	unit_offense_mult = -0.3
-	unit_defense_mult = -0.15
+	country_prestige_mult = -0.50
+	country_loan_interest_rate_mult = 0.50
+	unit_offense_mult = -0.50
+	unit_defense_mult = -0.50
 	state_construction_mult = -0.5
 }
 
@@ -96,7 +99,7 @@ incorporated_state = {
 unincorporated_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	state_infrastructure_mult = -0.15
-	state_construction_mult = -0.15
+	state_construction_mult = -0.10
 	building_group_bg_manufacturing_throughput_mult = -0.95 #industries
 	building_government_administration_throughput_mult = -0.95
 	state_conscription_rate_mult = -1
@@ -105,7 +108,7 @@ unincorporated_state = {
 	state_building_barracks_max_level_add = -95
 	building_group_bg_army_throughput_mult = -0.1 #army, conscription
 	building_economy_of_scale_level_cap_add = -20
-	state_building_naval_base_max_level_add = -20
+	state_building_naval_base_max_level_add = -35
 	state_birth_rate_mult = 0.05
 	state_pop_pol_str_mult = -0.9
 }
@@ -386,13 +389,13 @@ battle_navy_average_kill_rate = {
 # Scales with how much population is under low pop threshold
 low_pop_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_accepted_birth_rate_mult = 0.30
+	state_accepted_birth_rate_mult = 0.20
 	state_migration_pull_mult = 0.50
 }
 
 high_pop_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_birth_rate_mult = -0.10
+	state_birth_rate_mult = -0.15
 }
 
 country_rivalry = {

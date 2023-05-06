@@ -84,29 +84,29 @@
 			country = c:HAN
 			type = personal_union
 		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = puppet
-		}
+		#create_diplomatic_pact = {
+		#	country = c:SAF
+		#	type = puppet
+		#}
 		create_diplomatic_pact = {
 			country = c:HBC
 			type = dominion
 		}
 	}
-	c:SAF = {
-		create_diplomatic_pact = {
-			country = c:ZUL
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:ORA
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:TRN	
-			type = protectorate	
-		}
-	}
+	#c:SAF = {
+	#	create_diplomatic_pact = {
+	#		country = c:ZUL
+	#		type = protectorate
+	#	}
+	#	create_diplomatic_pact = {
+	#		country = c:ORA
+	#		type = protectorate
+	#	}
+	#	create_diplomatic_pact = {
+	#		country = c:TRN	
+	#		type = protectorate	
+	#	}
+	#}
 	c:DAI = {
 		create_diplomatic_pact = {
 			country = c:CAM

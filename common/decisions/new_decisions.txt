@@ -79,4 +79,28 @@ annex_Luxembourg_decision = {
 	}
 }
 
+annex_Brititsh_Raj = {
+	is_shown = {
+		exists = c:IFR
+		exists = c:BHT
+		this = c:IFR
+	}
+
+	possible = {
+		game_date > 1889.12.30
+		c:BHT = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+	}
+	
+	when_taken = {
+		annex = c:BHT
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
+
 

@@ -16,7 +16,7 @@
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 66
+        undiscovered_amount = 160
     }
     naval_exit_id = 3046
 }
@@ -37,7 +37,7 @@ STATE_OMAN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 24
+        undiscovered_amount = 180
     }
     naval_exit_id = 3048
 }
@@ -58,7 +58,7 @@ STATE_ABU_DHABI = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 83
+        undiscovered_amount = 241
     }
     naval_exit_id = 3046
 }
@@ -81,7 +81,7 @@ STATE_YEMEN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 24
+        undiscovered_amount = 215
     }
     naval_exit_id = 3047
 }
@@ -241,7 +241,7 @@ STATE_BAGHDAD = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_tobacco_plantations" }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 154
+        undiscovered_amount = 197
     }
 }
 
@@ -261,7 +261,7 @@ STATE_MOSUL = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 43
+        undiscovered_amount = 130
     }
 }
 
@@ -341,7 +341,7 @@ STATE_LARISTAN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 44
+        undiscovered_amount = 143
     }
     naval_exit_id = 3046
 }
@@ -379,7 +379,7 @@ STATE_KHORASAN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 24
+        undiscovered_amount = 170
     }
 }
 
@@ -400,7 +400,7 @@ STATE_KHUZESTAN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 62
+        undiscovered_amount = 200
     }
     naval_exit_id = 3046
 }
@@ -438,7 +438,7 @@ STATE_MAZANDARAN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 22
+        undiscovered_amount = 190
     }
 }
 
@@ -486,7 +486,7 @@ STATE_LURISTAN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 43
+        undiscovered_amount = 110
     }
 }
 

@@ -229,12 +229,12 @@
 	}
 	s:STATE_BEIJING={
 		region_state:CHI={
-			create_building={
-				building="building_construction_sector"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}			
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=3
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}			
 			create_building={
 				building="building_tooling_workshops"
 				level=4
@@ -681,12 +681,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_glassworks"
 				level=10
@@ -721,12 +721,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}			
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}			
 			create_building={
 				building="building_glassworks"
 				level=6
@@ -1671,12 +1671,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_paper_mills"
 				level=2
@@ -1735,12 +1735,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_textile_mills"
 				level=4
@@ -2007,12 +2007,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_glassworks"
 				level=3

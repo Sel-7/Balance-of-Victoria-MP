@@ -1280,16 +1280,16 @@ pm_eletric_tools = {
 			# input goods
 			building_input_wood_add = 30
 			building_input_steel_add = 20
-			building_input_electricity_add = 15
+			building_input_electricity_add = 8
 			
 			# output goods
 			building_output_tools_add = 120
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 1500
+			building_employment_laborers_add = 1000
 			building_employment_machinists_add = 2000
-			building_employment_engineers_add = 1000
+			building_employment_engineers_add = 1500
 		}
 	}
 }
