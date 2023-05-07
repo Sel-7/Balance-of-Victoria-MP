@@ -1,0 +1,34 @@
+namespace = BOVM_FLA
+
+BOVM_FLA.1
+	type = country_event
+	placement = ROOT
+	title = BOVM_FLA.1.t
+	desc = BOVM_FLA.1.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3 #??? idk wtf this does
+
+	trigger = {
+		BOVM_is_minor_mp_country = yes
+	}
+	
+	option = {
+		name = BOVM_FLA.1.a
+		highlighted_option = yes	
+		ROOT = {
+			add_modifier = {
+				name = BOVM_FLA_development_fast
+				months = 241
+			}
+		}
+	}
+}
