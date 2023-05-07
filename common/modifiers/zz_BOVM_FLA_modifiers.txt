@@ -1,0 +1,5 @@
+BOVM_FLA_development_fast = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	building_urban_center_throughput_mult = 0.2
+	#country_construction_add = 40 alternative to the throughput
+}

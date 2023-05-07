@@ -1,0 +1,8 @@
+﻿l_english:
+ je_minor_buff:0 "Minor Literacy Buff!"
+ je_minor_buff_reason:0 "We must gather enough literacy in order to allow our nation to progress and catch up with the major powers of the world."
+ je_minor_buff_goal:0 "Maintain a healthy economy and reach the required literacy rate."
+ BOVM_FLA.1.t:0 "Minor Literacy Buff Activated!"
+ BOVM_FLA.1.d:0 "By reaching the required literacy rate we've activated a buff for our country, we shall scale into the stars!"
+ BOVM_FLA.1.a:0 "Yippee!"
+ BOVM_FLA_development_fast:0 "Scaling Boost"
