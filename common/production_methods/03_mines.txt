@@ -76,11 +76,11 @@ pm_diesel_pump_building_coal_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_tools_add = 20
+			building_input_oil_add = 10
 			
 			# output goods
-			building_output_coal_add = 150
+			building_output_coal_add = 300
 		}
 
 		level_scaled = {
@@ -832,11 +832,11 @@ pm_diesel_pump_building_iron_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_tools_add = 20
+			building_input_oil_add = 10
 			
 			# output goods
-			building_output_iron_add = 140
+			building_output_iron_add = 280
 		}
 
 		level_scaled = {
@@ -1019,11 +1019,11 @@ pm_diesel_pump_building_lead_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_tools_add = 20
+			building_input_oil_add = 10
 			
 			# output goods
-			building_output_lead_add = 120
+			building_output_lead_add = 230
 		}
 
 		level_scaled = {
@@ -1165,11 +1165,11 @@ pm_diesel_pump_building_sulfur_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_tools_add = 20
+			building_input_oil_add = 10
 			
 			# output goods
-			building_output_sulfur_add = 120
+			building_output_sulfur_add = 230
 		}
 
 		level_scaled = {
@@ -1330,11 +1330,11 @@ pm_diesel_pump_building_gold_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_tools_add = 20
+			building_input_oil_add = 10
 			
 			# output goods
-			building_output_gold_add = 120
+			building_output_gold_add = 180
 		}
 
 		level_scaled = {
