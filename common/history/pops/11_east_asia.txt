@@ -54,24 +54,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 9479900
-			}
-			create_pop = {
-				culture = manchu
-				size = 4096
-			}
-			create_pop = {
-				culture = tibetan
-				size = 1703796
-			}
-			create_pop = {
-				culture = yi
-				size = 1480000
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = animist
-				size = 1336004
+				size = 4479900
 			}
 		}
 	}
@@ -194,7 +177,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7306504
+				size = 4306504
 			}
 			create_pop = {
 				culture = manchu
@@ -202,7 +185,7 @@
 			}
 			create_pop = {
 				culture = zhuang
-				size = 4212000
+				size = 2212000
 			}
 			create_pop = {
 				culture = yue
@@ -268,20 +251,9 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = manchu
-				size = 5210800
+				size = 3210800
 			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 3011992
-			}
-			create_pop = {
-				culture = korean
-				size = 504000
-			}
-			create_pop = {
-				culture = mongol
-				size = 80412
-			}
+
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
@@ -418,7 +390,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 19546404
+				size = 9546404
 			}
 		}
 	}
@@ -551,7 +523,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 20338400
+				size = 10338400
 			}
 			create_pop = {
 				culture = manchu
@@ -590,7 +562,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 16549900
+				size = 6549900
 			}
 			create_pop = {
 				culture = manchu
@@ -619,7 +591,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 21473408
+				size = 11473408
 			}
 			create_pop = {
 				culture = manchu
@@ -670,7 +642,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 13222096
+				size = 8222096
 			}
 			create_pop = {
 				culture = manchu
@@ -691,7 +663,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 12513400
+				size = 7513400
 			}
 			create_pop = {
 				culture = manchu
@@ -727,7 +699,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 15088000
+				size = 10088000
 			}
 		}
 	}
