@@ -3,7 +3,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = bihari
-				size = 9124092
+				size = 4124092
 			}
 			create_pop = {
 				culture = british
@@ -32,22 +32,11 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 14062032
+				size = 7062032
 			}
 			create_pop = {
 				culture = bengali
-				size = 8644162
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bengali
-				religion = hindu
-				size = 420100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bengali
-				size = 210002
+				size = 4644162
 			}
 		}
 	}
@@ -108,7 +97,7 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 8100320
+				size = 6100320
 			}
 			create_pop = {
 				culture = british
@@ -116,7 +105,7 @@
 			}
 			create_pop = {
 				culture = kanauji
-				size = 5900848
+				size = 2900848
 			}
 			create_pop = {
 				culture = panjabi
@@ -175,7 +164,7 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 4004000
+				size = 2004000
 			}
 			create_pop = {
 				culture = avadhi
@@ -202,7 +191,7 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 2014800
+				size = 1014800
 			}
 			create_pop = {
 				culture = nepali
@@ -248,7 +237,7 @@
 		region_state:BER = {
 			create_pop = {
 				culture = gujarati
-				size = 6634412
+				size = 4634412
 			}
 			create_pop = {
 				culture = gujarati
@@ -449,7 +438,7 @@
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 9033705
+				size = 5033705
 			}
 			create_pop = {
 				culture = avadhi
@@ -458,12 +447,8 @@
 			}
 			create_pop = {
 				culture = panjabi
-				size = 1366552
-			}
-			create_pop = {
-				culture = panjabi
 				religion = hindu
-				size = 2656912
+				size = 1656912
 			}
 		}
 		region_state:BIC = {
@@ -619,36 +604,6 @@
 				religion = hindu
 				size = 9370101
 			}
-			create_pop = {
-				culture = bengali
-				religion = animist
-				size = 109096
-			}
-			create_pop = {
-				culture = bengali
-				size = 6602700
-			}
-			create_pop = {
-				culture = british
-				size = 18520
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bengali
-				religion = hindu
-				size = 200310
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bengali
-				religion = animist
-				size = 10007
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bengali
-				size = 60063
-			}
 		}
 	}
 	s:STATE_SINDH = {
@@ -683,7 +638,7 @@
 		region_state:BIK = {
 			create_pop = {
 				culture = rajput
-				size = 1001004
+				size = 501004
 			}
 			create_pop = {
 				culture = avadhi
@@ -924,7 +879,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = telegu
-				size = 9712168
+				size = 4512168
 			}
 			create_pop = {
 				culture = british
@@ -1068,7 +1023,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = tamil
-				size = 12479910
+				size = 5479910
 			}
 			create_pop = {
 				culture = tamil
@@ -1111,44 +1066,6 @@
 				culture = telegu
 				size = 4724685
 			}
-			create_pop = {
-				culture = avadhi
-				religion = shiite
-				size = 36558
-			}
-			create_pop = {
-				culture = avadhi
-				size = 951351
-			}
-			create_pop = {
-				culture = marathi
-				size = 3156330
-			}
-			create_pop = {
-				culture = kannada
-				religion = hindu
-				size = 1164904
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				size = 40000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 33000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 30000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kannada
-				size = 60000
-			}
 		}
 	}
 	s:STATE_BOMBAY = {
@@ -1170,49 +1087,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = marathi
-				size = 10312854
-			}
-			create_pop = {
-				culture = sindi
-				religion = jewish
-				size = 8344
-			}
-			create_pop = {
-				culture = kannada
-				religion = hindu
-				size = 2032854
-			}
-			create_pop = {
-				culture = british
-				size = 37911
-			}
-			create_pop = {
-				culture = sindi
-				size = 872303
-			}
-			create_pop = {
-				culture = kannada
-				size = 409975
-			}
-			create_pop = {
-				culture = gujarati
-				religion = animist
-				size = 504040
-			}
-			create_pop = {
-				culture = marathi
-				religion = catholic
-				size = 98608
-			}
-			create_pop = {
-				culture = sindi
-				religion = shiite
-				size = 45504
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 41000
+				size = 5312854
 			}
 		}
 	}
