@@ -239,7 +239,7 @@ state_trait_indian_stagnation = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = -0.20
+		state_birth_rate_mult = -0.15
 		state_construction_mult = -0.10
 		building_group_bg_agriculture_throughput_mult = 0.10
 		building_group_bg_plantations_throughput_mult = 0.10
