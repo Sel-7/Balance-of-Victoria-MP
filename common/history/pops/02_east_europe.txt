@@ -102,7 +102,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 3923992
+				size = 2923992
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -122,7 +122,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 2670100
+				size = 1670100
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -283,11 +283,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 2295600
+				size = 1795600
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 1428000
+				size = 928000
 			}
 		}
 	}
@@ -519,7 +519,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = polish
-				size = 4676000
+				size = 2676000
 			}
 			create_pop = {
 				culture = lithuanian
@@ -748,7 +748,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
-				size = 1989200
+				size = 1489200
 			}
 			create_pop = {
 				culture = hungarian
@@ -812,7 +812,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
-				size = 2375796
+				size = 1875796
 			}
 			create_pop = {
 				culture = croat
