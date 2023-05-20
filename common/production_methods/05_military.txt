@@ -1446,7 +1446,7 @@ pm_torpedo_boat = {
 		}
 
 		unscaled = {
-			unit_convoy_raiding_mult = 0.25
+			unit_convoy_raiding_mult = 0.10
 		}
 	}
 
@@ -1477,7 +1477,7 @@ pm_submarine = {
 
 		unscaled = {
 			building_training_rate_add = -5
-			unit_convoy_raiding_mult = 0.5
+			unit_convoy_raiding_mult = 0.20
 		}
 	}
 
