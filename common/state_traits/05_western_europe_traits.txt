@@ -2,7 +2,7 @@
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
-		building_coal_mine_throughput_mult = 0.1
+		building_coal_mine_throughput_mult = 0.10
 		building_iron_mine_throughput_mult = 0.25
 	}
 }
@@ -128,6 +128,8 @@ state_trait_alps_mountains = {
 		
 	modifier = {
 		state_infrastructure_mult = -0.15
+		building_coal_mine_throughput_mult = 0.10
+		building_iron_mine_throughput_mult = 0.10
 	}
 }
 

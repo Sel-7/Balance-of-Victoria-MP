@@ -16,7 +16,7 @@
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 25
+        undiscovered_amount = 11
     }
     resource = {
         type = "bg_oil_extraction"
@@ -44,7 +44,7 @@ STATE_WINDWARD_COAST = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 25
+        undiscovered_amount = 14
     }
     naval_exit_id = 3091
 }
@@ -68,7 +68,7 @@ STATE_SENEGAL = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 19
+        undiscovered_amount = 15
     }
     naval_exit_id = 3088
 }
@@ -91,7 +91,7 @@ STATE_GAMBIA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 71
+        undiscovered_amount = 30
     }
     naval_exit_id = 3088
 }
@@ -115,7 +115,7 @@ STATE_SIERRA_LEONE = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 30
+        undiscovered_amount = 16
     }
     naval_exit_id = 3088
 }
@@ -136,7 +136,7 @@ STATE_VOLTA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 28
+        undiscovered_amount = 19
     }
 }
 
@@ -181,7 +181,7 @@ STATE_HAUSALAND = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 56
+        undiscovered_amount = 22
     }
     resource = {
         type = "bg_oil_extraction"
@@ -209,7 +209,7 @@ STATE_BENIN = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 34
+        undiscovered_amount = 24
     }
     naval_exit_id = 3091
 }
@@ -232,7 +232,7 @@ STATE_YORUBA_STATES = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 43
+        undiscovered_amount = 20
     }
     naval_exit_id = 3091
 }
@@ -255,7 +255,7 @@ STATE_NIGER_DELTA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 76
+        undiscovered_amount = 21
     }
     naval_exit_id = 3091
 }
@@ -407,7 +407,7 @@ STATE_TOGO = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 34
+        undiscovered_amount = 31
     }
     naval_exit_id = 3091
 }
@@ -430,7 +430,7 @@ STATE_DAHOMEY = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 43
+        undiscovered_amount = 30
     }
     naval_exit_id = 3091
 }
@@ -499,7 +499,7 @@ STATE_TANGANYIKA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 90
+        undiscovered_amount = 49
     }
 }
 
@@ -565,7 +565,7 @@ STATE_OROMIA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 71
+        undiscovered_amount = 11
     }
     resource = {
         type = "bg_oil_extraction"
@@ -592,7 +592,7 @@ STATE_AMHARA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 45
+        undiscovered_amount = 12
     }
 }
 
@@ -614,7 +614,7 @@ STATE_GONDER = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 26
+        undiscovered_amount = 7
     }
 }
 
@@ -703,7 +703,7 @@ STATE_NORTH_MADAGASCAR = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 98
+        undiscovered_amount = 47
     }
     naval_exit_id = 3107
 }
@@ -725,7 +725,7 @@ STATE_UGANDA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 176
+        undiscovered_amount = 61
     }
 }
 
@@ -869,7 +869,7 @@ STATE_CONGO = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 64
+        undiscovered_amount = 125
     }
     resource = {
         type = "bg_oil_extraction"
@@ -896,7 +896,7 @@ STATE_CONGO_ORIENTALE = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 57
+        undiscovered_amount = 144
     }
 }
 
@@ -918,7 +918,7 @@ STATE_KASAI = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 26
+        undiscovered_amount = 130
     }
 }
 
@@ -942,7 +942,7 @@ STATE_BAS_CONGO = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 36
+        undiscovered_amount = 110
     }
     naval_exit_id = 3104
 }
@@ -964,7 +964,7 @@ STATE_EQUATEUR = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 35
+        undiscovered_amount = 91
     }
 }
 
@@ -1033,7 +1033,7 @@ STATE_EAST_ANGOLA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 54
+        undiscovered_amount = 60
     }
 }
 
@@ -1103,7 +1103,7 @@ STATE_ZAMBIA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 25
+        undiscovered_amount = 5
     }
 }
 
@@ -1125,7 +1125,7 @@ STATE_ZAMBEZIA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 18
+        undiscovered_amount = 6
     }
     naval_exit_id = 3107
 }

@@ -1180,9 +1180,9 @@ STATE_EAST_SWITZERLAND = {
     arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 86
-        bg_lead_mining = 61
-        bg_logging = 17
+        bg_iron_mining = 101
+        bg_lead_mining = 65
+        bg_logging = 31
     }
 }
 
@@ -1198,10 +1198,9 @@ STATE_WEST_SWITZERLAND = {
     arable_land = 98
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 90
-        bg_iron_mining = 24
-        bg_lead_mining = 24
-        bg_logging = 6
+        bg_coal_mining = 92
+        bg_sulfur_mining = 56
+        bg_logging = 32
     }
 }
 
