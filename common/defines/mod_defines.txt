@@ -86,16 +86,18 @@ NTechnology = {
 }
 
 NEconomy = { 
-		DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 3		# How many years does it take for penalties from declaring bankruptcy to fully decay
+		DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 5		# How many years does it take for penalties from declaring bankruptcy to fully decay
 		PRICE_RANGE = 0.60
 		URBANIZATION_PER_BUILDING = 100
 		}
 NAI = {
 	AUTONOMOUS_INVESTMENT_CONSTRUCTION_ENABLED = no # If this is set to no, the autonomous investment AI won't construct anything even if the game rule for it is enabled
+	PRODUCTION_METHOD_DEFICIT_FACTOR = 40.0
+	PRODUCTION_METHOD_INCREASE_OUTPUT_PENALTY_FACTOR = 0.05
 }
 
 NWar = {
-	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.1 #0.25
+	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.2 #0.25
 	WAR_EXHAUSTION_KIA_BATTLES_LOST_MULTIPLIER = 0.3 #0.75
 	MAX_SIMULTANEOUS_BATTLES = 1  #1
 	LOCK_PROVINCE_CAPTURE_TO_SINGLE_STATE = yes #no

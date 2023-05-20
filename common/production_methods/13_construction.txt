@@ -1,13 +1,13 @@
 ﻿pm_no_buildings = {
 	texture = "gfx/interface/icons/production_method_icons/unused/no_maintenance.dds"
 
-	is_default = yes
+	is_default = no
 }
 
 pm_wooden_buildings = {
 	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
 	
-	is_default = no
+	is_default = yes
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -34,6 +34,7 @@ pm_wooden_buildings = {
 			state_construction_mult = 0.000
 		}	
 	}
+	
 }
 
 pm_iron_frame_buildings = {

@@ -88,9 +88,9 @@ declared_bankruptcy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_prestige_mult = -0.50
 	country_loan_interest_rate_mult = 0.50
-	unit_offense_mult = -0.50
-	unit_defense_mult = -0.50
-	state_construction_mult = -0.5
+	unit_offense_mult = -1.50
+	unit_defense_mult = -1.50
+	state_construction_mult = -1.0
 }
 
 incorporated_state = {
