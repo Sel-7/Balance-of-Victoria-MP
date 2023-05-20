@@ -81,21 +81,21 @@ annex_Luxembourg_decision = {
 
 annex_Brititsh_Raj = {
 	is_shown = {
-		exists = c:IFR
-		exists = c:BHT
-		this = c:IFR
+		exists = c:GBR
+		exists = c:HBC
+		this = c:GBR
 	}
 
 	possible = {
-		game_date > 1889.12.30
-		c:BHT = {
+		game_date > 1854.12.30
+		c:HBC = {
 			is_player = no
 			is_junior_in_customs_union = yes
 		}
 	}
 	
 	when_taken = {
-		annex = c:BHT
+		annex = c:HBC
 	}
 
 	ai_chance = {
