@@ -7,7 +7,9 @@
 	min_approval = loyal
 	
 	modifier = {
-		state_aristocrats_investment_pool_efficiency_mult = 0.1
+		building_group_bg_agriculture_tax_mult = 0.05
+		building_group_bg_ranching_tax_mult = 0.05
+		building_group_bg_plantations_tax_mult = 0.05
 	}
 }
 
