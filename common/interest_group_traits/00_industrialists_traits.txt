@@ -7,7 +7,7 @@
 	min_approval = loyal
 	
 	modifier = {
-		state_capitalists_investment_pool_efficiency_mult = 0.1
+		building_group_bg_manufacturing_throughput_mult = 0.075
 	}
 }
 
