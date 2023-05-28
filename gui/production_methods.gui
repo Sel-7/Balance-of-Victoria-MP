@@ -929,31 +929,6 @@ types production_methods
 							#	}
 							#}
 
-							icon_with_number_and_bar_list_gold = {
-								#visible = "[Not(GetVariableSystem.Exists('buildinglist_option_percentage'))]"
-
-								blockoverride "texture" {
-									texture = "gfx/interface/icons/goods_icons/gold.dds"
-								}
-								blockoverride "text" {
-									text = "#variable [Building.GetCurrentCashReserves|k]"
-								}
-								blockoverride "tooltip" {
-									#using = cash_reserves_tooltip_with_graph
-								}
-								blockoverride "values" {
-										min = 0
-										max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
-										value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
-								}
-
-								blockoverride "highlight" {
-									progressbar_highlight = {
-										visible = "[GreaterThanOrEqualTo_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
-									}	
-								}
-							}
-
 							#Infrastructure
 							flowcontainer = {
 								spacing = 3
@@ -995,45 +970,29 @@ types production_methods
 								}
 							}
 
-
-							#PROFITABLE
-							flowcontainer = {
-								visible = "[Not(GetVariableSystem.Exists('buildinglist_option_profit'))]"
-
-								spacing = 3
-								max_width = 70
-								
-								icon = {
-									size = { 25 25 }
-									tooltip = "TOOLTIP_BUILDING_PRODUCTIVITY"
-									texture = "gfx/interface/icons/productivity.dds"
-								}
-
-								textbox = {
-									widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
-									visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
-									tooltip = "TOOLTIP_BUILDING_PRODUCTIVITY"
-									text = "[Building.GetAverageAnnualEarningsPerEmployeeFormatted|1+]"
-									autoresize = yes
-									align = nobaseline
-								}
+							textbox = {
+								widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+								visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
+								raw_text = "#tooltippable #tooltip:[Building.GetTooltipTag],TOOLTIP_BUILDING_PRODUCTIVITY,GraphTooltipTypeProfitability #v @money![Building.GetAverageAnnualEarningsPerEmployeeFormatted|1+]#!#!#!"
+								autoresize = yes
+								align = left|nobaseline
+								#parentanchor = vcenter
 							}
 
-							#PROFIT
-							flowcontainer = {
-								visible = "[GetVariableSystem.Exists('buildinglist_option_profit')]"
-
-								max_width = 70
-		
-								textbox = {
-									name = "tutorial_highlight_weekly_balance_building"
-									text = "@money!#v [Building.GetBalance|D+=]#!"
-									tooltip = "[Building.GetBalanceDesc]"
-									autoresize = yes
-									align = nobaseline
-								}
+							textbox = {
+								#widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+								visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
+								position = { -70 0 }
+								#text = "#tooltippable #tooltip:[Building.GetTooltipTag],TOOLTIP_BUILDING_BALANCE_DESC @money!#v [Building.GetBalance|D+=]#!#!#!"
+								name = "tutorial_highlight_weekly_balance_building"
+								text = "@money!#v [Building.GetBalance|D+=]#!"
+								tooltip = "[Building.GetBalanceDesc]"
+								autoresize = yes
+								align = left|nobaseline
+								#parentanchor = right|vcenter
 							}
 						}
+
 					}
 					
 					### production methods single
