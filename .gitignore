@@ -3,3 +3,15 @@ gfx/map/textures/backup/flatmap(backup).dds
 gfx/map/textures/backup/land.dds
 gfx/map/textures/backup/sea.dds
 gfx/map/textures/flatmap.dds
+common/defines/line_graphics.txt
+fonts/1fonts.font
+gfx/FX/coloroverlay.fxh
+fonts/1fonts.font
+gfx/FX/pdxterrain.shader
+gfx/FX/pdxterrain.shader
+gfx/map/post_effects/posteffect_volumes.txt
+gfx/map/textures/flatmap_overlay.dds
+gfx/map/textures/equator_line.dds
+gfx/map/fog_of_war/fog_of_war.settings
+gfx/FX/pdxterrain.shader
+fonts/1fonts.font

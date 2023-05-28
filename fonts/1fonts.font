@@ -39,7 +39,7 @@ fontfiles = {
     group = {
         languages = { "l_simp_chinese" }
         files = {
-            "fonts/weibei.ttf" # Noto Serif is used for Playfair in Simplified Chinese
+            "fonts/kindleKAItc.ttf" # Noto Serif is used for Playfair in Simplified Chinese
             "fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf"
 			"fonts/ZenOldMincho/ZenOldMincho-Regular.ttf" # Zen Old Mincho is used for Playfair in Japanese
             "fonts/SB-Aggro/SB-Aggro-M.ttf" # SB-Aggro is used for Playfair in Korean
