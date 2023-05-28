@@ -36,3 +36,4 @@ pmg_strategic_approaches = {
 		pm_human_wave_offensive
 	}
 }
+

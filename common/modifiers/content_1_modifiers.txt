@@ -1070,6 +1070,7 @@ land_reclamation_complete = {
 	country_prestige_add = 50
 }
 
+
 popular_autocrat = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	character_popularity_add = 50

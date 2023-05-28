@@ -22,6 +22,7 @@ building_barracks = {
 		pmg_specialist_companies
 		pmg_medical_aid
 		pmg_strategic_approaches
+		
 	}
 
 	required_construction = construction_cost_very_low
