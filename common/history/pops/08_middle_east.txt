@@ -770,7 +770,7 @@
 		region_state:PER = {
 			create_pop = {
 				culture = persian
-				size = 1476096
+				size = 876096
 			}
 			create_pop = {
 				culture = sephardic
@@ -892,7 +892,7 @@
 		region_state:PER = {
 			create_pop = {
 				culture = persian
-				size = 1643804
+				size = 1043804
 			}
 			create_pop = {
 				culture = sephardic
@@ -930,7 +930,7 @@
 		region_state:PER = {
 			create_pop = {
 				culture = persian
-				size = 2639196
+				size = 1639196
 			}
 			create_pop = {
 				culture = sephardic

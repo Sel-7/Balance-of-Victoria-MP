@@ -3,6 +3,10 @@
 		# Exact date?
 		set_next_election_date = 1839.1.1
 		
+		add_technology_researched = atmospheric_engine
+		add_technology_researched = railways
+		add_technology_researched = mechanical_tools
+		
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 

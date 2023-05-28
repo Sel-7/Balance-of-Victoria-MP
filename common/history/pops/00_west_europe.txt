@@ -674,7 +674,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 1964404
+				size = 2664404
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -738,7 +738,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 664796
+				size = 964796
 			}
 			create_pop = {
 				culture = slovene
@@ -750,7 +750,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 559304
+				size = 859304
 			}
 		}
 	}

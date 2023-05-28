@@ -44,11 +44,11 @@ STATE_NORTH_BORNEO = {
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
-        undiscovered_amount = 21
+        undiscovered_amount = 16
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 91
+        undiscovered_amount = 62
     }
     naval_exit_id = 3055
 }
@@ -75,12 +75,12 @@ STATE_WEST_BORNEO = {
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
-        undiscovered_amount = 9
-        discovered_amount = 36
+        undiscovered_amount = 29
+        discovered_amount = 15
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 65
+        undiscovered_amount = 43
     }
     naval_exit_id = 3052
 }
@@ -237,7 +237,7 @@ STATE_SOUTH_SUMATRA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 131
+        undiscovered_amount = 59
     }
     resource = {
         type = "bg_oil_extraction"
@@ -265,7 +265,7 @@ STATE_ACEH = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 130
+        undiscovered_amount = 65
     }
     resource = {
         type = "bg_oil_extraction"
@@ -293,7 +293,7 @@ STATE_WESTERN_NEW_GUINEA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 126
+        undiscovered_amount = 90
     }
     resource = {
         type = "bg_oil_extraction"
@@ -319,7 +319,7 @@ STATE_MOLUCCAS = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 197
+        undiscovered_amount = 97
     }
     naval_exit_id = 3125
 }
@@ -368,7 +368,7 @@ STATE_EASTERN_NEW_GUINEA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 264
+        undiscovered_amount = 102
     }
     resource = {
         type = "bg_oil_extraction"

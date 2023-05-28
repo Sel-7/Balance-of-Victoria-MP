@@ -236,6 +236,23 @@ rifling = {
 	}
 }
 
+ammo_quality_standards = {
+	# Unlocks Rifles PM in Arms Industry
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
+	category = military
+	
+	modifier = {
+		unit_army_offense_mult = 0.05
+		unit_kill_rate_add = 0.10
+		
+	}
+	
+	unlocking_technologies = {	
+		rifling
+	}
+}
+
 general_staff = {
 	# Unlocks Skirmish Infantry PM in Barracks / Conscription Centers
 	era = era_2
@@ -339,7 +356,7 @@ military_statistics = {
 	category = military
 	
 	modifier = {
-		building_mobilization_cost_mult = -0.2
+		building_mobilization_cost_mult = -0.10
 	}
 	
 	unlocking_technologies = {	
@@ -356,7 +373,7 @@ repeaters = {
 	category = military
 	
 	unlocking_technologies = {	
-		rifling
+		ammo_quality_standards
 	}
 }
 
@@ -369,7 +386,7 @@ breech_loading_artillery = {
 	category = military
 	
 	unlocking_technologies = {	
-		rifling
+		ammo_quality_standards
 		shell_gun
 	}
 }
@@ -507,6 +524,21 @@ war_propaganda = {
 	}
 }
 
+defensive_tactics = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/defense_in_depth.dds"
+	category = military
+	
+	modifier = {
+		unit_army_defense_add = 10
+		unit_kill_rate_add = 0.10
+	}
+	
+	unlocking_technologies = {	
+		military_statistics
+	}
+}
+
 wargaming = {
 	# #todo#! Does nothing yet
 	era = era_4
@@ -514,12 +546,12 @@ wargaming = {
 	category = military
 
 	modifier = {
-		unit_morale_loss_mult = -0.05
 		country_war_exhaustion_casualties_mult = -0.30
 	}
 	
 	unlocking_technologies = {
-		military_statistics
+		war_propaganda
+		breech_loading_artillery
 	}
 }
 
@@ -537,8 +569,7 @@ defense_in_depth = {
 	}
 	
 	unlocking_technologies = {	
-		general_staff
-		electric_telegraph
+		defensive_tactics
 	}
 }
 
@@ -664,7 +695,7 @@ chemical_warfare = {
 	category = military
 	
 	unlocking_technologies = {	
-		automatic_machine_guns
+		flamethrowers
 	}
 }
 
@@ -709,6 +740,7 @@ mobile_armor = {
 		military_aviation
 		concrete_fortifications
 		nco_training
+		chemical_warfare
 	}
 }
 

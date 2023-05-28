@@ -2,7 +2,7 @@
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
-		building_coal_mine_throughput_mult = 0.1
+		building_coal_mine_throughput_mult = 0.10
 		building_iron_mine_throughput_mult = 0.25
 	}
 }
@@ -127,8 +127,9 @@ state_trait_alps_mountains = {
     icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 		
 	modifier = {
-		state_construction_mult = -0.15
 		state_infrastructure_mult = -0.15
+		building_coal_mine_throughput_mult = 0.10
+		building_iron_mine_throughput_mult = 0.10
 	}
 }
 
@@ -136,7 +137,6 @@ state_trait_pyrenees_mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
-		state_construction_mult = -0.15
 		state_infrastructure_mult = -0.15
 	}
 }
@@ -155,7 +155,7 @@ state_trait_american_expansion = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.08
+		state_birth_rate_mult = 0.05
 	}
 }
 
@@ -163,14 +163,14 @@ state_trait_germanic_explosion = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.07
+		state_birth_rate_mult = 0.04
 	}
 }
 state_trait_latin_romance = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.05
+		state_birth_rate_mult = 0.03
 	}
 }
 
@@ -178,7 +178,7 @@ state_trait_east_asian_explosion = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.06
+		state_birth_rate_mult = 0.02
 	}
 }
 
@@ -186,7 +186,7 @@ state_trait_scandanavian_healthcare = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.03
+		state_birth_rate_mult = 0.02
 	}
 }
 
@@ -194,9 +194,7 @@ state_trait_british_industrialisation = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_birth_rate_mult = 0.03
-		state_migration_pull_mult = 0.5
-		state_construction_mult = 0.05
+		state_birth_rate_mult = 0.02
 	}
 }
 
@@ -204,7 +202,7 @@ state_trait_turkish_growth = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_accepted_birth_rate_mult = 0.05
+		state_accepted_birth_rate_mult = 0.03
 	}
 }
 
@@ -212,7 +210,7 @@ state_trait_fields_of_the_europe = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_accepted_birth_rate_mult = 0.05
+		state_accepted_birth_rate_mult = 0.02
 		building_group_bg_agriculture_throughput_mult = 0.15
 	}
 }
@@ -221,8 +219,7 @@ state_north_italian_industrialisation = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		state_construction_mult = 0.10
-		state_accepted_birth_rate_mult = 0.03
+		state_accepted_birth_rate_mult = 0.02
 		state_infrastructure_mult = 0.10
 	}
 }
@@ -232,5 +229,18 @@ state_trait_south_italian_agrarianism = {
 
 	modifier = {
 		building_group_bg_agriculture_throughput_mult = 0.15
+	}
+}
+
+state_trait_indian_stagnation = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+		state_birth_rate_mult = -0.15
+		state_construction_mult = -0.10
+		building_group_bg_agriculture_throughput_mult = 0.10
+		building_group_bg_plantations_throughput_mult = 0.10
+		building_group_bg_ranching_throughput_mult = 0.10
+		building_group_bg_logging_throughput_mult = 0.10
 	}
 }

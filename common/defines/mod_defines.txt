@@ -11,21 +11,22 @@
 	MIGRATION_PULL_MULT_FROM_HOMELANDS = 0.25				# Migration pull  multiplier increased by this if pop is moving to cultural homelands (not applied to mass migration targets)
 	
 	# General factors for how many pops will migrate
-	MIGRATION_PULL_HIGH_THRESHOLD = 1.25					#	State must have a migration pull of at least market average * this to get economic immigration
-	MIGRATION_PULL_LOW_THRESHOLD = 0.75						# State must have a migration pull of less or equal than market average * this to get full amount of emigration
+	MIGRATION_PULL_HIGH_THRESHOLD = 1.25						#	State must have a migration pull of at least market average * this to get economic immigration
+	MIGRATION_PULL_LOW_THRESHOLD = 0.75							# State must have a migration pull of less or equal than market average * this to get full amount of emigration
 	ECONOMIC_MIGRATION_BASE = 0.01								# Base amount of a pop that wants to move for economic reasons
-	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.01			# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
-	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 50000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.01				# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 500000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
 	CULTURAL_MIGRATION_BASE = 0.025								# Base amount of a pop that wants to move due to mass migration
 	CULTURAL_MIGRATION_FROM_RADICALS = 0.05						# At 100% radicals, this fraction of the pop wants to mass migrate
 	MIGRATION_UNEMPLOYMENT_MULT = 10.0							# Amount of migration from SoL is increased by this when a pop is unemployed
 	MIGRATION_MIN_STATE_POPS = 20000							# A state with less pops than this will not get emigration
 	MIGRATION_MIN_POP_AMOUNT = 1								# No less than this amount of a pop can migrate each week (if any migration at all should happen)
 	MIGRATION_MAX_POP_AMOUNT = 10000							# No more than this amount of a pop can migrate each week
-	MIGRATION_MAX_PER_STATE_BASE = 500					# No more than this amount of people can move from or to a state in a single week (base)	
+	MIGRATION_MAX_PER_STATE_BASE = 500							# No more than this amount of people can move from or to a state in a single week (base)	
 	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 2					# No more than this amount of people can move from or to a state in a single week (scales with infrastructure)
-	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.0005	# The amount of unemployed workers in a state * this value is added to how many people can move from it
-	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_TARGET_FRACTION = 0.0005	# The amount of unemployed workers in a state * this value is removed from how many people can move to it
+	MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION = 0.0005	# Max emigration per week is clamped to this fraction of a state's population
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.005	# The amount of unemployed workers in a state * this value is added to how many people can move from it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_TARGET_FRACTION = 0.005	# The amount of unemployed workers in a state * this value is removed from how many people can move to it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	MIGRATION_MAX_PER_STATE_CULTURAL_EMIGRATION_MULT = 3.0		# Weekly emigration caps are multiplied by this amount by this for cultural-type migration (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	MIGRATION_MAX_PER_STATE_CULTURAL_IMMIGRATION_MULT = 8.0		# Weekly immigration caps are multiplied by this amount by this for cultural-type migration (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	MIGRATION_AVERAGE_ATTRACTION_EMIGRATION_MULT = 0.25			# States with an average migration attraction gets this multiplier to emigrants
@@ -56,7 +57,7 @@
 } 
 
 ### Pop Growth Constants   
-@min_birthrate = 0.0013
+@min_birthrate = 0.0012
 @max_birthrate = 0.0038
 @min_mortality = 0.0020
 @max_mortality = 0.0070
@@ -85,16 +86,18 @@ NTechnology = {
 }
 
 NEconomy = { 
-		DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 3		# How many years does it take for penalties from declaring bankruptcy to fully decay
+		DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 5		# How many years does it take for penalties from declaring bankruptcy to fully decay
 		PRICE_RANGE = 0.60
 		URBANIZATION_PER_BUILDING = 100
 		}
 NAI = {
 	AUTONOMOUS_INVESTMENT_CONSTRUCTION_ENABLED = no # If this is set to no, the autonomous investment AI won't construct anything even if the game rule for it is enabled
+	PRODUCTION_METHOD_DEFICIT_FACTOR = 40.0
+	PRODUCTION_METHOD_INCREASE_OUTPUT_PENALTY_FACTOR = 0.05
 }
 
 NWar = {
-	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.1 #0.25
+	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.2 #0.25
 	WAR_EXHAUSTION_KIA_BATTLES_LOST_MULTIPLIER = 0.3 #0.75
 	MAX_SIMULTANEOUS_BATTLES = 1  #1
 	LOCK_PROVINCE_CAPTURE_TO_SINGLE_STATE = yes #no
@@ -122,4 +125,10 @@ NDiplomacy = {
 	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 2.0
 	WAR_GOAL_INFAMY_UNIFICATION = 0.8
 	WAR_GOAL_INFAMY_REGIME_CHANGE = 0.2
+}
+
+NPolitics = {
+	POWERFUL_IG_THRESHOLD = 0.25		# Interest groups with more Clout than this are considered to be influential
+	POWERFUL_IG_CUTOFF = 0.18		# Powerful interest groups with less Clout than this will stop being influential
+	POWERFUL_IG_TRAIT_BONUS = 0.5		# The effects of all trait modifiers from influential IGs are increased by this, 1 = +100%
 }

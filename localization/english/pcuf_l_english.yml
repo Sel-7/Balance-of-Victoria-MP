@@ -23,6 +23,7 @@
  pm_change_of_strategy:0 "Drill Changes"
  state_trait_south_italian_agrarianism:0 "Southern Agrarianism"
  state_north_italian_industrialisation:0 "Northern Industrialisation"
+ state_trait_indian_stagnation:0 "Indian Stagnation"
  
  
  pm_no_fertilizer_coffee:0 "No Fertilizer"
