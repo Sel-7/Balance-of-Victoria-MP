@@ -103,4 +103,42 @@ annex_commonwealth = {
 	}
 }
 
+5_yr_plan = {
+	is_shown = {
+		exists = c:CHI
+		this = c:CHI
+		custom_tooltip = {
+			NOT = { has_variable = 5yrplan_cooldown }
+		}
+	}
 
+	possible = {
+		game_date > 1864.12.30
+		bureaucracy > 500
+		is_at_war = no
+		custom_tooltip = {
+			NOT = { has_variable = 5yrplan_cooldown }
+		}
+		
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_5yrplan
+			days = 1826.25 # permanent until removed
+		}
+		set_variable = {
+			name = 5yrplan_cooldown
+			days = -1
+		}
+	}
+	ai_chance = {
+		base = 5
+		modifier = {
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
+		}		
+	}
+}
