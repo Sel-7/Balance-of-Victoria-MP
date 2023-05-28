@@ -1,6 +1,6 @@
 namespace = BOVM_FLA
 
-BOVM_FLA.1
+BOVM_FLA.1 = {
 	type = country_event
 	placement = ROOT
 	title = BOVM_FLA.1.t
