@@ -262,7 +262,7 @@ debug_ig_clout = {
 
 economy_of_scale = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_throughput_mult = 0.01
+	building_throughput_mult = 0.006
 }
 
 pm_retooling = {
