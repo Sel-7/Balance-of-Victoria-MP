@@ -1,6 +1,10 @@
 ﻿china_authority = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_authority_mult = 0.2
+	unit_offense_mult = 0.10
+	unit_defense_mult = 0.10
+	state_mortality_mult = -0.20
+	state_birth_rate_mult = 0.05
 }
 
 china_welfare = {
@@ -12,7 +16,7 @@ opium_wars_lost = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	country_prestige_mult = -0.10
 	state_birth_rate_mult = -0.30
-	state_construction_mult = -0.25
+	state_construction_mult = -0.15
 	state_standard_of_living_add = -1
 	
 }
@@ -29,9 +33,9 @@ opium_wars_export_modifier = {
 
 opium_wars_addiction_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-	unit_offense_mult = -0.33
-	unit_defense_mult = -0.33
-	state_standard_of_living_add = -3
+	unit_offense_mult = -0.35
+	unit_defense_mult = -0.35
+	state_standard_of_living_add = -2
 	state_mortality_mult = 1.5
 
 }

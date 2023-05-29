@@ -25,3 +25,31 @@ je_minor_buff = {
 	progressbar = no
 	should_be_pinned_by_default = yes
 }
+
+je_austria_buff = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		BOVM_is_austria_country = yes
+	}
+	possible = {
+		hidden_trigger = { always = yes }
+	}
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		literacy_rate > 0.50
+		has_healthy_economy = yes
+	}
+	on_complete = {
+		trigger_event = {
+			id = BOVM_FLA.2
+		}
+	}
+	fail = {
+		always = no
+	}
+	progressbar = no
+	should_be_pinned_by_default = yes
+}

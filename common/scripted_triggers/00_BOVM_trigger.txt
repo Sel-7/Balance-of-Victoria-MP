@@ -16,3 +16,9 @@ BOVM_is_minor_mp_country = {
 		c:BUL = ROOT #Bulgaria
 	}
 }
+
+BOVM_is_austria_country = {
+	OR = {
+		c:AUS = ROOT #Austria
+	}
+}

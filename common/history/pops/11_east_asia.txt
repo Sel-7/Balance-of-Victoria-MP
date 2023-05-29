@@ -766,7 +766,7 @@
 		region_state:CAM = {
 			create_pop = {
 				culture = khmer
-				size = 3623202
+				size = 1623202
 			}
 			create_pop = {
 				culture = yue
@@ -792,7 +792,7 @@
 		region_state:SIA = {
 			create_pop = {
 				culture = thai
-				size = 4534004
+				size = 2534004
 			}
 			create_pop = {
 				culture = malay
@@ -813,7 +813,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 3441220
+				size = 2441220
 			}
 			create_pop = {
 				culture = miao
@@ -843,7 +843,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 3040333
+				size = 2040333
 			}
 			create_pop = {
 				culture = yue
@@ -869,7 +869,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 2152396
+				size = 1152396
 			}
 			create_pop = {
 				culture = vietnamese
@@ -1012,7 +1012,7 @@
 			}
 			create_pop = {
 				culture = thai
-				size = 3494312
+				size = 1494312
 			}
 			create_pop = {
 				culture = khmer
@@ -1115,7 +1115,7 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
-				size = 2787900
+				size = 1787900
 			}
 			create_pop = {
 				culture = mon
