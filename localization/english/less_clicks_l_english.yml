@@ -12,4 +12,5 @@
  tooltip_buildrailwaysxx:0 "#header Maximize Market Access #!\n$TOOLTIP_DELIMITER$\n#red #italic #bold #gold Railways#! has not yet been researched by [GetPlayer.GetName]"
  tooltip_buildrailways:0 "[GetPlayer.GetCustom('researchedrailwayscustom')]"
  tooltip_govadm:0 "#header Maximize Taxation Capacity #!\n$TOOLTIP_DELIMITER$\nClick this button to add as many government administration buildings as needed to the construction queue in order to maximize taxation capacity in incorporated states."
+ tooltip_university:0 "#header Maximize Education Access #!\n$TOOLTIP_DELIMITER$\nClick this button to add one university in every incorporated state, that doesn't already have one, to maximize education access."
  
