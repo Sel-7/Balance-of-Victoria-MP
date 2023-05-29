@@ -88,6 +88,41 @@ types production_methods
 					texture = "gfx/interface/illustrations/top_illus/top_illu_market.dds"
 				}
 				
+				button_icon_round_action_reworkbuttons = {
+					size = { 40 40 }
+					tooltip = "tooltip_university"
+					using = confirm_button_sound
+					onclick = "[GetScriptedGui('executelessclickuniversity').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					blockoverride "icon" {
+						texture = "gfx/interface/buttons/university_expansion_button.dds"
+					}
+					position = { 431 3 }
+				}
+
+				button_icon_round_action_reworkbuttons = {
+					size = { 40 40 }
+					tooltip = "tooltip_buildrailways"
+					using = confirm_button_sound
+					enabled = "[GetScriptedGui('check_if_has_researched_railways').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					onclick = "[GetScriptedGui('executelessclicksrailways').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					blockoverride "icon" {
+						texture = "gfx/interface/buttons/railroad_button.dds"
+					}
+					position = { 473 3 }
+				}
+				
+				
+				button_icon_round_action_reworkbuttons = {
+					size = { 40 40 }
+					tooltip = "tooltip_govadm"
+					using = confirm_button_sound
+					onclick = "[GetScriptedGui('executelessclicksgovadmin').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					blockoverride "icon" {
+						texture = "gfx/interface/buttons/government_administration_button.dds"
+					}
+					position = { 515 3 }
+				}
+				
 				flowcontainer = {
 					direction = vertical
 					parentanchor = center
@@ -552,7 +587,7 @@ types production_methods
 								visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessCountryProductionMethods( GetPlayer.Self ) ), '(int32)1' )]"
 								distribute_visual_state = no
 								inherit_visual_state = no
-								using = expand_button_bg_no_fade
+								using = expand_button_bg_dropdown
 								size = { 100% 100% }
 								onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenuForType(ProductionMethodsPanelEntry.AccessBuildingType, ProductionMethodGroup.AccessSelf, PdxGuiWidget.AccessSelf)]"
 							}
@@ -809,229 +844,52 @@ types production_methods
 							FancyTooltip_Building = {}
 						}
 						
-						
 						textbox = {
 							position = { 15 0 }
-							text = "#v [Building.GetState.GetName]#!"
-							size = { 115 30 }
+							raw_text = "#v [Building.GetState.GetName]#!"
+							size = { 305 30 }
 							align = left|nobaseline
 							elide = right
 							parentanchor = left|vcenter
-						}	
+						}
 
-						hbox = {
-							max_width = 416
-							min_width = 416
+						flowcontainer = {
 							parentanchor = right|vcenter
-							spacing = 20
-							margin_right = 10
+							position = { -10 0 }
+							spacing = 5
+
+							icon = {
+								visible = "[And(Not(Building.IsSubsistenceBuilding), Building.HasFailedHires)]"
+								size = { 28 28 }
+								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
+								parentanchor = vcenter
+								tooltip = "NOT_FULLY_EMPLOYED"
+							}
+
+							icon = {
+								visible = "[Building.ShouldShowAsNotHiring]"
+								size = { 28 28 }
+								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
+								parentanchor = vcenter
+								tooltip = "NOT_HIRING"
+							}
+
+							icon = {
+								visible = "[Building.ShouldShowAsHiring]"
+								size = { 28 28 }
+								parentanchor = vcenter
+								texture = "gfx/interface/icons/generic_icons/employment_not_full_hiring.dds"
+								tooltip = "TOOLTIP_BUILDING_HIRING"
+							}
 							
-							#Unemployeed
-							icon_with_number_and_bar_list = {
-								blockoverride "texture" {
-									texture = "gfx/interface/icons/pops_icons/unemployed.dds"
-								}
-								blockoverride "text" {
-									text = "#bold [Building.GetState.GetNumUnemployedWorkingAdults|Dv]"
-								}
-								blockoverride "tooltip" {
-									tooltip = "[concept_unemployed]"
-								}
-								blockoverride "bar_visible" {
-									visible = no
-								}
-								blockoverride "icon_size" {
-									size = { 22 22 }
-								}
-							}
-
-							#Peasants
-							icon_with_number_and_bar_list = {
-								blockoverride "texture" {
-									texture = "gfx/interface/icons/pops_icons/peasants.dds"
-								}
-								blockoverride "text" {
-									text = "#bold [Building.GetState.GetNumSubsistenceWorkingAdults|Dv]"
-								}
-								blockoverride "tooltip" {
-									tooltip = "[GetPopType('peasants').GetName]"
-								}
-								blockoverride "bar_visible" {
-									visible = no
-								}
-								blockoverride "icon_size" {
-									size = { 22 22 }
-								}
-							}
-
-							#Angestellt
-							icon_with_number_and_bar_list = {
-								visible = "[GetVariableSystem.Exists('buildinglist_option_percentage')]"
-
-								blockoverride "texture" {
-									texture = "gfx/interface/icons/generic_icons/population.dds"
-								}
-								blockoverride "text" {
-									text = "#variable [Building.GetEmploymentPercentage|0%]"
-								}
-								blockoverride "tooltip" {
-									tooltip = "TOOLTIP_BUILDING_EMPLOYMENT"
-								}
-								blockoverride "values" {
-										value = "[FixedPointToFloat(Building.GetEmploymentPercentage)]"
-										min = 0
-										max = 1
-								}
-							}
-
-							icon_with_number_and_bar_list = {
-								visible = "[Not(GetVariableSystem.Exists('buildinglist_option_percentage'))]"
-
-								blockoverride "texture" {
-									texture = "gfx/interface/icons/generic_icons/population.dds"
-								}
-								blockoverride "text" {
-									text = "#variable [Building.GetNoOfEmployed|k]"
-								}
-								blockoverride "tooltip" {
-									tooltip = "TOOLTIP_BUILDING_EMPLOYMENT"
-								}
-								blockoverride "values" {
-										value = "[FixedPointToFloat(Building.GetEmploymentPercentage)]"
-										min = 0
-										max = 1
-								}
-							}
-
-							#Reserves
-							#icon_with_number_and_bar_list_gold = {
-							#	visible = "[GetVariableSystem.Exists('buildinglist_option_percentage')]"
-#
-							#	blockoverride "texture" {
-							#		texture = "gfx/interface/icons/goods_icons/gold.dds"
-							#	}
-							#	blockoverride "text" {
-							#		text = "#variable [Building.GetEmploymentPercentage|0%]"
-							#	}
-							#	blockoverride "tooltip" {
-							#		tooltip = "TOOLTIP_BUILDING_EMPLOYMENT"
-							#	}
-							#	blockoverride "values" {
-							#			min = 0
-							#			max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
-							#			value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
-							#	}
-#
-							#	blockoverride "highlight" {
-							#		progressbar_highlight = {
-							#			visible = "[GreaterThanOrEqualTo_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
-							#		}	
-							#	}
-							#}
-
-							icon_with_number_and_bar_list_gold = {
-								#visible = "[Not(GetVariableSystem.Exists('buildinglist_option_percentage'))]"
-
-								blockoverride "texture" {
-									texture = "gfx/interface/icons/goods_icons/gold.dds"
-								}
-								blockoverride "text" {
-									text = "#variable [Building.GetCurrentCashReserves|k]"
-								}
-								blockoverride "tooltip" {
-									#using = cash_reserves_tooltip_with_graph
-								}
-								blockoverride "values" {
-										min = 0
-										max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
-										value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
-								}
-
-								blockoverride "highlight" {
-									progressbar_highlight = {
-										visible = "[GreaterThanOrEqualTo_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
-									}	
-								}
-							}
-
-							#Infrastructure
-							flowcontainer = {
-								spacing = 3
-								max_width = 55
-								
-								button_icon_round = {
-									size = { 30 30 }
-									tooltip = "[concept_infrastructure]"
-									blockoverride "icon" {
-										texture = "gfx/interface/icons/railway_expansion.dds"
-									}
-									blockoverride "icon_size" {
-										size = { 80% 80% }
-									}
-									enabled = "[IsValid( Building.GetState.GetBuilding('building_railway').QueueConstruction )]"
-									onclick = "[Execute( Building.GetState.GetBuilding('building_railway').QueueConstruction )]"
-								}
-
-								textbox = {
-									tooltip = "[concept_infrastructure]"
-									text = "#bold [Building.GetState.GetInfrastructureBalance|0+]"
-									visible = "[Not(GreaterThan_int32(Building.GetState.GetBuilding('building_railway').GetExpansionLevelsInQueue, '(int32)0'))]"
-									size = { 50 30 }
-									max_width = 50
-									using = fontsize_small
-									align = left|nobaseline
-									margin_top = 2
-								}
-
-								textbox = {
-									tooltip = "[concept_infrastructure]"
-									text = "#bold [Building.GetState.GetInfrastructureBalance|0+]#blue +[Building.GetState.GetBuilding('building_railway').GetExpansionLevelsInQueue]#!"
-									visible = "[GreaterThan_int32(Building.GetState.GetBuilding('building_railway').GetExpansionLevelsInQueue, '(int32)0')]"
-									size = { 50 30 }
-									max_width = 50
-									using = fontsize_small
-									align = left|nobaseline
-									margin_top = 2
-								}
-							}
-
-
-							#PROFITABLE
-							flowcontainer = {
-								visible = "[Not(GetVariableSystem.Exists('buildinglist_option_profit'))]"
-
-								spacing = 3
-								max_width = 70
-								
-								icon = {
-									size = { 25 25 }
-									tooltip = "TOOLTIP_BUILDING_PRODUCTIVITY"
-									texture = "gfx/interface/icons/productivity.dds"
-								}
-
-								textbox = {
-									widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
-									visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
-									tooltip = "TOOLTIP_BUILDING_PRODUCTIVITY"
-									text = "[Building.GetAverageAnnualEarningsPerEmployeeFormatted|1+]"
-									autoresize = yes
-									align = nobaseline
-								}
-							}
-
-							#PROFIT
-							flowcontainer = {
-								visible = "[GetVariableSystem.Exists('buildinglist_option_profit')]"
-
-								max_width = 70
-		
-								textbox = {
-									name = "tutorial_highlight_weekly_balance_building"
-									text = "@money!#v [Building.GetBalance|D+=]#!"
-									tooltip = "[Building.GetBalanceDesc]"
-									autoresize = yes
-									align = nobaseline
-								}
+							### PROFITABLE
+							textbox = {
+								widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+								visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
+								raw_text = "#tooltippable #tooltip:[Building.GetTooltipTag],TOOLTIP_BUILDING_PRODUCTIVITY,GraphTooltipTypeProfitability #v @money![Building.GetAverageAnnualEarningsPerEmployeeFormatted|1+]#!#!#!"
+								autoresize = yes
+								align = nobaseline
+								parentanchor = vcenter
 							}
 						}
 					}
@@ -1057,7 +915,7 @@ types production_methods
 								
 								button = {
 									visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
-									using = expand_button_bg_no_fade
+									using = expand_button_bg_dropdown
 									size = { 100% 100% }
 									onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.AccessSelf)]"
 								}
