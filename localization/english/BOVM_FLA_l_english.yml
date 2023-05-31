@@ -14,3 +14,6 @@
  je_austria_buff_reason:0 "We must educate our populace to begin the progress of industrialisation and urbanisation."
  je_austria_buff_goal:0 "Maintain a healthy economy and reach the required literacy rate."
  ammo_quality_standards:0 "Ammo Quality Standardisation"
+ pm_mp_18:0 "MP-18 SMG"
+ mp_18:0 "MP-18 SMG"
+ pm_mp_18_conscription:0 "MP-18 SMG"

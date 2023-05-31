@@ -138,6 +138,39 @@ pm_barracks_bolt_action_rifles = {
 	}
 }
 
+pm_mp_18 = {
+	texture = "gfx/interface/icons/production_method_icons/bolt_action_rifles.dds"
+
+	unlocking_technologies = {
+		mp_18
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_small_arms_add = 3
+			building_input_ammunition_add = 3
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 50
+			unit_defense_add = 40
+		}
+
+		unscaled = {
+			unit_morale_damage_mult = 0.40
+			unit_kill_rate_add = 0.40
+			unit_provinces_captured_mult = 0.25
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 8
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
 pm_barracks_no_guns_conscription = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 
@@ -270,6 +303,39 @@ pm_barracks_bolt_action_rifles_conscription = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_army_power_projection_add = 7
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
+pm_mp_18_conscription = {
+	texture = "gfx/interface/icons/production_method_icons/bolt_action_rifles.dds"
+
+	unlocking_technologies = {
+		mp_18
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_small_arms_add = 3
+			building_input_ammunition_add = 3
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 50
+			unit_defense_add = 40
+		}
+
+		unscaled = {
+			unit_morale_damage_mult = 0.40
+			unit_kill_rate_add = 0.40
+			unit_provinces_captured_mult = 0.25
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 8
 		}
 	}
 	timed_modifiers = {

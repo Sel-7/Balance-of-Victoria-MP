@@ -539,6 +539,20 @@ defensive_tactics = {
 	}
 }
 
+improved_logistics = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
+	category = military
+	
+	modifier = {
+		building_mobilization_cost_mult = -0.15
+	}
+	
+	unlocking_technologies = {	
+		defensive_tactics
+	}
+}
+
 wargaming = {
 	# #todo#! Does nothing yet
 	era = era_4
@@ -550,8 +564,7 @@ wargaming = {
 	}
 	
 	unlocking_technologies = {
-		war_propaganda
-		breech_loading_artillery
+		improved_logistics
 	}
 }
 
@@ -565,7 +578,7 @@ defense_in_depth = {
 	modifier = {
 		unit_morale_loss_mult = -0.05
 		# defensive bonus, either to the army or ideally to fortifications
-		unit_army_defense_mult = 0.1
+		unit_army_defense_mult = 0.15
 	}
 	
 	unlocking_technologies = {	
@@ -676,6 +689,17 @@ concrete_dockyards = {
 
 ### ERA 5
 
+mp_18 = {
+	# unlocks mp18 in barracks
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		bolt_action_rifles
+	}
+}
+
 nco_training = {
 	# Unlocks Advanced Officer Training PM in Barracks
 	era = era_5
@@ -683,8 +707,8 @@ nco_training = {
 	category = military
 	
 	unlocking_technologies = {
-		military_statistics
 		defense_in_depth
+		mp_18
 	}
 }
 
