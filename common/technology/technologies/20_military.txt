@@ -697,6 +697,7 @@ mp_18 = {
 	
 	unlocking_technologies = {	
 		bolt_action_rifles
+		automatic_machine_guns
 	}
 }
 
