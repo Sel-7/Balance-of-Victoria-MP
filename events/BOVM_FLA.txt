@@ -19,6 +19,10 @@ BOVM_FLA.1 = {
 		BOVM_is_minor_mp_country = yes
 	}
 	
+	duration = {
+		months = 2
+	}
+
 	option = {
 		name = BOVM_FLA.1.a
 		highlighted_option = yes	
@@ -49,6 +53,10 @@ BOVM_FLA.2 = {
 	trigger = {
 		BOVM_is_austria_country = yes
 	}
+
+	duration = {
+		months = 2
+	}
 	
 	option = {
 		name = BOVM_FLA.2.a
@@ -65,5 +73,66 @@ BOVM_FLA.2 = {
 BOVM_FLA.3 = { ### National Doctrine 
 	type = country_event
 	placement = root
+	title = BOVM_FLA.3.t
+	desc = BOVM_FLA.3.desc
 
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+		always = yes
+	}
+
+	duration = 2
+	
+
+	immediate = {
+		add_modifier = {
+			name = BOV_national_doctrine_CD
+			years = 5
+		}
+	}
+
+	option = {
+		name = BOVM_FLA.3.a
+		highlighted_option = yes
+		add_modifier = {
+			name = BOV_national_doctrine_mil
+			years = 5
+		}
+	}
+	option = {
+		name = BOVM_FLA.3.b
+		highlighted_option = yes
+		add_modifier = {
+			name = BOV_national_doctrine_industry
+			years = 5
+		}
+	}
+	option = {
+		name = BOVM_FLA.3.c
+		highlighted_option = yes
+		add_modifier = {
+			name = BOV_national_doctrine_society
+			years = 5
+		}
+	}
+	option = {
+		name = BOVM_FLA.3.d
+		highlighted_option = yes
+		add_modifier = {
+			name = BOV_national_doctrine_diplomacy
+			years = 5
+		}
+	}
+	option = {
+		name = BOVM_FLA.3.e
+		remove_modifier = BOV_national_doctrine_CD
+	}
 }

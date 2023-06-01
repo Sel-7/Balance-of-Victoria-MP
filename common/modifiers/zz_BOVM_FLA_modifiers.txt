@@ -8,3 +8,19 @@ BOVM_FLA_development_fast2 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	building_urban_center_throughput_mult = 0.20
 }
+
+BOV_national_doctrine_CD = {
+###Leave empty
+}
+BOV_national_doctrine_mil = {
+
+}
+BOV_national_doctrine_industry = {
+
+}
+BOV_national_doctrine_society = {
+
+}
+BOV_national_doctrine_diplomacy = {
+
+}

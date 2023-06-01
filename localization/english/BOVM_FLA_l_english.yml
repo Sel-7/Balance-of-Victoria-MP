@@ -14,3 +14,12 @@
  je_austria_buff_reason:0 "We must educate our populace to begin the progress of industrialisation and urbanisation."
  je_austria_buff_goal:0 "Maintain a healthy economy and reach the required literacy rate."
  ammo_quality_standards:0 "Ammo Quality Standardisation"
+
+ ###National Doctrine
+ BOVM_FLA.3.t:0 "The National Doctrine"
+ BOVM_FLA.3.desc:0 "Our nation is currently in a balanced state of affairs, however we could change these affairs to better suit our nations needs."
+ BOVM_FLA.3.a:0 "Enact the Military Doctrine"
+ BOVM_FLA.3.b:0 "Enact the Industrial Doctrine"
+ BOVM_FLA.3.c:0 "Enact the Societal Doctrine"
+ BOVM_FLA.3.d:0 "Enact the Diplomatic Doctrine"
+ BOVM_FLA.3.e:0 "Stay with the current state of affairs"
