@@ -12,15 +12,31 @@ BOVM_FLA_development_fast2 = {
 BOV_national_doctrine_CD = {
 ###Leave empty
 }
+
 BOV_national_doctrine_mil = {
-
+	country_bureaucracy_mult = -0.1
+	unit_offense_mult = 0.10
+	unit_defense_mult = 0.10
+	building_mobilization_cost_mult = -0.15
+	interest_group_ig_armed_forces_approval_add = 3
 }
+
 BOV_national_doctrine_industry = {
-
+	country_bureaucracy_mult = -0.1
+	building_group_bg_manufacturing_throughput_mult = 0.05
+	building_urban_center_throughput_mult = 0.10
+	interest_group_ig_industrialists_approval_add = 3
 }
+
 BOV_national_doctrine_society = {
-
+	country_bureaucracy_mult = -0.1
+	state_education_access_add = 0.10
+	country_weekly_innovation_add = 10
+	interest_group_ig_intelligentsia_approval_add = 3
 }
-BOV_national_doctrine_diplomacy = {
 
+BOV_national_doctrine_diplomacy = {
+	country_bureaucracy_mult = -0.10
+	country_infamy_decay_mult = 0.25
+	interest_group_ig_petty_bourgeoisie_approval_add = 3
 }
