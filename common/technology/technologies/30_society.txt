@@ -111,6 +111,10 @@ international_trade = {
 	texture = "gfx/interface/icons/invention_icons/international_trade.dds"
 	category = society
 	
+	modifier = {
+	market_land_trade_capacity_add = 50
+	}
+	
 	unlocking_technologies = {
 		tech_bureaucracy
 	}
@@ -211,7 +215,7 @@ stock_exchange = {
 	
 	modifier = {
 		country_trade_route_cost_mult = -0.25
-		country_trade_route_competitiveness_mult = 0.25
+		country_trade_route_competitiveness_mult = 0.30
 	}
 	
 	unlocking_technologies = {
@@ -240,7 +244,7 @@ mass_communication = {
 	category = society
 	
 	modifier = {
-		country_authority_mult = 0.1
+		country_authority_mult = 0.15
 	}
 	
 	unlocking_technologies = {
@@ -455,9 +459,8 @@ postal_savings = {
 	category = society
 	
 	modifier = {
-		state_farmers_investment_pool_efficiency_mult = 0.15
-		state_shopkeepers_investment_pool_efficiency_mult = 0.15
-		building_cash_reserves_mult = 0.2
+		country_trade_route_competitiveness_mult = 0.15
+		building_cash_reserves_mult = 0.20
 	}
 	
 	unlocking_technologies = {
@@ -505,7 +508,7 @@ steel_frame_buildings = {
 	modifier = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
-		market_land_trade_capacity_add = 10
+		market_land_trade_capacity_add = 20
 	}
 	
 	unlocking_technologies = {
@@ -632,6 +635,7 @@ identification_documents = {
 
 	modifier = {
 		state_tax_capacity_add = 25
+		country_trade_route_competitiveness_mult = 0.25
 		country_institution_home_affairs_max_investment_add = 1
 	}
 	
@@ -680,7 +684,7 @@ elevator = {
 	modifier = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
-		market_land_trade_capacity_add = 10
+		market_land_trade_capacity_add = 20
 	}	
 	
 	unlocking_technologies = {
@@ -739,7 +743,7 @@ political_agitation = {
 	
 	modifier = {
 		state_expected_sol_from_literacy = 1
-		country_authority_mult = 0.1
+		country_authority_mult = 0.20
 	}
 	
 	unlocking_technologies = {
@@ -759,8 +763,8 @@ international_exchange_standards = {
 	modifier = {
 		country_minting_mult = 0.05
 		country_loan_interest_rate_add = -0.02
-		country_trade_route_quantity_mult = 0.10
-		country_trade_route_competitiveness_mult = 0.10
+		country_trade_route_quantity_mult = 0.155
+		country_trade_route_competitiveness_mult = 0.40
 		
 	}
 	
@@ -809,7 +813,7 @@ multilateral_alliances = {
 	modifier = {
 		country_diplomatic_play_maneuvers_add = 25
 		country_allow_multiple_alliances = yes
-		country_infamy_decay_mult = 0.10
+		country_infamy_decay_mult = 0.15
 	}
 	
 	unlocking_technologies = {	
@@ -860,7 +864,7 @@ mass_propaganda = {
 	category = society
 	
 	modifier = {
-		country_authority_mult = 0.1
+		country_authority_mult = 0.15
 		state_expected_sol_from_literacy = 1
 	}
 	
@@ -876,7 +880,8 @@ modern_financial_instruments = {
 	category = society
 	modifier = {
 		country_minting_mult = 0.05
-		country_loan_interest_rate_add = -0.02		
+		country_loan_interest_rate_add = -0.02	
+		country_trade_route_competitiveness_mult = 0.10		
 	}
 	unlocking_technologies = {
 		international_exchange_standards
@@ -891,7 +896,7 @@ macroeconomics = {
 	
 	modifier = {
 		country_trade_route_quantity_mult = 0.5
-		country_trade_route_competitiveness_mult = 0.25
+		country_trade_route_competitiveness_mult = 0.30
 	}
 	
 	unlocking_technologies = {
@@ -934,7 +939,7 @@ paved_roads = {
 	modifier = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
-		market_land_trade_capacity_add = 10
+		market_land_trade_capacity_add = 20
 	}
 	
 	unlocking_technologies = {	

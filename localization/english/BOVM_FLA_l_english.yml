@@ -23,3 +23,11 @@
  BOVM_FLA.3.c:0 "Enact the Societal Doctrine"
  BOVM_FLA.3.d:0 "Enact the Diplomatic Doctrine"
  BOVM_FLA.3.e:0 "Stay with the current state of affairs"
+
+ pm_mp_18:0 "MP-18 SMG"
+ mp_18:0 "MP-18 SMG"
+ pm_mp_18_conscription:0 "MP-18 SMG"
+ defensive_tactics:0 "Defensive Tactics"
+ improved_logistics:0 "Improved Logistics"
+ 5_yr_plan.t:0 "The Great Leap Forward"
+ 5_yr_plan.d:0 "It is time to send our nation into the future, what's the worse that could happen?"
