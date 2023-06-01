@@ -15,8 +15,6 @@ BOVM_FLA.1 = {
 
 	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
 
-	duration = 3 #??? idk wtf this does
-
 	trigger = {
 		BOVM_is_minor_mp_country = yes
 	}
@@ -31,4 +29,41 @@ BOVM_FLA.1 = {
 			}
 		}
 	}
+}
+
+BOVM_FLA.2 = {
+	type = country_event
+	placement = ROOT
+	title = BOVM_FLA.2.t
+	desc = BOVM_FLA.2.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+		BOVM_is_austria_country = yes
+	}
+	
+	option = {
+		name = BOVM_FLA.2.a
+		highlighted_option = yes	
+		ROOT = {
+			add_modifier = {
+				name = BOVM_FLA_development_fast2
+				months = 60
+			}
+		}
+	}
+}
+
+BOVM_FLA.3 = { ### National Doctrine 
+	type = country_event
+	placement = root
+
 }
