@@ -8,6 +8,7 @@
  build_administrations_desc:0 "Adds just enough government administrations everywhere to ensure taxation capacity"
  build_administrations_tooltip:0 "Click to build more government administrations"
  
+ tooltip_nationaldoctrine:0 "#header Choose a Doctrine #!\n$TOOLTIP_DELIMITER$\nChoose a doctrine for the nation to follow over the next 5 years."
  tooltip_buildrailwaysx:0 "#header Maximize Market Access #!\n$TOOLTIP_DELIMITER$\nClick this button to add as many railways as needed to the construction queue in order to maximize market access."
  tooltip_buildrailwaysxx:0 "#header Maximize Market Access #!\n$TOOLTIP_DELIMITER$\n#red #italic #bold #gold Railways#! has not yet been researched by [GetPlayer.GetName]"
  tooltip_buildrailways:0 "[GetPlayer.GetCustom('researchedrailwayscustom')]"
