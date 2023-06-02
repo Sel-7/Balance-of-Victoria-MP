@@ -15,12 +15,10 @@ BOVM_FLA.1 = {
 
 	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
 
+	duration = 3
+
 	trigger = {
 		BOVM_is_minor_mp_country = yes
-	}
-	
-	duration = {
-		months = 2
 	}
 
 	option = {
@@ -54,9 +52,7 @@ BOVM_FLA.2 = {
 		BOVM_is_austria_country = yes
 	}
 
-	duration = {
-		months = 2
-	}
+	duration = 3
 	
 	option = {
 		name = BOVM_FLA.2.a
@@ -89,7 +85,7 @@ BOVM_FLA.3 = { ### National Doctrine
 		always = yes
 	}
 
-	duration = 2
+	duration = 3
 	
 
 	immediate = {
@@ -135,4 +131,6 @@ BOVM_FLA.3 = { ### National Doctrine
 		name = BOVM_FLA.3.e
 		remove_modifier = BOV_national_doctrine_CD
 	}
+=======
+>>>>>>> parent of 4ce836a (BOVM file cleanup)
 }

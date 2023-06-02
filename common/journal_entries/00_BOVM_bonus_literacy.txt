@@ -11,7 +11,7 @@ je_minor_buff = {
 		scope:journal_entry = {
 			is_goal_complete = yes
 		}
-		literacy_rate > 0.4
+		literacy_rate > 0.45
 		has_healthy_economy = yes
 	}
 	on_complete = {
