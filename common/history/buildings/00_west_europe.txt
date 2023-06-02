@@ -25,12 +25,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}			
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}			
 			create_building={
 				building="building_university"
 				level=1
@@ -325,12 +325,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}		
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_shipyards"
 				level=2
@@ -629,12 +629,12 @@
 				reserves=1
 				activate_production_methods={ "pm_traditional_art" }
 			}			
-			create_building={
-				building="building_construction_sector"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=3
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}				
 			create_building={
 				building="building_university"
 				level=1
@@ -729,12 +729,12 @@
 				reserves=1
 				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=3
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}				
 			create_building={
 				building="building_arms_industry"
 				level=5
@@ -869,12 +869,12 @@
 				reserves=1
 				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}	
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}	
 			create_building={
 				building="building_textile_mills"
 				level=10
@@ -1231,12 +1231,12 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}				
 			create_building={
 				building="building_food_industry"
 				level=4
@@ -1443,12 +1443,12 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=3
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}				
 			create_building={
 				building="building_university"
 				level=5
@@ -1665,12 +1665,12 @@
 	}
 	s:STATE_RHONE={
 		region_state:FRA={
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}			
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}			
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -2255,12 +2255,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_university"
 				level=2
@@ -2449,12 +2449,12 @@
 				reserves=1
 				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}			
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}			
 			create_building={
 				building="building_chemical_plants"
 				level=3
@@ -2513,12 +2513,12 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}			
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}			
 			create_building={
 				building="building_paper_mills"
 				level=1
@@ -2619,12 +2619,12 @@
 				reserves=1
 				activate_production_methods={ "pm_traditional_art" }
 			}			
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_university"
 				level=2
@@ -2701,12 +2701,12 @@
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_cannons" "pm_merchant_guilds_building_arms_industry" }
 			}			
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_university"
 				level=1
@@ -3185,12 +3185,12 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=2
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}				
 			create_building={
 				building="building_tooling_workshops"
 				level=8
@@ -3297,12 +3297,12 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=3
+			#	reserves=1
+			#	activate_production_methods={ "pm_iron_frame_buildings" }
+			#}				
 			create_building={
 				building="building_university"
 				level=4
@@ -3621,12 +3621,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}				
+			#create_building={
+			#	building="building_construction_sector"
+			#	level=1
+			#	reserves=1
+			#	activate_production_methods={ "pm_wooden_buildings" }
+			#}				
 			create_building={
 				building="building_glassworks"
 				level=2
