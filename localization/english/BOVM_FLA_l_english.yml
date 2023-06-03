@@ -13,7 +13,7 @@
  je_austria_buff:0 "Austrian Education"
  je_austria_buff_reason:0 "We must educate our populace to begin the progress of industrialisation and urbanisation."
  je_austria_buff_goal:0 "Maintain a healthy economy and reach the required literacy rate."
- ammo_quality_standards:0 "Ammo Quality Standardisation"
+
 
  ###National Doctrine
  BOVM_FLA.3.t:0 "The National Doctrine"
@@ -23,11 +23,20 @@
  BOVM_FLA.3.c:0 "Enact the Societal Doctrine"
  BOVM_FLA.3.d:0 "Enact the Diplomatic Doctrine"
  BOVM_FLA.3.e:0 "Stay with the current state of affairs"
+ BOV_national_doctrine_industry:0 "Industrial National Doctrine"
+ BOV_national_doctrine_society:0 "Societal National Doctrine"
+ BOV_national_doctrine_diplomacy:0 "Diplomatic National Doctrine"
+ BOV_national_doctrine_mil:0 "Militaristic National Doctrine"
+ BOV_national_doctrine_CD:0 "National Doctrine Accepted"
+ modifier_5yrplan:0 "The Great Leap"
 
  pm_mp_18:0 "MP-18 SMG"
  mp_18:0 "MP-18 SMG"
  pm_mp_18_conscription:0 "MP-18 SMG"
  defensive_tactics:0 "Defensive Tactics"
  improved_logistics:0 "Improved Logistics"
- 5_yr_plan.t:0 "The Great Leap Forward"
- 5_yr_plan.d:0 "It is time to send our nation into the future, what's the worse that could happen?"
+ 5_yr_plan:0 "The Great Leap Forward"
+ 5_yr_plan_desc:0 "It is time to send our nation into the future, what's the worse that could happen?"
+ ammo_quality_standards:0 "Ammo Quality Standardisation"
+ annex_commonwealth:0 " Annex the Commonwealth"
+ annex_commonwealth_desc:0 "Bring the British Commonwealth under direct ownership."

@@ -90,12 +90,12 @@ types production_methods
 				
 				button_icon_round_action_reworkbuttons = {
 					size = { 40 40 }
-					tooltip = "tooltip_buildrailways"
+					tooltip = "tooltip_nationaldoctrine"
 					using = confirm_button_sound
 					enabled = "[GetScriptedGui('check_national_doctrine').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 					onclick = "[GetScriptedGui('BOV_national_doctrine').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 					blockoverride "icon" {
-						texture = "gfx/interface/buttons/railroad_button.dds"
+						texture = "gfx/interface/buttons/nationalism.dds"
 					}
 					position = { 42 3 }
 				}

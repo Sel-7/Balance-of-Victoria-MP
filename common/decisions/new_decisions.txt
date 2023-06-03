@@ -87,7 +87,7 @@ annex_commonwealth = {
 	}
 
 	possible = {
-		game_date > 1855.12.30
+		game_date > 1865.12.30
 		c:HBC = {
 			is_player = no
 			is_junior_in_customs_union = yes
