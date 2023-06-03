@@ -1,13 +1,13 @@
 BOVM_is_minor_mp_country = {
 	OR = {
-		c:SPA = ROOT #Spain
-		c:IBE = ROOT #Iberia
-		c:SWE = ROOT #Sweden
-		c:SCA = ROOT #Scandinavia
-		c:NET = ROOT #Netherlands
-		c:BRZ = ROOT #Brazil
-		c:PAG = ROOT #Patria Grande
-		c:BNL = ROOT #Benelux
+		exists = c:SPA
+		exists = c:IBE
+		exists = c:SWE
+		exists = c:SCA
+		exists = c:NET
+		exists = c:BNL
+		exists = c:BRZ
+		exists = c:PAG
 	}
 }
 
