@@ -4,9 +4,11 @@ je_minor_buff = {
 	is_shown_when_inactive = {
 		BOVM_is_minor_mp_country = yes
 	}
+	
 	possible = {
 		hidden_trigger = { always = yes }
 	}
+	
 	complete = {
 		scope:journal_entry = {
 			is_goal_complete = yes
@@ -14,6 +16,7 @@ je_minor_buff = {
 		literacy_rate > 0.45
 		has_healthy_economy = yes
 	}
+	
 	on_complete = {
 		trigger_event = {
 			id = BOVM_FLA.1

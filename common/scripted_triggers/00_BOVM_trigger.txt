@@ -1,18 +1,45 @@
 BOVM_is_minor_mp_country = {
 	OR = {
-		exists = c:SPA
-		exists = c:IBE
-		exists = c:SWE
-		exists = c:SCA
-		exists = c:NET
-		exists = c:BNL
-		exists = c:BRZ
-		exists = c:PAG
+		AND = {
+			c:SPA = ROOT #Spain
+			is_player = yes
+		}
+		AND = {
+			c:IBE = ROOT #Iberia
+			is_player = yes
+		}
+		AND = {
+			c:SWE = ROOT #Sweden
+			is_player = yes
+		}
+		AND = {
+			c:SCA = ROOT #Scandinavia
+			is_player = yes
+		}
+		AND = {
+			c:NET = ROOT #Netherlands
+			is_player = yes
+		}
+		AND = {
+			c:BRZ = ROOT #Brazil
+			is_player = yes
+		}
+		AND = {
+			c:PAG = ROOT #Patria Grande
+			is_player = yes
+		}
+		AND = {
+			c:BNL = ROOT #Benelux
+			is_player = yes
+		}
 	}
 }
 
 BOVM_is_austria_country = {
 	OR = {
-		c:AUS = ROOT #Austria
+		AND = {
+			c:AUS = ROOT #Austria
+			is_player = yes
+		}
 	}
 }
