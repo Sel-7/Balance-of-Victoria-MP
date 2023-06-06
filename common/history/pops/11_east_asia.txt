@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_DZUNGARIA = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = uighur
 				size = 412588
@@ -21,7 +21,7 @@
 		}
 	}
 	s:STATE_TIANSHAN = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = uighur
 				size = 684180
@@ -54,7 +54,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4479900
+				size = 2479900
 			}
 		}
 	}
@@ -62,7 +62,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 3778092
+				size = 2778092
 			}
 			create_pop = {
 				culture = manchu
@@ -71,7 +71,7 @@
 			create_pop = {
 				culture = han # nanfaren
 				religion = animist
-				size = 1416000
+				size = 716000
 			}
 			create_pop = {
 				culture = zhuang
@@ -100,7 +100,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 3188452
+				size = 1588452
 			}
 			create_pop = {
 				culture = manchu
@@ -142,7 +142,7 @@
 		}
 	}
 	s:STATE_ALXA = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = mongol
 				size = 476392
@@ -158,7 +158,7 @@
 		}
 	}
 	s:STATE_HINGGAN = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = mongol
 				size = 536940
@@ -177,7 +177,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4306504
+				size = 2306504
 			}
 			create_pop = {
 				culture = manchu
@@ -185,11 +185,11 @@
 			}
 			create_pop = {
 				culture = zhuang
-				size = 2212000
+				size = 1212000
 			}
 			create_pop = {
 				culture = yue
-				size = 3051996
+				size = 2051996
 			}
 			create_pop = {
 				culture = miao
@@ -198,10 +198,10 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 14597600
+				size = 6597600
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -215,7 +215,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 1291006
@@ -232,7 +232,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = manchu
 				size = 1303996
@@ -248,7 +248,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = manchu
 				size = 3210800
@@ -257,7 +257,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = manchu
 				size = 2821200
@@ -273,10 +273,10 @@
 		}
 	}
 	s:STATE_SHANXI = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 14377592
+				size = 6377592
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -290,10 +290,10 @@
 		}
 	}
 	s:STATE_NINGXIA = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6637392
+				size = 2437392
 			}
 			create_pop = {
 				culture = manchu
@@ -301,7 +301,7 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 1688000
+				size = 888000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -309,12 +309,22 @@
 				size = 492200
 			}
 		}
-	}
-	s:STATE_GANSU = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4233588
+				size = 125912
+			}
+			create_pop = {
+				culture = manchu
+				size = 21345
+			}
+		}
+	}
+	s:STATE_GANSU = {
+		region_state:TPG = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 2233588
 			}
 			create_pop = {
 				culture = manchu
@@ -322,7 +332,7 @@
 			}
 			create_pop = {
 				culture = mongol
-				size = 1735900
+				size = 1335900
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -336,10 +346,10 @@
 		}
 	}
 	s:STATE_XIAN = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 8351000
+				size = 4351000
 			}
 			create_pop = {
 				culture = manchu
@@ -347,7 +357,7 @@
 			}
 			create_pop = {
 				culture = mongol
-				size = 1122488
+				size = 522488
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -357,7 +367,7 @@
 		}
 	}
 	s:STATE_QINGHAI = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = tibetan
 				size = 819404
@@ -387,10 +397,16 @@
 		}
 	}
 	s:STATE_CHONGQING = {
+		region_state:QCR = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 4046404
+			}
+		}
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 9546404
+				size = 753102
 			}
 		}
 	}
@@ -398,7 +414,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = yue
-				size = 9748000
+				size = 5448000
 			}
 			create_pop = {
 				culture = manchu
@@ -450,7 +466,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = min
-				size = 9210004
+				size = 5210004
 			}
 			create_pop = {
 				culture = manchu
@@ -458,11 +474,11 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 4690204
+				size = 1490204
 			}
 			create_pop = {
 				culture = hakka
-				size = 2096000
+				size = 1096000
 			}
 			create_pop = {
 				culture = miao
@@ -471,10 +487,10 @@
 		}
 	}
 	s:STATE_ZHEJIANG = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6664400
+				size = 5664400
 			}
 			create_pop = {
 				culture = manchu
@@ -482,12 +498,12 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 2293708
+				size = 493708
 			}
 			create_pop = {
 				culture = min
 				religion = animist
-				size = 352000
+				size = 252000
 			}
 			create_pop = {
 				culture = miao
@@ -496,10 +512,10 @@
 		}
 	}
 	s:STATE_JIANGSU = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10985904
+				size = 6585904
 			}
 			create_pop = {
 				culture = manchu
@@ -508,7 +524,7 @@
 		}
 	}
 	s:STATE_NANJING = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 11080192
@@ -520,10 +536,10 @@
 		}
 	}
 	s:STATE_HENAN = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10338400
+				size = 5338400
 			}
 			create_pop = {
 				culture = manchu
@@ -542,10 +558,10 @@
 		}
 	}
 	s:STATE_ZHILI = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 8446940
+				size = 5446940
 			}
 			create_pop = {
 				culture = manchu
@@ -562,7 +578,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6549900
+				size = 3549900
 			}
 			create_pop = {
 				culture = manchu
@@ -570,11 +586,11 @@
 			}
 			create_pop = {
 				culture = hakka
-				size = 4954600
+				size = 2954600
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 2212596
+				size = 1212596
 			}
 			create_pop = {
 				culture = miao
@@ -588,18 +604,14 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 11473408
+				size = 6473408
 			}
 			create_pop = {
 				culture = manchu
 				size = 2592
-			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 1051996
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -609,10 +621,10 @@
 		}
 	}
 	s:STATE_NORTHERN_ANHUI = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10312000
+				size = 5312000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -622,10 +634,10 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 12116000
+				size = 4116000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -634,15 +646,15 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 884000
+				size = 384000
 			}
 		}
 	}
 	s:STATE_EASTERN_HUBEI = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 8222096
+				size = 4222096
 			}
 			create_pop = {
 				culture = manchu
@@ -663,7 +675,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7513400
+				size = 3513400
 			}
 			create_pop = {
 				culture = manchu
@@ -696,23 +708,23 @@
 		}
 	}
 	s:STATE_SHANDONG = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10088000
+				size = 7088000
 			}
 		}
 	}
 	s:STATE_SUZHOU = {
-		region_state:CHI = {
+		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 16836004
+				size = 7336004
 			}
 		}
 	}
 	s:STATE_ULIASTAI = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = mongol
 				size = 540608
@@ -728,7 +740,7 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:CHI = {
+		region_state:TPG = {
 			create_pop = {
 				culture = mongol
 				size = 751104

@@ -1763,17 +1763,6 @@ CAM = {
 	capital = STATE_CAMBODIA
 }
 
-CHI = {
-	color = { 252 185 61 }
-	
-	country_type = unrecognized
-	
-	tier = empire
-	
-	cultures = { manchu han } 
-	capital = STATE_BEIJING
-}
-
 DAI = {
 	color = { 136  117  90 }
 	
@@ -3516,15 +3505,6 @@ XIB = {
 	capital = STATE_NINGXIA
 }
 
-TPG = {
-	color = { 100 150 20 }
-	country_type = unrecognized
-	tier = empire
-	cultures = { han hakka }
-	religion = protestant
-	capital = STATE_NANJING
-}
-
 GNI = {
 	color = { 73 139 166 }
 	
@@ -3829,4 +3809,40 @@ CAU = {
 	
 	cultures = { azerbaijani armenian georgian }
 	capital = STATE_GREATER_CAUCASUS
+}
+
+CHI = {
+	color = { 252 185 61 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { manchu han } 
+	capital = STATE_JIANGXI
+}
+
+TPG = {
+	color = { 100 150 20 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { han hakka manchu }
+	
+	religion = protestant
+	
+	capital = STATE_BEIJING
+}
+
+QCR = {
+	color = { 122 240 147 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { han }
+	capital = STATE_NANJING
 }

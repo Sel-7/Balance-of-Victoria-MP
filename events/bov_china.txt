@@ -1,0 +1,147 @@
+namespace = bov_china
+
+bov_china.1 = { ###CHINA
+	type = country_event
+	placement = root
+	title = bov_china.1.t
+	desc = bov_china.1.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = BOV_chinese_je
+		}
+	}
+	
+	option = {
+		name = bov_china.1.a
+		
+		add_modifier = {
+			name = BOV_chinese_stagnation
+			months = -1
+		}
+
+	}
+}
+
+bov_china.2 = {
+	type = country_event
+	placement = root
+	title = bov_china.2.t
+	desc = bov_china.2.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+	
+	option = {
+		name = bov_china.2.a
+		
+		remove_modifier = BOV_chinese_stagnation
+		
+		s:STATE_FUJIAN = {
+			add_claim = ROOT
+		}
+		s:STATE_JIANGXI = {
+			add_claim = ROOT
+		}
+		s:STATE_CHONGQING = {
+			add_claim = ROOT
+		}
+		s:STATE_GUIZHOU = {
+			add_claim = ROOT
+		}
+		s:STATE_GUANGXI = {
+			add_claim = ROOT
+		}
+		s:STATE_SICHUAN = {
+			add_claim = ROOT
+		}
+		s:STATE_YUNNAN = {
+			add_claim = ROOT
+		}
+		s:STATE_SHAOZHOU = {
+			add_claim = ROOT
+		}
+		s:STATE_GUANGDONG = {
+			add_claim = ROOT
+		}
+		s:STATE_HUNAN = {
+			add_claim = ROOT
+		}
+		s:STATE_FORMOSA = {
+			add_claim = ROOT
+		}
+		s:STATE_BEIJING = {
+			add_claim = ROOT
+		}
+		s:STATE_SHENGJING = {
+			add_claim = ROOT
+		}
+		s:STATE_SOUTHERN_MANCHURIA = {
+			add_claim = ROOT
+		}
+		s:STATE_OUTER_MANCHURIA = {
+			add_claim = ROOT
+		}
+		s:STATE_NORTHERN_MANCHURIA = {
+			add_claim = ROOT
+		}
+		s:STATE_HINGGAN = {
+			add_claim = ROOT
+		}
+		s:STATE_URGA = {
+			add_claim = ROOT
+		}
+		s:STATE_GANSU = {
+			add_claim = ROOT
+		}
+		s:STATE_QINGHAI = {
+			add_claim = ROOT
+		}
+		s:STATE_LHASA = {
+			add_claim = ROOT
+		}
+		s:STATE_NGARI = {
+			add_claim = ROOT
+		}
+		s:STATE_TIANSHAN = {
+			add_claim = ROOT
+		}
+		s:STATE_DZUNGARIA = {
+			add_claim = ROOT
+		}
+		s:STATE_ALXA = {
+			add_claim = ROOT
+		}
+		s:STATE_ULIASTAI = {
+			add_claim = ROOT
+		}
+	
+	}
+}

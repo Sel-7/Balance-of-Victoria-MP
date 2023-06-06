@@ -1,0 +1,24 @@
+﻿POPS = {
+	s:STATE_TOMSK = {
+
+		region_state:TPG = {
+			create_pop = {
+				culture = tatar
+				size = 36000
+			}
+			create_pop = {
+				culture = tatar
+				religion = gelugpa
+				size = 16000
+			}
+		}
+	}
+	s:STATE_TUVA = {
+		region_state:TPG = {
+			create_pop = {
+				culture = tuvan
+				size = 30000
+			}
+		}
+	}
+}

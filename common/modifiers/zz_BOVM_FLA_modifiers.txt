@@ -40,3 +40,11 @@ BOV_national_doctrine_diplomacy = {
 	country_infamy_decay_mult = 0.25
 	interest_group_ig_petty_bourgeoisie_approval_add = 3
 }
+
+BOV_chinese_stagnation = {
+	state_mortality_mult = 0.15
+	state_construction_mult = -0.20
+	building_economy_of_scale_level_cap_add = -10
+	unit_defense_mult = -0.10
+	unit_offense_mult = -0.10
+}

@@ -105,8 +105,8 @@ annex_commonwealth = {
 
 5_yr_plan = {
 	is_shown = {
-		exists = c:CHI
-		this = c:CHI
+		exists = c:QCR
+		this = c:QCR
 		custom_tooltip = {
 			NOT = { has_variable = 5yrplan_cooldown }
 		}

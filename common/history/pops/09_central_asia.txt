@@ -1,0 +1,424 @@
+﻿POPS = {
+	s:STATE_KIRGHIZIA = {
+		region_state:KOK = {
+			create_pop = {
+				culture = kirgiz
+				size = 232150
+			}
+			create_pop = {
+				culture = uzbek
+				size = 160196
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uzbek
+				size = 20000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uighur
+				size = 5000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = russian
+				size = 3500
+			}
+			create_pop = {
+				culture = kazak
+				size = 16002
+			}
+			create_pop = {
+				culture = uighur
+				size = 12000
+			}
+			create_pop = {
+				culture = tajik
+				size = 11600
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 8000
+			}
+		}
+		region_state:TPG = {
+			create_pop = {
+				culture = kirgiz
+				size = 100150
+			}
+			create_pop = {
+				culture = uzbek
+				size = 80000
+			}
+			create_pop = {
+				culture = kazak
+				size = 32002
+			}
+			create_pop = {
+				culture = uighur
+				size = 22000
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 12100
+			}
+		}
+	}
+	s:STATE_TURKMENIA = {
+		region_state:KHI = {
+			create_pop = {
+				culture = uzbek
+				size = 186004
+			}
+			create_pop = {
+				culture = persian
+				size = 49996
+			}
+			create_pop = {
+				culture = turkmen
+				size = 220000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = turkmen
+				size = 54000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = russian
+				size = 6000
+			}
+			create_pop = {
+				culture = tajik
+				size = 31004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tajik
+				size = 5000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 10000
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 12004
+			}
+		}
+	}
+	s:STATE_SEMIRECHE = {
+		region_state:UZH = {
+			create_pop = {
+				culture = kazak
+				size = 114162
+			}
+			create_pop = {
+				culture = uighur
+				size = 7000
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 4000
+			}
+		}
+		region_state:OZH = {
+			create_pop = {
+				culture = kazak
+				size = 50000
+			}
+			create_pop = {
+				culture = uighur
+				size = 4000
+			}
+			create_pop = {
+				culture = russian
+				size = 1200
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 2500
+			}
+			create_pop = {
+				culture = kazak
+				size = 2200
+			}
+			create_pop = {
+				culture = uighur
+				size = 1100
+			}
+		}
+	}
+	# Please do not ask where these numbers come from.
+	s:STATE_JETISY = {
+		region_state:TPG = {
+			create_pop = {
+				culture = kazak
+				size = 200642
+			}
+			create_pop = {
+				culture = uighur
+				size = 33000
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 20000
+			}
+		}
+	}
+	s:STATE_AKMOLINSK = {
+		region_state:OZH = {
+			create_pop = {
+				culture = kazak
+				size = 190000
+			}
+			create_pop = {
+				culture = russian
+				size = 2000
+			}
+			create_pop = {
+				culture = uzbek
+				size = 38000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = kazak
+				size = 14500
+			}
+			create_pop = {
+				culture = russian
+				size = 11992
+			}
+		}
+		region_state:KZH = {
+			create_pop = {
+				culture = kazak
+				size = 51500
+			}
+			create_pop = {
+				culture = uzbek
+				size = 32000
+			}
+		}
+	}
+	s:STATE_PASHTUNISTAN = {
+		region_state:PAN = {
+			create_pop = {
+				culture = pashtun
+				size = 655212
+			}
+			create_pop = {
+				culture = panjabi
+				size = 1992
+			}
+		}
+	}
+	s:STATE_WESTERN_AFGHANISTAN = {
+		region_state:AFG = {
+			create_pop = {
+				culture = tajik
+				size = 670172
+			}
+			create_pop = {
+				culture = uzbek
+				size = 90356
+			}
+			create_pop = {
+				culture = persian
+				size = 120352
+			}
+			create_pop = {
+				culture = baluchi
+				size = 20320
+			}
+			create_pop = {
+				culture = hazara
+				religion = sunni
+				size = 72400
+			}
+			create_pop = {
+				culture = pashtun
+				size = 814404
+			}
+			create_pop = {
+				culture = hazara
+				size = 265004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = hazara
+				size = 75000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 21000
+			}
+		}
+	}
+	s:STATE_EASTERN_AFGHANISTAN = {
+		region_state:AFG = {
+			create_pop = {
+				culture = pashtun
+				size = 1131236
+			}
+			create_pop = {
+				culture = uzbek
+				size = 28600
+			}
+			create_pop = {
+				culture = tajik
+				size = 604400
+			}
+			create_pop = {
+				culture = hazara
+				size = 140996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = hazara
+				size = 45000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = panjabi
+				size = 32000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uzbek
+				size = 21000
+			}
+		}
+	}
+	s:STATE_BALUCHISTAN = {
+		region_state:MAK = {
+			create_pop = {
+				culture = baluchi
+				size = 440296
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 14800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baluchi
+				size = 7000
+			}
+		}
+		region_state:KAL = {
+			create_pop = {
+				culture = baluchi
+				size = 512392
+			}
+			create_pop = {
+				culture = pashtun
+				size = 204000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 21000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baluchi
+				size = 10000
+			}
+		}
+		region_state:OMA = {
+			create_pop = {
+				culture = baluchi
+				size = 4100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 300
+			}
+			create_pop = {
+				culture = bedouin
+				size = 160
+			}
+		}
+	}
+	s:STATE_LHASA = {
+		region_state:TIB = {
+			create_pop = {
+				culture = tibetan
+				size = 1820000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = animist
+				size = 100000
+			}
+			create_pop = {
+				culture = kachin
+				size = 54000
+			}
+		}
+	}
+	s:STATE_NGARI = {
+		region_state:TIB = {
+			create_pop = {
+				culture = tibetan
+				size = 824000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = animist
+				size = 42000
+			}
+			create_pop = {
+				culture = kachin
+				size = 24000
+			}
+		}
+	}
+	s:STATE_HIMALAYAS = {
+		region_state:SIK = {
+			create_pop = {
+				culture = tibetan
+				size = 60301
+			}
+			create_pop = {
+				culture = nepali
+				size = 24091
+			}
+		}
+		region_state:BHU = {
+			create_pop = {
+				culture = tibetan
+				size = 140396
+			}
+			create_pop = {
+				culture = nepali
+				size = 16004
+			}
+		}
+		region_state:NEP = {
+			create_pop = {
+				culture = nepali
+				size = 619204
+			}
+			create_pop = {
+				culture = bihari
+				religion = animist
+				size = 172000
+			}
+			create_pop = {
+				culture = tibetan
+				size = 192008
+			}
+		}
+	}
+}

@@ -49,3 +49,32 @@ je_austria_buff = {
 	}
 	should_be_pinned_by_default = yes
 }
+
+BOV_chinese_je = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		
+		literacy_rate > 0.40
+		has_healthy_economy = yes
+		
+		has_technology_researched = general_staff
+		has_technology_researched = rifling
+		has_technology_researched = watertube_boiler
+		has_technology_researched = pan-nationalism
+		has_technology_researched = central_banking
+		has_law = law_type:law_professional_army
+		
+	}
+	on_complete = {
+		trigger_event = {
+			id = bov_china.2
+		}
+		
+	}
+	
+	should_be_pinned_by_default = yes
+}

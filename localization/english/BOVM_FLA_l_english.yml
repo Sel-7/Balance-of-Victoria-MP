@@ -30,13 +30,47 @@
  BOV_national_doctrine_CD:0 "National Doctrine Accepted"
  modifier_5yrplan:0 "The Great Leap"
 
+###Production Methods
  pm_mp_18:0 "MP-18 SMG"
  mp_18:0 "MP-18 SMG"
  pm_mp_18_conscription:0 "MP-18 SMG"
  defensive_tactics:0 "Defensive Tactics"
  improved_logistics:0 "Improved Logistics"
+ pm_change_of_strategy:0 "Drill Changes"
+ pmg_strategic_approaches:0 "Drilling"
+ pm_balanced_approach:0 "Regular Drill"
+ pm_defensive_action:0 "Increased Drilling"
+ pm_offensive_action:0 "Professional Army"
+ pm_barracks_no_approach:0 "No approach"
+ pm_human_wave_offensive:0 "Modern Military Training"
+ 
+ ###Decisions
  5_yr_plan:0 "The Great Leap Forward"
  5_yr_plan_desc:0 "It is time to send our nation into the future, what's the worse that could happen?"
  ammo_quality_standards:0 "Ammo Quality Standardisation"
  annex_commonwealth:0 " Annex the Commonwealth"
  annex_commonwealth_desc:0 "Bring the British Commonwealth under direct ownership."
+ 
+ QCR:0 "Zhong Dynasty"
+ QCR_ADJ:0 "Zhong"
+   
+ ###State traits
+ state_trait_east_asian_explosion:0 "East Asian Explosion"
+ state_trait_scandanavian_healthcare:0 "Scandanavian Healthcare"
+ state_trait_south_italian_agrarianism:0 "Southern Agrarianism"
+ state_north_italian_industrialisation:0 "Northern Industrialisation"
+ state_trait_indian_stagnation:0 "Indian Stagnation"
+ state_trait_fields_of_the_europe:0 "Bread Basket of Europe"
+ state_trait_british_industrialisation:0 "British Industrialisation"
+ 
+ ###Flavour Events and Journals
+ bov_china.1.t:0 "The Great Civil War"
+ bov_china.1.d:0 "It may have been years since the collapse of the Chinese Empire, however our stagnation has only continued and must be ended by a new great leader. Zhong brought us victory in the civil war, shortly falling to the illness that effected many of our people, taking the lives of over 200 million people. Educate our people, invest in technology and keep a stable economy to end the stagnation. Will the future bring greatness oncemore to China and a reclamation of the Mandate of Heaven, or will we fall into the depths of history as the chapter of another's story."
+ bov_china.1.a:0 "Bring it on."
+ bov_china.2.t:0 "China Resurgent"
+ bov_china.2.d:0 "The sleeping dragon has awoken and is prepared to reconquer China and re-establish the mandate over all of China. Enemies abroad will attempt to slow our expansion, however China shall always remain the only Great Power of the world."
+ bov_china.2.a:0 "China shall be mine."
+ BOV_chinese_je_goal:0 "Bring China from the Brink"
+ BOV_chinese_stagnation:0 "Chinese Stagnation"
+ BOV_chinese_je:0 "Chinese Resurgence"
+ BOV_chinese_je_reason:0 "Secure the future of the continent to claim the rest of the fractured states."
