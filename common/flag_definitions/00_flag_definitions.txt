@@ -8819,3 +8819,12 @@ ZIM = { # Zimbabwe
 		priority = 1
 	}
 }
+
+QCR = 	{
+	flag_definition = {
+		coa = CHI_republic
+		subject_canton = CHI_republic
+		allow_overlord_canton = yes
+		priority = 10
+	}
+}

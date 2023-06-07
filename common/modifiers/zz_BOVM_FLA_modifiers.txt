@@ -15,8 +15,6 @@ BOV_national_doctrine_CD = {
 
 BOV_national_doctrine_mil = {
 	country_bureaucracy_mult = -0.10
-	unit_offense_mult = 0.10
-	unit_defense_mult = 0.10
 	building_mobilization_cost_mult = -0.15
 	interest_group_ig_armed_forces_approval_add = 3
 }
@@ -43,8 +41,13 @@ BOV_national_doctrine_diplomacy = {
 
 BOV_chinese_stagnation = {
 	state_mortality_mult = 0.15
-	state_construction_mult = -0.20
-	building_economy_of_scale_level_cap_add = -10
+	state_construction_mult = -0.30
+	building_economy_of_scale_level_cap_add = -20
 	unit_defense_mult = -0.10
 	unit_offense_mult = -0.10
+}
+###Edited Vanilla Modifiers
+synthesis_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_weekly_innovation_add = 10
 }

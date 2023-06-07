@@ -1,0 +1,19 @@
+CHARACTERS = {
+	c:QCR = {
+		create_character = {
+	# Zhong Mao
+			first_name = "zhong_mao_first_name"
+			last_name = "zhong_mao_last_name"
+			ruler = yes
+			ig_leader = yes
+			age = 19
+			dna = dna_zhong_mao
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				persistent
+				direct
+			}
+		}	
+	}
+}
