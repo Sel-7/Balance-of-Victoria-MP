@@ -1,0 +1,10 @@
+QCR = {
+	color = { 134 87 186 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { han }
+	capital = STATE_NANJING
+}

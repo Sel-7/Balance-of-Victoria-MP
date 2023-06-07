@@ -3836,13 +3836,4 @@ TPG = {
 	capital = STATE_BEIJING
 }
 
-QCR = {
-	color = { 122 240 147 }
-	
-	country_type = unrecognized
-	
-	tier = empire
-	
-	cultures = { han }
-	capital = STATE_NANJING
-}
+
