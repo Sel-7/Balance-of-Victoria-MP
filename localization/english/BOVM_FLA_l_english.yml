@@ -13,6 +13,7 @@
  je_austria_buff:0 "Austrian Education"
  je_austria_buff_reason:0 "We must educate our populace to begin the progress of industrialisation and urbanisation."
  je_austria_buff_goal:0 "Maintain a healthy economy and reach the required literacy rate."
+ je_quinine:0 "Quinine Unlock"
 
 
  ###National Doctrine
