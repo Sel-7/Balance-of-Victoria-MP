@@ -40,6 +40,11 @@ opium_wars_addiction_modifier = {
 
 }
 
+schleswig_holstein_question_solver = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_mult = 0.25
+}
+
 executed_opium_smugglers = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_authority_mult = 0.1
