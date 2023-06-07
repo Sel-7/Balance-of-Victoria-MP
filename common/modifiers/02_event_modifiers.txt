@@ -1745,10 +1745,7 @@ mutual_funds_pop_attaction_modifier = {
 	interest_group_pop_attraction_mult = 0.2
 }
 
-synthesis_modifier = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	building_university_throughput_mult = 0.25
-}
+
 
 grim_realism = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
