@@ -182,14 +182,6 @@ VER = {
 	capital = STATE_VERMONT
 }
 
-MAS = {
-	color = { 65 137 106 }
-	country_type = recognized
-	tier = principality
-	cultures = { yankee }
-	capital = STATE_MASSACHUSETTS
-}
-
 RHI = {
 	color = { 227 227 227 }
 	country_type = recognized

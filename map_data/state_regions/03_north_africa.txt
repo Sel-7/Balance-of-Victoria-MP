@@ -280,19 +280,21 @@ STATE_INNER_MOROCCO = {
 STATE_ALGIERS = {
     id = 190
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0050A0" "x20EF40" "x265E07" "x713C2F" "x7C6240" "x8090DF" "xA39A15" "xA75E78" "xB5486B" "xB735DB" "xCB898B" "xDFB0C0" }
+    provinces = { "x0811DE" "x13AB12" "x16B315" "x20EF40" "x20EF80" "x267471" "x363B86" "x3BB3BB" "x513113" "x5ACA8F" "x713C2F" "x7E5293" "x9D893C" "xA75E78" "xAA79B2" "xB951DE" "xC6BA37" "xCB898B" "xD14DAC" "xD9F21C" "xEB7B78" "xEF919A" "xF151FD" "xFEE41A" }
+    prime_land = { "x713C2F" }
+    traits = { "state_trait_mitidja_plain" "state_trait_atlas_mountains" }
     city = "x713C2F"
     port = "xDFB0C0"
     farm = "x265E07"
     mine = "x0050A0"
     wood = "x265E07"
-    arable_land = 108
+    arable_land = 82
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
-        bg_iron_mining = 25
-        bg_lead_mining = 31
-        bg_logging = 10
-        bg_fishing = 10
+        bg_iron_mining = 10
+        bg_lead_mining = 7
+        bg_logging = 6
+        bg_fishing = 8
     }
     naval_exit_id = 3032
 }
@@ -300,36 +302,47 @@ STATE_ALGIERS = {
 STATE_CONSTANTINE = {
     id = 191
     subsistence_building = "building_subsistence_orchards"
-    provinces = { "x01D0A0" "x01EE15" "x0811DE" "x0C42E2" "x0C5C65" "x137E91" "x13AB12" "x16B315" "x17B5D5" "x1AF7B7" "x20EF80" "x267471" "x2DF9DB" "x35846A" "x363B86" "x3AD789" "x3BB3BB" "x3C36A2" "x3EE58D" "x4050A0" "x40C34C" "x46E6AB" "x4C1AA1" "x513113" "x664938" "x6B03DA" "x79D029" "x8050A0" "x8C02C7" "x8E3794" "x8E7690" "x8FFB18" "x92685C" "x991E79" "x9B0D73" "x9D893C" "xA0F080" "xA12B39" "xA31194" "xA36636" "xB04F35" "xB1BCFF" "xB79FAD" "xBAD421" "xC3090D" "xC65997" "xC8C1F2" "xCD4F3F" "xD0827C" "xD52495" "xD8F876" "xD99A74" "xD9F21C" "xDC0687" "xDF1F38" "xEB7B78" "xED2BE3" "xEF919A" "xF151FD" "xFCF985" "xFEE41A" }
+    provinces = { "x0050A0" "x0090A0" "x01D0A0" "x01EE15" "x0C42E2" "x0C5C65" "x137E91" "x1AF7B7" "x265E07" "x2DF9DB" "x3A0E38" "x3AD789" "x3EE58D" "x429B12" "x79D029" "x7C6240" "x8050A0" "x8090DF" "x8E7690" "x8FFB18" "x991E79" "x9AF6A4" "xA12B39" "xA31194" "xA39A15" "xB04F35" "xB1BCFF" "xB5486B" "xC3090D" "xC65997" "xD99A74" "xDC0687" "xDF1F38" "xFCF985" }
+    prime_land = { "x8090DF" "x0050A0" "x1AF7B7" "xFCF985" "xB04F35" }
+    traits = { "state_trait_mokta_el_hadid" "state_trait_atlas_mountains" }
     city = "x1AF7B7"
+    port = "x9AF6A4"
     farm = "xFCF985"
     mine = "xB04F35"
     wood = "x1AF7B7"
-    arable_land = 219
+    arable_land = 99
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_sulfur_mining = 40
+        bg_iron_mining = 55
+        bg_lead_mining = 19
+        bg_sulfur_mining = 18
+        bg_logging = 6
+        bg_fishing = 4
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 9
+        undiscovered_amount = 5
     }
+    naval_exit_id = 3032
 }
 
-STATE_TLEMCEN = {
+STATE_ORAN = {
     id = 192
     subsistence_building = "building_subsistence_orchards"
-    provinces = { "x0090A0" "x0D2515" "x207040" "x3A0E38" "x3E6888" "x429B12" "x465605" "x4CE79E" "x5ACA8F" "x60D278" "x6736D2" "x6F831B" "x7534E5" "x7E5293" "x8C4FD5" "x95CBD4" "x9AF6A4" "xA07040" "xAA79B2" "xB78BBE" "xB951DE" "xBCA418" "xC2269C" "xC6BA37" "xCEB068" "xD14DAC" "xE76FA0" "xEFD8F4" }
+    provinces = { "x0D2515" "x207040" "x3E6888" "x465605" "x4CE79E" "x60D278" "x6736D2" "x6F831B" "x7534E5" "x8C4FD5" "x95CBD4" "xA07040" "xB735DB" "xB78BBE" "xBCA418" "xC2269C" "xCEB068" "xDFB0C0" "xE76FA0" "xEFD8F4" }
+    prime_land = { "xDFB0C0" "xB735DB" }
+    traits = { "state_trait_atlas_mountains" }
     city = "x3A0E38"
     port = "x3E6888"
     farm = "xAA79B2"
     mine = "xC2269C"
     wood = "xB951DE"
-    arable_land = 132
+    arable_land = 53
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 24
-        bg_fishing = 6
+        bg_iron_mining = 12
+        bg_fishing = 5
+        bg_logging = 3
     }
     naval_exit_id = 3032
 }

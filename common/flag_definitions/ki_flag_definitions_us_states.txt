@@ -166,13 +166,6 @@ VER = {
 	}
 }
 
-MAS = {
-	flag_definition = {
-		coa = MAS
-		subject_canton = MAS
-		priority = 1
-	}
-}
 
 RHI = {
 	flag_definition = {
