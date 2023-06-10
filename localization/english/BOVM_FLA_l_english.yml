@@ -63,6 +63,7 @@
  state_trait_indian_stagnation:0 "Indian Stagnation"
  state_trait_fields_of_the_europe:0 "Bread Basket of Europe"
  state_trait_british_industrialisation:0 "British Industrialisation"
+ state_trait_french_urbanisation:0 "French Urbanisation"
  
  ###Flavour Events and Journals
  bov_china.1.t:0 "The Great Civil War"
@@ -77,4 +78,5 @@
  BOV_chinese_je_reason:0 "Secure the future of the continent to claim the rest of the fractured states."
  zhong_mao_first_name:0 "Zhong"
  zhong_mao_last_name:0 "Mao"
+ 
  

@@ -75,6 +75,7 @@ state_trait_south_italian_agrarianism = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
+		state_accepted_birth_rate_mult = 0.02
 		building_group_bg_agriculture_throughput_mult = 0.15
 	}
 }
@@ -91,5 +92,13 @@ state_trait_indian_stagnation = {
 		building_group_bg_plantations_throughput_mult = 0.10
 		building_group_bg_ranching_throughput_mult = 0.10
 		building_group_bg_logging_throughput_mult = 0.10
+	}
+}
+
+state_trait_french_urbanisation = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+		state_accepted_birth_rate_mult = 0.05
 	}
 }
