@@ -15,3 +15,8 @@ gfx/map/textures/equator_line.dds
 gfx/map/fog_of_war/fog_of_war.settings
 gfx/FX/pdxterrain.shader
 fonts/1fonts.font
+common/defines/DECENTRALIZED_graphics.txt
+common/defines/DECENTRALIZED_graphics.txt
+common/defines/mapfont_graphics.txt
+gfx/map/gradient_border_settings/gradient_border_settings.txt
+gfx/FX/pdxterrain.shader
