@@ -44,6 +44,10 @@ BOV_national_doctrine = {
 
 	effect = {
 		trigger_event = { id = BOVM_FLA.3 }
+		remove_modifier = BOV_national_doctrine_mil
+		remove_modifier = BOV_national_doctrine_industry
+		remove_modifier = BOV_national_doctrine_society
+		remove_modifier = BOV_national_doctrine_diplomacy
 	}
 }
 

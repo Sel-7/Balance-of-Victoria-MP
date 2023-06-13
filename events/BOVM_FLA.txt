@@ -100,7 +100,7 @@ BOVM_FLA.3 = { ### National Doctrine
 		highlighted_option = yes
 		add_modifier = {
 			name = BOV_national_doctrine_mil
-			years = 5
+			years = -1
 		}
 	}
 	option = {
@@ -108,7 +108,7 @@ BOVM_FLA.3 = { ### National Doctrine
 		highlighted_option = yes
 		add_modifier = {
 			name = BOV_national_doctrine_industry
-			years = 5
+			years = -1
 		}
 	}
 	option = {
@@ -116,7 +116,7 @@ BOVM_FLA.3 = { ### National Doctrine
 		highlighted_option = yes
 		add_modifier = {
 			name = BOV_national_doctrine_society
-			years = 5
+			years = -1
 		}
 	}
 	option = {
@@ -124,13 +124,11 @@ BOVM_FLA.3 = { ### National Doctrine
 		highlighted_option = yes
 		add_modifier = {
 			name = BOV_national_doctrine_diplomacy
-			years = 5
+			years = -1
 		}
 	}
 	option = {
 		name = BOVM_FLA.3.e
 		remove_modifier = BOV_national_doctrine_CD
 	}
-=======
->>>>>>> parent of 4ce836a (BOVM file cleanup)
 }
