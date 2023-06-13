@@ -59,12 +59,21 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 3057596
+				size = 2657596
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
 				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
 			}
 		}
 	}
@@ -72,7 +81,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2386404
+				size = 1986404
 			}
 			create_pop = {
 				culture = british
@@ -89,7 +98,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = welsh
-				size = 1978557
+				size = 778557
 			}
 			create_pop = {
 				culture = british
@@ -101,7 +110,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2726592
+				size = 2026592
 			}
 			create_pop = {
 				culture = irish
@@ -118,7 +127,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 572396
+				size = 672396
 			}
 			create_pop = {
 				culture = scottish
@@ -131,7 +140,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2843604
+				size = 2543604
 			}
 			create_pop = {
 				culture = british
@@ -148,7 +157,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2465208
+				size = 1565208
 			}
 			create_pop = {
 				culture = british
@@ -161,7 +170,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2369600
+				size = 1969600
 			}
 			create_pop = {
 				culture = british
@@ -178,7 +187,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 1097200
+				size = 1397200
 			}
 			create_pop = {
 				culture = scottish
@@ -188,6 +197,118 @@
 			create_pop = {
 				culture = irish
 				size = 52400
+			}
+		}
+	}
+	s:STATE_ULSTER = {
+		region_state:GBR = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1183122
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 407111
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 71843
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 575084
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 101485
+			}
+		}
+	}
+	s:STATE_MUNSTER = {
+		region_state:GBR = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 2214388
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 71856
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 47904
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 10049
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 4040
+			}
+		}
+	}
+	s:STATE_LEINSTER = {
+		region_state:GBR = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1677581
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 160989
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 68994
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 14385
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 4300
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 8007
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 237
+			}
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:GBR = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1319428
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 28463
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 33413
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 4007
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				size = 5170
 			}
 		}
 	}
