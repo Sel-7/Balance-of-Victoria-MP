@@ -1,10 +1,9 @@
 ﻿china_authority = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	country_authority_mult = 0.2
-	unit_offense_mult = 0.10
-	unit_defense_mult = 0.10
-	state_mortality_mult = -0.20
-	state_birth_rate_mult = 0.05
+	country_authority_mult = 0.10
+	unit_offense_mult = 0.05
+	unit_defense_mult = 0.05
+	state_birth_rate_mult = 0.10
 }
 
 china_welfare = {
@@ -16,8 +15,6 @@ opium_wars_lost = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	country_prestige_mult = -0.10
 	state_birth_rate_mult = -0.10
-	state_construction_mult = -0.10
-	state_standard_of_living_add = -1
 	
 }
 
@@ -33,10 +30,10 @@ opium_wars_export_modifier = {
 
 opium_wars_addiction_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-	unit_offense_mult = -0.50
-	unit_defense_mult = -0.50
-	state_standard_of_living_add = -2
-	state_mortality_mult = 0.50
+	unit_offense_mult = -0.20
+	unit_defense_mult = -0.20
+	state_standard_of_living_add = -1
+	state_mortality_mult = 0.25
 
 }
 
@@ -47,7 +44,7 @@ schleswig_holstein_question_solver = {
 
 executed_opium_smugglers = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	country_authority_mult = 0.1
+	country_authority_mult = 0.15
 }
 
 returned_opium_smugglers = {
@@ -62,12 +59,12 @@ opium_loyalty_focus = {
 
 opium_health_focus = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	state_mortality_mult = -0.005
+	state_mortality_mult = -0.05
 }
 
 opium_addiction_state_mod = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-	state_mortality_mult = 0.0025
+	state_mortality_mult = 0.02
 }
 
 lesser_opium_addiction_state_mod = {
@@ -1284,7 +1281,7 @@ military_bison_hunting = {
 
 opium_ban_authority = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_authority_mult = -0.2
+	country_authority_mult = -0.10
 }
 
 liqour_ban_authority = {
