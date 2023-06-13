@@ -1,0 +1,442 @@
+BOVM_is_minor_mp_country = {
+	OR = {
+		AND = {
+			c:SPA = ROOT #Spain
+			is_player = yes
+		}
+		AND = {
+			c:IBE = ROOT #Iberia
+			is_player = yes
+		}
+		AND = {
+			c:SWE = ROOT #Sweden
+			is_player = yes
+		}
+		AND = {
+			c:SCA = ROOT #Scandinavia
+			is_player = yes
+		}
+		AND = {
+			c:NET = ROOT #Netherlands
+			is_player = yes
+		}
+		AND = {
+			c:BRZ = ROOT #Brazil
+			is_player = yes
+		}
+		AND = {
+			c:PAG = ROOT #Patria Grande
+			is_player = yes
+		}
+		AND = {
+			c:BNL = ROOT #Benelux
+			is_player = yes
+		}
+	}
+}
+
+BOVM_is_austria_country = {
+	OR = {
+		AND = {
+			c:AUS = ROOT #Austria
+			is_player = yes
+		}
+	}
+}
+
+any_revolution_ongoing = {
+	any_political_movement = {
+		is_revolutionary_movement = yes
+	}
+}
+
+###
+#Japanese Flavour
+###
+
+# based on /common/scripted_triggers/00_clothes_triggers.txt
+
+japanese_westernized_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+			AND = {
+				japanese_flavor_era_2_trigger = yes
+				OR = {
+					ruler_clothes_trigger = yes
+					monarchy_clothes_trigger = yes
+					armed_forces_clothes_trigger = yes
+					military_clothes_trigger = yes
+				}
+			}
+			japanese_flavor_era_3_trigger = yes
+			japanese_flavor_era_4_trigger = yes
+			japanese_flavor_era_5_trigger = yes
+		}
+	}
+}
+
+japanese_westernized_common_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_female = no
+		OR = {
+			AND = {
+				japanese_flavor_era_2_trigger = yes
+				OR = {
+					ruler_clothes_trigger = yes
+					monarchy_clothes_trigger = yes
+					armed_forces_clothes_trigger = yes
+					military_clothes_trigger = yes
+				}
+			}
+			japanese_flavor_era_3_trigger = yes
+			japanese_flavor_era_4_trigger = yes
+			japanese_flavor_era_5_trigger = yes
+		}
+	}
+}
+
+japanese_westernized_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				japanese_flavor_era_2_trigger = yes
+				OR = {
+					soldier_clothes_pop_trigger = yes
+					officers_clothes_pop_trigger = yes
+				}
+			}
+			AND = {
+				japanese_flavor_era_3_trigger = yes
+				OR = {
+					upper_clothes_pop_trigger = yes
+					soldier_clothes_pop_trigger = yes
+					officers_clothes_pop_trigger = yes
+				}
+			}
+			AND = {
+				japanese_flavor_era_4_trigger = yes
+				OR = {
+					upper_clothes_pop_trigger = yes
+					soldier_clothes_pop_trigger = yes
+					officers_clothes_pop_trigger = yes
+				}
+			}
+			AND = {
+				japanese_flavor_era_5_trigger = yes
+				OR = {
+					middle_clothes_pop_trigger = yes
+					upper_clothes_pop_trigger = yes
+					soldier_clothes_pop_trigger = yes
+					officers_clothes_pop_trigger = yes
+				}
+			}
+		}
+	}
+}
+
+japanese_westernized_hairstyles_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+			AND = {
+				japanese_flavor_era_2_trigger = yes
+				OR = {
+					ruler_clothes_trigger = yes
+					monarchy_clothes_trigger = yes
+					armed_forces_clothes_trigger = yes
+					military_clothes_trigger = yes
+				}
+			}
+			japanese_flavor_era_3_trigger = yes
+			japanese_flavor_era_4_trigger = yes
+			japanese_flavor_era_5_trigger = yes
+		}
+	}
+}
+
+japanese_westernized_hairstyles_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				japanese_flavor_era_2_trigger = yes
+				officers_clothes_pop_trigger = yes
+			}
+			japanese_flavor_era_3_trigger = yes
+			japanese_flavor_era_4_trigger = yes
+			japanese_flavor_era_5_trigger = yes
+		}
+	}
+}
+
+european_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = {
+			OR = {
+				has_discrimination_trait = european_heritage
+				AND = {
+					japanese_westernized_clothes_trigger = yes
+					OR = {
+						this = cu:japanese
+						this = cu:ainu
+					}
+				}
+			}
+		}
+		NOT = {
+			culture = cu:circassian
+		}
+		NOT = {
+			AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
+				culture = cu:albanian
+				OR = {
+					owner = {
+						exists = c:TUR
+						c:TUR = this
+					}
+					owner = {
+						exists = c:EGY
+						c:EGY = this
+					}
+				}
+			}
+		}
+	}
+}
+
+european_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = {
+			OR = {
+				has_discrimination_trait = european_heritage
+				AND = {
+					japanese_westernized_clothes_pop_trigger = yes
+					OR = {
+						this = cu:japanese
+						this = cu:ainu
+					}
+				}
+			}
+		}
+		NOT = {
+			culture = cu:circassian
+		}
+	}
+}
+
+european_hairstyles_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = {
+			OR = {
+				has_discrimination_trait = european_heritage
+				AND = {
+					japanese_westernized_hairstyles_trigger = yes
+					OR = {
+						this = cu:japanese
+						this = cu:ainu
+					}
+				}
+			}
+		}
+		NOT = {
+			culture = cu:circassian
+		}
+		NOT = {
+			AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
+				culture = cu:albanian
+				OR = {
+					owner = {
+						exists = c:TUR
+						c:TUR = this
+					}
+					owner = {
+						exists = c:EGY
+						c:EGY = this
+					}
+				}
+			}
+		}
+	}
+}
+
+european_hairstyles_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = {
+			OR = {
+				has_discrimination_trait = european_heritage
+				AND = {
+					japanese_westernized_hairstyles_pop_trigger = yes
+					OR = {
+						this = cu:japanese
+						this = cu:ainu
+					}
+				}
+			}
+		}
+		NOT = {
+			culture = cu:circassian
+		}
+	}
+}
+
+japanese_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		AND = {
+			japanese_westernized_clothes_trigger = no
+			OR = {
+				culture = cu:japanese
+				culture = cu:ainu
+			}
+		}
+	}
+}
+
+japanese_common_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		AND = {
+			japanese_westernized_common_clothes_trigger = no
+			OR = {
+				AND = {
+					has_culture = cu:japanese
+					monarchy_clothes_trigger = no
+				}
+				has_culture = cu:ainu
+			}
+		}
+	}
+}
+
+japanese_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		AND = {
+			japanese_westernized_clothes_pop_trigger = no
+			OR = {
+				culture = cu:japanese
+				culture = cu:ainu
+			}
+		}
+	}
+}
+
+japanese_imperial_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		AND = {
+			japanese_westernized_clothes_trigger = no
+			OR = {
+				is_ruler = yes
+				is_heir = yes
+			}
+		}
+		owner = {
+			has_law = law_type:law_monarchy
+		}
+		OR = {
+			AND = {
+				culture = {
+					has_discrimination_trait = yamato
+				}
+				OR = {
+					NOT = {
+						exists = c:JAP
+					}
+					AND = {
+						exists = c:JAP
+						NOT = { owner = c:JAP }
+					}
+				}
+			}
+			AND = {
+				exists = c:JAP
+				OWNER = {
+					this = c:JAP
+				}
+			}
+		}
+	}
+}
+
+yamato_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		AND = {
+			japanese_westernized_clothes_trigger = no
+			has_culture = cu:japanese
+		}
+	}
+}
+
+yamato_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		AND = {
+			japanese_westernized_clothes_pop_trigger = no
+			culture = cu:japanese
+		}
+	}
+}
+
+yamato_hairstyles_trigger = {
+	exists = scope:character
+	scope:character = {
+		AND = {
+			japanese_westernized_hairstyles_trigger = no
+			culture = cu:japanese
+		}
+	}
+}
+
+yamato_hairstyles_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		AND = {
+			japanese_westernized_hairstyles_pop_trigger = no
+			culture = cu:japanese
+		}
+	}
+}
+
+japanese_flavor_era_1_trigger = {
+	NOT = {
+		OR = {
+			has_global_variable = japanese_flavor_era_2
+			has_global_variable = japanese_flavor_era_3
+			has_global_variable = japanese_flavor_era_4
+			has_global_variable = japanese_flavor_era_5
+		}
+	}
+}
+
+japanese_flavor_era_2_trigger = {
+	has_global_variable = japanese_flavor_era_2
+}
+
+japanese_flavor_era_3_trigger = {
+	has_global_variable = japanese_flavor_era_3
+}
+
+japanese_flavor_era_4_trigger = {
+	has_global_variable = japanese_flavor_era_4
+}
+
+japanese_flavor_era_5_trigger = {
+	has_global_variable = japanese_flavor_era_5
+}
+
+coa_def_japanese_ensign_trigger = {
+	exists = c:JAP
+	c:JAP = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+############

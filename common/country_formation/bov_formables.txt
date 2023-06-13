@@ -1,0 +1,810 @@
+GER = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_germany
+	leadership_play = dp_leadership_germany
+
+	required_states_fraction = 0.74
+	
+	ai_will_do = { has_technology_researched = nationalism }
+
+	possible = {
+		OR = {
+			has_technology_researched = pan-nationalism				
+			custom_tooltip = {
+				text = je_german_unification_idea_trigger_desc
+				has_variable = je_german_unification_idea
+			}
+		}
+	}
+}
+
+LOT = { #Lotharingia
+	states = {
+		STATE_HOLLAND
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_NORTH_RHINE
+		STATE_RHINELAND
+		STATE_ALSACE_LORRAINE
+		STATE_FRANCHE_COMTE
+	}
+
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+			NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+EUR = { #Europe
+	use_culture_states = yes
+
+	required_states_fraction = 0.45
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+BNL = { #Benelux
+	states = {
+		STATE_HOLLAND
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_FLANDERS
+		STATE_WALLONIA
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+	}
+}
+CEL = { #Celtica
+	use_culture_states = yes
+
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+
+	}
+	
+}
+CRT = { #CARTHAGE
+	states = {
+		STATE_FEZ
+		STATE_AL_RIF
+		STATE_TLEMCEN
+		STATE_ALGIERS
+		STATE_TUNISIA
+		STATE_LIBYA
+		STATE_TRIPOLI
+		STATE_MALTA
+		STATE_SICILY
+		STATE_SARDINIA
+		STATE_CORSICA
+		STATE_BALEARES
+		STATE_VALENCIA
+		STATE_GRANADA
+		STATE_ANDALUSIA
+	}
+
+	required_states_fraction = 0.65
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+ZAP = { #Zapadoslavia
+	use_culture_states = yes
+
+	required_states_fraction = 0.73
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+	}
+}
+CRB = { #Caribbean
+	states = {
+		STATE_CUBA
+		STATE_BAHAMAS
+		STATE_JAMAICA
+		STATE_HAITI
+		STATE_SANTO_DOMINGO
+		STATE_PUERTO_RICO
+		STATE_WEST_INDIES
+		STATE_GUAYANA
+	}
+
+	required_states_fraction = 0.625
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+	}
+}
+HRE = { #Holy Roman Empire
+	states = {
+		STATE_HESSE STATE_RHINELAND STATE_BOHEMIA STATE_NORTH_RHINE STATE_WESTPHALIA 
+		STATE_HANNOVER STATE_ELBE STATE_SCHLESWIG_HOLSTEIN STATE_MECKLENBURG STATE_POMERANIA 
+		STATE_BRANDENBURG STATE_ANHALT STATE_BRUNSWICK STATE_SAXONY STATE_SILESIA STATE_FRANCONIA 
+		STATE_BAVARIA STATE_WURTTEMBERG STATE_BADEN STATE_FRIESLAND STATE_GELRE STATE_HOLLAND 
+		STATE_FLANDERS STATE_MORAVIA STATE_AUSTRIA STATE_STYRIA 
+		STATE_TYROL STATE_SLOVENIA STATE_ISTRIA STATE_SOUTH_TYROL STATE_VENETIA STATE_LOMBARDY 
+		STATE_ROMAGNA STATE_UMBRIA STATE_TUSCANY STATE_EMILIA STATE_PIEDMONT STATE_EAST_SWITZERLAND 
+		STATE_WEST_SWITZERLAND STATE_SAVOY STATE_PROVENCE STATE_ALSACE_LORRAINE STATE_FRANCHE_COMTE 
+		STATE_WALLONIA STATE_RHONE STATE_WEST_PRUSSIA STATE_LAZIO
+	}
+
+	required_states_fraction = 0.60
+	
+	ai_will_do = { always = yes }
+}
+
+SOM = {
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+RMA = {
+	states = {
+		STATE_RHINELAND STATE_NORTH_RHINE  
+		STATE_BAVARIA STATE_WURTTEMBERG STATE_BADEN STATE_FRIESLAND STATE_GELRE STATE_HOLLAND 
+		STATE_FLANDERS STATE_AUSTRIA STATE_STYRIA 
+		STATE_TYROL STATE_SLOVENIA STATE_ISTRIA STATE_SOUTH_TYROL STATE_VENETIA STATE_LOMBARDY 
+		STATE_ROMAGNA STATE_UMBRIA STATE_TUSCANY STATE_EMILIA STATE_PIEDMONT STATE_EAST_SWITZERLAND 
+		STATE_WEST_SWITZERLAND STATE_SAVOY STATE_PROVENCE STATE_ALSACE_LORRAINE STATE_FRANCHE_COMTE 
+		STATE_WALLONIA STATE_RHONE STATE_LAZIO STATE_CAMPANIA STATE_ABRUZZO STATE_APULIA STATE_CALABRIA STATE_CONSTANTINE STATE_MATRUH
+		STATE_LOWER_EGYPT STATE_UPPER_EGYPT STATE_MIDDLE_EGYPT STATE_FEZ STATE_AL_RIF STATE_TLEMCEN STATE_ALGIERS STATE_TUNISIA
+		STATE_LIBYA STATE_SINAI STATE_PALESTINE STATE_TRANSJORDAN STATE_SYRIA STATE_LEBANON STATE_ALEPPO
+		STATE_DEIR_EZ_ZOR STATE_BAGHDAD STATE_BASRA STATE_MOSUL STATE_AZERBAIJAN STATE_GREATER_CAUCASUS STATE_ARMENIA
+		STATE_TRIPOLI STATE_DIYARBAKIR STATE_ERZURUM STATE_TRABZON STATE_KARS STATE_ANKARA STATE_ADANA
+		STATE_MALTA STATE_KASTAMONU STATE_KONYA STATE_AYDIN STATE_HUDAVENDIGAR STATE_EAST_AEGEAN_ISLANDS
+		STATE_SICILY STATE_CRETE STATE_CYPRUS STATE_ATTICA STATE_PELOPONNESE STATE_THESSALIA STATE_MACEDONIA STATE_ALBANIA
+		STATE_SARDINIA STATE_SKOPIA STATE_WESTERN_THRACE STATE_EASTERN_THRACE STATE_NORTHERN_THRACE STATE_BULGARIA
+		STATE_CORSICA STATE_SOUTHERN_SERBIA STATE_NORTHERN_SERBIA STATE_MONTENEGRO STATE_BOSNIA STATE_CROATIA
+		STATE_BALEARES STATE_DALMATIA STATE_SLAVONIA STATE_DOBRUDJA STATE_WALLACHIA STATE_BANAT STATE_SOUTHERN_TRANSYLVANIA
+		STATE_VALENCIA STATE_DELVIDEK STATE_TRANSDANUBIA STATE_ALENTEJO STATE_BEIRA STATE_ESTREMADURA
+		STATE_GRANADA STATE_GALICIA STATE_CASTILE STATE_ASTURIAS STATE_NAVARRA STATE_ARAGON STATE_CATALONIA
+		STATE_ANDALUSIA STATE_BADAJOZ STATE_TOLEDO STATE_MARRAKECH STATE_BURGUNDY STATE_ORLEANS
+		STATE_AQUITAINE STATE_LANGUEDOC STATE_ARMAGNAC STATE_AUVERGNE STATE_LIMOUSIN STATE_POITOU
+		STATE_LOIRE STATE_BRITTANY STATE_NORMANDY STATE_ILE_DE_FRANCE STATE_CHAMPAGNE STATE_PICARDY
+		STATE_HOME_COUNTIES STATE_WEST_COUNTRY STATE_EAST_ANGLIA STATE_MIDLANDS STATE_WALES STATE_LANCASHIRE STATE_YORKSHIRE
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+BGR = {
+	states = {
+        STATE_WALLACHIA 
+        STATE_BULGARIA
+        STATE_MOLDAVIA
+        STATE_NORTHERN_THRACE
+        STATE_DOBRUDJA
+		STATE_BESSARABIA
+		STATE_SKOPIA
+    }	
+	required_states_fraction = 0.6
+	
+	    possible = {
+         root = {
+            AND = {
+                owns_entire_state_region = STATE_BULGARIA
+                owns_entire_state_region = STATE_WALLACHIA 
+				has_state_in_state_region = STATE_MOLDAVIA
+            }
+        }
+    }
+	ai_will_do = { always = yes }
+}
+
+LMV = { #Lombardy-Venice
+	states = {
+		STATE_VENETIA 
+		STATE_LOMBARDY 
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1	
+	
+	ai_will_do = { always = yes }
+}
+
+BON = { #Borneo
+	states = {
+		STATE_EAST_BORNEO 
+		STATE_NORTH_BORNEO
+		STATE_WEST_BORNEO
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.66	
+	
+	ai_will_do = { always = yes }
+}
+
+ANC = { #Antillean Confederation
+	states = {
+		STATE_SANTO_DOMINGO 
+		STATE_PUERTO_RICO
+		STATE_CUBA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1	
+	
+	ai_will_do = { always = yes }
+}
+
+PAG = { #Patria Grande
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.60
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+GRL = { #Grandelumiere
+	states = { 
+		STATE_ILE_DE_FRANCE 
+		STATE_PROVENCE 
+		STATE_NORMANDY 
+		STATE_LANGUEDOC
+		STATE_RHONE
+		STATE_LOIRE
+		STATE_PICARDY
+		STATE_ALSACE_LORRAINE
+		STATE_POITOU
+		STATE_ARMAGNAC
+		STATE_LIMOUSIN
+		STATE_BRITTANY
+		STATE_BURGUNDY
+		STATE_CHAMPAGNE
+		STATE_FRANCHE_COMTE
+		STATE_AUVERGNE
+		STATE_AQUITAINE
+		STATE_ORLEANS
+		STATE_WEST_SWITZERLAND
+		STATE_EAST_SWITZERLAND
+		STATE_TUSCANY
+		STATE_EMILIA
+		STATE_PIEDMONT
+		STATE_SAVOY
+		STATE_SOUTH_TYROL
+		STATE_VENETIA
+		STATE_TYROL
+		STATE_CORSICA
+		STATE_HOLLAND
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_NORTH_RHINE
+		STATE_RHINELAND
+		STATE_BADEN
+		STATE_WURTTEMBERG
+		STATE_HESSE
+		STATE_WESTPHALIA
+		STATE_BAVARIA
+		STATE_FRANCONIA
+		STATE_LOMBARDY
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+MRV = { # Greater Moravia
+	states = {
+		STATE_MORAVIA 
+		STATE_BOHEMIA
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+		STATE_TRANSDANUBIA
+		STATE_SILESIA
+		STATE_CENTRAL_HUNGARY
+		STATE_SAXONY
+		STATE_AUSTRIA
+		STATE_BEKES
+		STATE_BANAT
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.66	
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+ILY = {
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.67
+	
+	ai_will_do = { always = yes }
+}
+
+EAF = { #East African Federation
+	states = {
+		STATE_KENYA 
+		STATE_RIFT_VALLEY
+		STATE_ZANZIBAR
+		STATE_LINDI
+		STATE_TANGANYIKA
+		STATE_UGANDA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+
+AGV = {
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.7
+	
+	possible = {
+			NOT = { has_game_rule = plausible_formable_nations }
+         root = {
+            AND = {
+                owns_entire_state_region = STATE_HOME_COUNTIES
+                owns_entire_state_region = STATE_LOIRE
+            }
+        }
+    }
+	
+	ai_will_do = { always = yes }
+}
+
+CSR = { #Cono Sur
+	states = {
+		STATE_BUENOS_AIRES
+		STATE_RIO_GRANDE_DO_SUL
+		STATE_URUGUAY
+		STATE_SANTA_FE
+		STATE_CORRIENTES
+		STATE_BAJO_PARAGUAY
+		STATE_ALTO_PARAGUAY
+		STATE_CHACO
+		STATE_JUJUY
+		STATE_TUCUMAN
+		STATE_ANTOFAGASTA
+		STATE_SANTIAGO
+		STATE_RIO_NEGRO
+		STATE_LA_PAMPA
+		STATE_LOS_RIOS
+		STATE_PATAGONIA
+		STATE_ARAUCANIA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+
+VLS = { #Volkstaat
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.625
+	
+	#possible = {
+				has_state_in_state_region = s:STATE_NORTHERN_CAPE
+            }
+	
+	ai_will_do = { always = yes }
+}
+
+ALP = { #Alpine Republic
+	states = {
+		STATE_EAST_SWITZERLAND
+		STATE_WEST_SWITZERLAND
+		STATE_PIEDMONT
+		STATE_LOMBARDY
+		STATE_SAVOY
+		STATE_SOUTH_TYROL
+		STATE_TYROL
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.60	
+	
+	possible = {
+			NOT = { has_game_rule = plausible_formable_nations }
+         root = {
+            AND = {
+                owns_entire_state_region = STATE_EAST_SWITZERLAND
+                owns_entire_state_region = STATE_WEST_SWITZERLAND
+            }
+        }
+    }
+	
+	ai_will_do = { always = yes }
+}
+
+IDC = {
+	states = {
+		STATE_TONKIN 
+		STATE_ANNAM 
+		STATE_MEKONG 
+		STATE_CAMBODIA 
+		STATE_LAOS 
+		STATE_NAKHON_RATCHASIMA
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+ACA = { #Acadia
+	use_culture_states = yes
+	
+	is_major_formation = no
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+NOF = { #Nouvelle France
+	states = {
+		STATE_LOUISIANA
+		STATE_ARKANSAS
+		STATE_MISSOURI
+		STATE_IOWA
+		STATE_MINNESOTA
+		STATE_OKLAHOMA
+		STATE_KANSAS
+		STATE_NEBRASKA
+		STATE_SOUTH_DAKOTA
+		STATE_NORTH_DAKOTA
+		STATE_WYOMING
+		STATE_MONTANA
+		STATE_COLORADO
+		STATE_IDAHO
+		STATE_UTAH
+		STATE_WISCONSIN
+		STATE_ILLINOIS
+		STATE_INDIANA
+		STATE_MICHIGAN
+		STATE_ONTARIO
+		STATE_QUEBEC
+		STATE_MAINE
+		STATE_NEW_BRUNSWICK
+		STATE_NEWFOUNDLAND
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.5	
+	
+	ai_will_do = { always = yes }
+}
+PAS = { #Pacific States
+	states = {
+		STATE_CALIFORNIA
+		STATE_OREGON
+		STATE_WASHINGTON
+		STATE_BRITISH_COLUMBIA
+		STATE_YUKON_TERRITORY
+		STATE_ALASKA
+		STATE_BAJA_CALIFORNIA
+		STATE_NEVADA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.60	
+	
+	ai_will_do = { always = yes }
+}
+CSC = { #Cascadia
+	states = {
+		STATE_WASHINGTON
+		STATE_OREGON
+		STATE_IDAHO
+		STATE_BRITISH_COLUMBIA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	possible = { is_subject = no }
+	
+	ai_will_do = { always = yes }
+	
+}
+GLR = { # Great Lakes
+	states = {
+		STATE_MICHIGAN
+		STATE_WISCONSIN
+		STATE_ILLINOIS
+		STATE_INDIANA
+		STATE_OHIO
+		STATE_ONTARIO
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+TDW = { # Tidewater
+	states = {
+		STATE_NORTH_CAROLINA
+		STATE_VIRGINIA
+		STATE_DELAWARE
+		STATE_MARYLAND
+		STATE_DISTRICT_OF_COLUMBIA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+APL = { # Appalachia
+	states = {
+		STATE_NORTH_CAROLINA
+		STATE_VIRGINIA
+		STATE_KENTUCKY
+		STATE_TENNESSEE
+		STATE_WEST_VIRGINIA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+ATC = { # Atlantica
+	states = {
+		STATE_NEW_YORK
+		STATE_PENNSYLVANIA
+		STATE_NEW_JERSEY
+		STATE_DELAWARE
+		STATE_MARYLAND
+		STATE_DISTRICT_OF_COLUMBIA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+AXO = { # Arixo
+	states = {
+		STATE_ARIZONA
+		STATE_NEW_MEXICO
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1.0	
+	
+	ai_will_do = { always = yes }
+}
+ROK = { # Rockies Republic
+	states = {
+		STATE_UTAH
+		STATE_IDAHO
+		STATE_MONTANA
+		STATE_COLORADO
+		STATE_WYOMING
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+MWR = { # Midwest Republic
+	states = {
+		STATE_NORTH_DAKOTA
+		STATE_SOUTH_DAKOTA
+		STATE_NEBRASKA
+		STATE_KANSAS
+		STATE_MINNESOTA
+		STATE_IOWA
+		STATE_MISSOURI
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.6	
+	
+	ai_will_do = { always = yes }
+}
+DIX = { # Dixie
+	states = {
+		STATE_ALABAMA
+		STATE_LOUISIANA
+		STATE_FLORIDA
+		STATE_GEORGIA
+		STATE_SOUTH_CAROLINA
+		STATE_ARKANSAS
+		STATE_TENNESSEE
+		STATE_MISSISSIPPI
+		STATE_NORTH_CAROLINA
+		STATE_KENTUCKY
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = no }
+}
+GTX = { # Greater Texas
+	states = {
+		STATE_TEXAS
+		STATE_NEW_MEXICO
+		STATE_OKLAHOMA
+		STATE_RIO_GRANDE
+		STATE_CHIHUAHUA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.6	
+	
+	ai_will_do = { always = yes }
+}
+DKO = { # Dakota
+	states = {
+		STATE_NORTH_DAKOTA
+		STATE_SOUTH_DAKOTA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1.0	
+	
+	ai_will_do = { always = yes }
+}
+CAR = { # Carolina
+	states = {
+		STATE_NORTH_CAROLINA
+		STATE_SOUTH_CAROLINA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1.0	
+	
+	ai_will_do = { always = yes }
+}
+TTC = { # Thirteen Colonies
+	states = {
+		STATE_MAINE
+		STATE_NEW_HAMPSHIRE
+		STATE_MASSACHUSETTS
+		STATE_RHODE_ISLAND
+		STATE_CONNECTICUT
+		STATE_VERMONT
+		STATE_NEW_YORK
+		STATE_NEW_JERSEY
+		STATE_PENNSYLVANIA
+		STATE_DELAWARE
+		STATE_MARYLAND
+		STATE_VIRGINIA
+		STATE_NORTH_CAROLINA
+		STATE_SOUTH_CAROLINA
+		STATE_GEORGIA
+		STATE_DISTRICT_OF_COLUMBIA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.8	
+	
+	ai_will_do = { always = yes }
+}
+
+TRU = {
+	is_major_formation = yes
+	use_culture_states = yes
+	states = {
+		STATE_SAMARA
+		STATE_URALSK
+		STATE_KHIVA
+		STATE_AKMOLINSK
+		STATE_TURKMENIA
+		STATE_UZBEKIA
+		STATE_KIRGHIZIA
+		STATE_JETISY
+		STATE_SEMIRECHE
+		STATE_JETISY
+		STATE_SKOPIA
+		STATE_DZUNGARIA
+		STATE_TIANSHAN
+		STATE_TABRIZ
+		STATE_AZERBAIJAN
+		STATE_ERZURUM
+		STATE_KARS
+		STATE_DIYARBAKIR
+		STATE_MOSUL
+		STATE_TRABZON
+		STATE_ANKARA
+		STATE_ADANA
+		STATE_CYPRUS
+		STATE_KONYA
+		STATE_KASTAMONU
+		STATE_AYDIN
+		STATE_HUDAVENDIGAR
+		STATE_EASTERN_THRACE
+		STATE_WESTERN_THRACE
+		STATE_CRIMEA
+	}
+	required_states_fraction = 0.8
+	unification_play = dp_unify_turan
+	leadership_play = dp_leadership_turan
+	ai_will_do = {
+		always = yes
+	}
+	possible = {
+		NOT = {
+			exists = c:TRU
+		}
+		has_technology_researched = pan-nationalism
+		OR = {
+			country_has_primary_culture = cu:turkish
+			country_has_primary_culture = cu:turkic
+			country_has_primary_culture = cu:kazak
+			country_has_primary_culture = cu:azerbaijani
+			country_has_primary_culture = cu:uighur
+			country_has_primary_culture = cu:kirgiz
+			country_has_primary_culture = cu:turkmen
+			country_has_primary_culture = cu:uzbek
+			country_has_primary_culture = cu:tatar
+		}
+	}
+}

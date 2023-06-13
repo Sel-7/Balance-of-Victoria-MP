@@ -8,3 +8,1026 @@ QCR = {
 	cultures = { han }
 	capital = STATE_NANJING
 }
+
+JAP = {
+	color = { 194 53 60 }
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { japanese }
+	capital = STATE_KANTO
+}
+
+LOT = {
+	color = { 110  125  158 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { dutch flemish wallonian french north_german south_german}
+	capital = STATE_WALLONIA
+}
+EUR = {
+	color = { 20  23  102 }
+
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { north_italian south_italian albanian greek portuguese spanish occitan french welsh scottish galician north_german south_german ashkenazi dutch flemish wallonian swiss swedish danish norwegian icelandic finnish sami british irish maltese basque catalan breton croat serb bulgarian slovene bosniak romanian hungarian polish lithuanian czech slovak latvian estonian}
+	capital = STATE_FLANDERS
+}
+WGR = {
+	color = { 58  57  52 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_german}
+	religion = protestant
+	capital = STATE_TARTARIA
+}
+BNL = {
+	color = { 165  47  8 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { dutch wallonian flemish}
+	capital = STATE_FLANDERS
+}
+STP = {
+	color = { 221  26  94 }
+	country_type = recognized
+	
+	tier = City-State
+	
+	cultures = { russian}
+	capital = STATE_INGRIA
+}
+ING = {
+	color = { 232  218  99 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { ingrian }
+	religion = protestant
+	capital = STATE_INGRIA
+}
+PAI = {
+	color = { 188  135  186 }
+	country_type = recognized
+	
+	tier = City-State
+	
+	cultures = { french}
+	capital = STATE_ILE_DE_FRANCE
+}
+CNW = {
+	color = { 104  48  23 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { british irish welsh scottish breton}
+	capital = STATE_WEST_COUNTRY
+}
+CEL = {
+	color = { 28 91 40 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { scottish welsh irish breton}
+	capital = STATE_ULSTER
+}
+CRT = {
+	color = { 117  70  51 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { maghrebi berber }
+	capital = STATE_TUNISIA
+}
+ZAP = {
+	color = { 193  114  177 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { czech slovak polish}
+	capital = STATE_WEST_GALICIA
+}
+CRB = {
+	color = { 112  135  101 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { afro_caribeno afro_antillean afro_caribbean caribeno}
+}
+HRE = {
+	color = { 221  221  186 }
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { north_german south_german swiss north_italian flemish wallonian}
+	capital = STATE_AUSTRIA
+}
+CON = {
+	color = { 177 98 234 }
+	country_type = recognized
+	
+	tier = city-state
+	
+	cultures = { greek turkish}
+	capital = STATE_EASTERN_THRACE
+}
+KAR = {
+	color = { 79  107  69 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { karelian }
+	capital = STATE_EAST_KARELIA
+}
+
+IFR = {
+	color = { 120 0 0 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		british 
+		scottish
+		franco_canadian
+		anglo_canadian
+		australian
+	}
+	capital = STATE_HOME_COUNTIES
+}
+
+SOM = {
+	color = { 142 204 206 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+RMA = {
+	color = { 63  0  7 }
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { north_italian south_italian greek portuguese spanish occitan french}
+	capital = STATE_LAZIO
+}
+
+BGR = {
+	color = { 119  137  60 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bulgarian romanian }
+	capital = STATE_BULGARIA
+}
+
+LMV = {
+	color = { 178  53  93 }
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { north_italian }
+	capital = STATE_LOMBARDY
+}
+
+BON = {
+	color = { 10  144  170 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { bornean dayak }
+	capital = STATE_EAST_BORNEO
+}
+
+ANC = {
+	color = { 160  24  0 }
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { caribeno afro_caribeno }
+	capital = STATE_CUBA
+}
+
+PAG = {
+	color = { 242  230  0 }
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { caribeno central_american mexican north_andean south_andean platinean }
+	capital = STATE_PANAMA
+}
+
+
+BAN = {
+	color = { 40  96  35 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { serb romanian }
+	capital = STATE_BANAT
+}
+
+BAA = {
+	color = { 96  96  117 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_BANAT
+}
+
+MRV = {
+	color = { 173 90 27 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { czech slovak }
+	capital = STATE_BOHEMIA
+}
+
+ILY = {
+	color = { 84 173 160 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { croat bosniak slovene }
+	capital = STATE_CROATIA
+}
+
+BKV = {
+	color = { 183 18 60 }
+	
+	country_type = recognized
+
+	tier = city-state
+	
+	cultures = { romanian }
+	capital = STATE_MOLDAVIA
+}
+
+JAU = {
+	color = { 117 37 41 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+JER = {
+	color = { 255 216 89 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { french british spanish south_italian greek }
+	capital = STATE_PALESTINE
+}
+
+EAF = {
+	color = { 47 132 27 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { sukuma swahili lacustrine_bantu makau unyamwezi luo maasai ruanda rundi baganda nilotic kikuyu }
+	capital = STATE_UGANDA
+}
+
+NTH = {
+	color = { 226 163 36 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_YORKSHIRE
+}
+
+GOT = {
+	color = { 122 69 114 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { swedish }
+	capital = STATE_GOTLAND
+}
+
+GEL = {
+	color = { 216 124 136 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_ALSACE_LORRAINE
+}
+
+FAL = {
+	color = { 216 124 136 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_ALSACE_LORRAINE
+}
+
+AAL = {
+	color = { 188 179 92 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { swedish }
+	capital = STATE_ALAND
+}
+
+SUT = { 
+    color = { 100 0 0}
+
+    country_type = recognized
+
+    tier = grand_principality
+
+    cultures = { south_german north_italian }
+
+    capital = STATE_SOUTH_TYROL
+}
+
+AGV = { 
+    color = { 81 0 119}
+
+    country_type = recognized
+
+    tier = hegemony
+
+    cultures = { british french }
+
+    capital = STATE_LOIRE
+}
+
+CSR = { 
+    color = { 165 255 255}
+
+    country_type = recognized
+
+    tier = empire
+
+    cultures = { platinean south_andean }
+
+    capital = STATE_BUENOS_AIRES
+}
+
+VLS = { 
+    color = { 255 114 20}
+
+    country_type = recognized
+
+    tier = kingdom
+
+    cultures = { boer }
+
+    capital = STATE_VRYSTAAT
+}
+
+ALP = { 
+    color = { 204 24 24 }
+
+    country_type = recognized
+
+    tier = empire
+
+    cultures = { swiss south_german north_italian }
+
+    capital = STATE_EAST_SWITZERLAND
+}
+
+TER = { 
+    color = { 204 24 24 }
+
+    country_type = unrecognized
+
+    tier = kingdom
+
+    cultures = { turkish }
+
+    capital = STATE_NORTHERN_THRACE
+}
+
+IDC = {
+	color = { 120 183 91 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { vietnamese khmer lao }
+	capital = STATE_TONKIN
+}
+
+GAY = {
+	color = { 183 54 42 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { afro_caribbean }
+	capital = STATE_GUAYANA
+}
+
+GRL = {
+	color = { 57  37  188 }
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { french }
+	capital = STATE_BURGUNDY
+}
+
+ACA = { #Acadia
+	color = { 0 32 210 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { cajun afro_antillean }
+	capital = STATE_LOUISIANA
+}
+NOF = { #Nouvelle France
+	color = { 0 32 210 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { cajun afro_antillean }
+	capital = STATE_LOUISIANA
+}
+PAS = { #Pacific States
+	color = { 198 155 63 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { yankee anglo_canadian }
+	capital = STATE_CALIFORNIA
+}
+CSC = { #Cascadia
+	color = { 36 63 24 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yankee anglo_canadian }
+	capital = STATE_WASHINGTON
+}
+GLR = { # Great Lakes
+	color = { 78 196 196 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yankee anglo_canadian }
+	capital = STATE_ILLINOIS
+}
+TDW = { # Tidewater
+	color = { 196 75 27 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dixie }
+	capital = STATE_VIRGINIA
+}
+APL = { # Appalachia
+	color = { 115 122 121 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dixie }
+	capital = STATE_WEST_VIRGINIA
+}
+ATC = { # Atlantica
+	color = { 24 23 53 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yankee dixie }
+	capital = STATE_NEW_JERSEY
+}
+AXO = { # Arixo
+	color = { 165 87 19 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dixie }
+	capital = STATE_ARIZONA
+}
+ROK = { # Rockies Republic
+	color = { 150 121 96 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { dixie yankee }
+	capital = STATE_COLORADO
+}
+MWR = { # Midwest Republic
+	color = { 68 122 45 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { yankee }
+	capital = STATE_IOWA
+}
+DIX = { # Dixie
+	color = { 122 28 25 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { dixie }
+	capital = STATE_GEORGIA
+}
+GTX = { # Greater Texas
+	color = { 84 150 143 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dixie mexican }
+	capital = STATE_TEXAS
+}
+DKO = { # Dakota
+	color = { 153 21 47 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yankee }
+	capital = STATE_SOUTH_DAKOTA
+}
+CAR = { # Carolina
+	color = { 0 52 102 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dixie }
+	capital = STATE_NORTH_CAROLINA
+}
+ARC = { # Arctic States
+	color = { 93 120 158 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { anglo_canadian yankee }
+	capital = STATE_ALBERTA
+}
+MAI = {
+	color = { 13 29 36 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_MAINE
+}
+
+NHM = {
+	color = { 48 70 194 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_NEW_HAMPSHIRE
+}
+
+VER = {
+	color = { 6 116 27 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_VERMONT
+}
+
+RHI = {
+	color = { 227 227 227 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_RHODE_ISLAND
+}
+
+CNN = {
+	color = { 131 222 214 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_CONNECTICUT
+}
+
+NYK = {
+	color = { 9 75 217 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_NEW_YORK
+}
+
+NJY = {
+	color = { 240 220 130 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_NEW_JERSEY
+}
+
+PEN = {
+	color = { 11 56 119 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_PENNSYLVANIA
+}
+
+DEL = {
+	color = { 118 161 160 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_DELAWARE
+}
+
+MAR = {
+	color = { 147 29 48 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_MARYLAND
+}
+
+VIR = {
+	color = { 0 41 123 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_VIRGINIA
+}
+
+NCR = {
+	color = { 106 201 204 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_NORTH_CAROLINA
+}
+
+SCR = {
+	color = { 202 224 224 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_SOUTH_CAROLINA
+}
+
+GRG = {
+	color = { 235 137 117 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_GEORGIA
+}
+
+FLR = {
+	color = { 243 112 33 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_FLORIDA
+}
+
+OHI = {
+	color = { 179 8 57 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_OHIO
+}
+
+INA = {
+	color = { 213 159 15 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_INDIANA
+}
+
+ILL = {
+	color = { 179 221 242 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_ILLINOIS
+}
+
+WVA = {
+	color = { 218 148 52 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_WEST_VIRGINIA
+}
+
+KEN = {
+	color = { 0 97 76 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_KENTUCKY
+}
+
+TEN = {
+	color = { 247 127 0 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_TENNESSEE
+}
+
+ALA = {
+	color = { 163 38 56 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_ALABAMA
+}
+
+MIS = {
+	color = { 4 28 63 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_MISSISSIPPI
+}
+
+MIN = {
+	color = { 104 48 137 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_MINNESOTA
+}
+
+WIS = {
+	color = { 32 55 49 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_WISCONSIN
+}
+
+IOA = {
+	color = { 255 206 0 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_IOWA
+}
+
+MSR = {
+	color = { 94 0 9 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_MISSOURI
+}
+
+ARK = {
+	color = { 192 3 44 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_ARKANSAS
+}
+
+NDK = {
+	color = { 0 86 67 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_NORTH_DAKOTA
+}
+
+SDK = {
+	color = { 255 240 80 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+NEB = {
+	color = { 200 200 200 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_NEBRASKA
+}
+
+KAN = {
+	color = { 0 85 168 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_KANSAS
+}
+
+OKL = {
+	color = { 29 92 66 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_OKLAHOMA
+}
+
+MTN = {
+	color = { 185 151 91 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_MONTANA
+}
+
+WYO = {
+	color = { 2 82 164 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_WYOMING
+}
+
+CDO = {
+	color = { 8 28 89 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_COLORADO
+}
+
+NMX = {
+	color = { 255 215 0 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_NEW_MEXICO
+}
+
+IDA = {
+	color = { 244 122 26 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_IDAHO
+}
+
+ARI = {
+	color = { 206 92 23 }
+	country_type = recognized
+	tier = principality
+	cultures = { dixie }
+	capital = STATE_ARIZONA
+}
+
+WSH = {
+	color = { 27 85 51 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_WASHINGTON
+}
+
+ORE = {
+	color = { 26 34 80 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_OREGON
+}
+
+NEV = {
+	color = { 201 192 187 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_NEVADA
+}
+
+AKA = {
+	color = { 19 45 143 }
+	country_type = recognized
+	tier = principality
+	cultures = { yankee }
+	capital = STATE_ALASKA
+}
+NYC = {
+	color = { 221  26  94 }
+	country_type = recognized
+	
+	tier = City-State
+	
+	cultures = { yankee }
+	capital = STATE_NEW_YORK
+}
+TTC = {
+	color = { 7  65  127 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { yankee }
+	capital = STATE_MASSACHUSETTS
+}
+
+TRU = {
+	color = "blue_light"
+	tier = empire
+	country_type = recognized
+	cultures = {
+		turkish
+		kazak
+		azerbaijani
+		uighur
+		kirgiz
+		turkmen
+		uzbek
+		tatar
+		turkic
+	}
+	capital = STATE_EASTERN_THRACE
+}

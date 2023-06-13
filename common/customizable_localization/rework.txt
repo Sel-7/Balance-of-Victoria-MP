@@ -13,5 +13,4 @@ researchedrailwayscustom = {
 	text = {
 		localization_key = tooltip_buildrailwaysxx
 	}
-berlinclaimstooltip = {
 }

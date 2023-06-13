@@ -1,0 +1,424 @@
+british_raj_decision = {
+	is_shown = {
+		exists = c:GBR
+		exists = c:BIC
+		c:GBR = ROOT
+		c:BIC = {
+			is_subject_of = ROOT
+		}
+		NOT = { has_variable = british_raj_var }
+	}
+
+	possible = {
+		is_at_war = no
+		OR = {
+			institution_investment_level = {
+				institution = institution_colonial_affairs
+				value >= 5
+			}
+		}
+	}
+
+	when_taken = {
+		trigger_event = { id = raj.1 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100		
+	}
+}
+
+annex_Dutch_East_Indies_decision = {
+	is_shown = {
+		exists = c:NET
+		exists = c:DEI
+		this = c:NET
+	}
+
+	possible = {
+		c:DEI = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:JMB = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:YOG = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:SRK = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:SMB = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:PON = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:BNJ = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+		c:TID = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+	}
+	
+	when_taken = {
+		annex = c:DEI
+		annex = c:JMB
+		annex = c:YOG
+		annex = c:SRK
+		annex = c:SMB
+		annex = c:PON
+		annex = c:BNJ
+		annex = c:TID
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
+
+annex_Luxembourg_decision = {
+	is_shown = {
+		exists = c:NET
+		exists = c:LUX
+		this = c:NET
+	}
+	
+	possible = {
+		c:LUX = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+	}
+	
+	when_taken = {
+		annex = c:LUX
+	}
+	
+	ai_chance = {
+		base = 0
+	}
+}
+
+annex_commonwealth = {
+	is_shown = {
+		exists = c:GBR
+		exists = c:HBC
+		this = c:GBR
+	}
+
+	possible = {
+		game_date > 1865.12.30
+		c:HBC = {
+			is_player = no
+			is_junior_in_customs_union = yes
+		}
+	}
+	
+	when_taken = {
+		annex = c:HBC
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
+
+5_yr_plan = {
+	is_shown = {
+		exists = c:QCR
+		this = c:QCR
+		custom_tooltip = {
+			NOT = { has_variable = 5yrplan_cooldown }
+		}
+	}
+
+	possible = {
+		game_date > 1864.12.30
+		bureaucracy > 500
+		is_at_war = no
+		custom_tooltip = {
+			NOT = { has_variable = 5yrplan_cooldown }
+		}
+		
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_5yrplan
+			days = 1826.25 # permanent until removed
+		}
+		set_variable = {
+			name = 5yrplan_cooldown
+			days = -1
+		}
+	}
+	ai_chance = {
+		base = 5
+		modifier = {
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
+		}		
+	}
+}
+
+
+otf_fate_of_egypt = {
+	is_shown = {
+		has_variable = fate_of_egypt_dcs
+		NOT = {
+			has_variable = clr_egypt_dsc
+		}
+		exists = c:EGY
+	}
+	possible = {
+		this = c:TUR
+		c:EGY = {
+			is_subject_of = c:TUR
+			relations:root >= relations_threshold:amicable
+		}
+	}
+	when_taken = {
+		trigger_event = {
+			id = otto_egypt_events.2
+		}
+		set_variable = clr_egypt_dsc
+	}
+	ai_chance = {
+		base = 0
+		modifier = {
+			trigger = {
+				bureaucracy > 0
+			}
+			add = 5
+		}
+		modifier = {
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
+		}
+	}
+}
+
+otf_annex_islamic_subjects_dcs = {
+	is_shown = {
+		any_country = {
+			has_variable = i_am_islamic_subject_ok
+		}
+		NOT = {
+			has_variable = can_annex_islamic_subjects
+		}
+	}
+	possible = {
+		this = c:TUR
+		prestige >= 10000
+		any_country = {
+			has_variable = i_am_islamic_subject_ok
+		}
+	}
+	when_taken = {
+		set_variable = can_annex_islamic_subjects
+	}
+	ai_chance = {
+		base = 0
+		modifier = {
+			trigger = {
+				bureaucracy > 0
+			}
+			add = 5
+		}
+		modifier = {
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
+		}
+	}
+}
+
+
+
+
+japanese_flavor_show_era_options_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		NOT = { has_variable = japanese_flavor_show_era_options_flag }
+	}
+
+	possible = {
+		is_player = yes
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_show_era_options_decision
+			set_variable = japanese_flavor_show_era_options_flag
+		}
+	}
+
+}
+
+
+japanese_flavor_hide_era_options_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		has_variable = japanese_flavor_show_era_options_flag
+	}
+
+	possible = {
+		is_player = yes
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_hide_era_options_decision
+			remove_variable = japanese_flavor_show_era_options_flag
+		}
+	}
+
+}
+
+
+# late Edo era
+japanese_flavor_era_1_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		has_variable = japanese_flavor_show_era_options_flag
+	}
+
+	possible = {
+		is_player = yes
+		hidden_trigger = {
+			japanese_flavor_era_1_trigger = no
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_era_decision_when_taken
+			japanese_flavor_change_era_effect = { ERA = 1 }
+		}
+	}
+}
+
+
+# early Meiji era
+japanese_flavor_era_2_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		has_variable = japanese_flavor_show_era_options_flag
+	}
+
+	possible = {
+		is_player = yes
+		hidden_trigger = {
+			japanese_flavor_era_2_trigger = no
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_era_decision_when_taken
+			japanese_flavor_change_era_effect = { ERA = 2 }
+		}
+	}
+}
+
+
+# late Meiji era
+japanese_flavor_era_3_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		has_variable = japanese_flavor_show_era_options_flag
+	}
+
+	possible = {
+		is_player = yes
+		hidden_trigger = {
+			japanese_flavor_era_3_trigger = no
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_era_decision_when_taken
+			japanese_flavor_change_era_effect = { ERA = 3 }
+		}
+	}
+}
+
+
+# Taisho era
+japanese_flavor_era_4_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		has_variable = japanese_flavor_show_era_options_flag
+	}
+
+	possible = {
+		is_player = yes
+		hidden_trigger = {
+			japanese_flavor_era_4_trigger = no
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_era_decision_when_taken
+			japanese_flavor_change_era_effect = { ERA = 4 }
+		}
+	}
+}
+
+
+# early Showa era
+japanese_flavor_era_5_decision = {
+
+	is_shown = {
+		exists = c:JAP
+		c:JAP = THIS
+		has_variable = japanese_flavor_show_era_options_flag
+	}
+
+	possible = {
+		is_player = yes
+		hidden_trigger = {
+			japanese_flavor_era_5_trigger = no
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = japanese_flavor_era_decision_when_taken
+			japanese_flavor_change_era_effect = { ERA = 5 }
+		}
+	}
+}
+
+
