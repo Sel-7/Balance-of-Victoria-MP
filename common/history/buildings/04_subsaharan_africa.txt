@@ -1276,6 +1276,12 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_barracks"
 				level=4
 				reserves=1
@@ -1284,7 +1290,7 @@
 		}
 	}
 	s:STATE_TRANSVAAL={
-		region_state:TRN={
+		region_state:ORA={
 			create_building={
 				building="building_millet_farm"
 				level=1
