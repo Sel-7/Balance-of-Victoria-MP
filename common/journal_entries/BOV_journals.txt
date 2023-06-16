@@ -80,3 +80,20 @@ BOV_chinese_je = {
 	
 	should_be_pinned_by_default = yes
 }
+
+BOV_mines_act_je = { #Reform British Education
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		NOT = { has_law = law_type:law_child_labor_allowed }
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = bovgbr.2
+		}
+		
+	}
+	
+	should_be_pinned_by_default = yes
+}
