@@ -2482,11 +2482,11 @@
 		region_state:ZUL = {
 			create_pop = {
 				culture = zulu
-				size = 1067996
+				size = 1867996
 			}
 			create_pop = {
 				culture = boer
-				size = 2004
+				size = 52004
 			}
 			create_pop = {
 				culture = xhosa
@@ -2503,7 +2503,7 @@
 		region_state:ORA = {
 			create_pop = {
 				culture = boer
-				size = 702200
+				size = 1302200
 			}
 			create_pop = {
 				culture = nguni
@@ -2520,11 +2520,11 @@
 		region_state:ORA = {
 			create_pop = {
 				culture = sotho
-				size = 1071804
+				size = 571804
 			}
 			create_pop = {
 				culture = boer
-				size = 150192
+				size = 1150192
 			}
 			create_pop = {
 				culture = nguni
@@ -2577,7 +2577,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 604100
+				size = 1504100
 			}
 			create_pop = {
 				culture = boer
@@ -2596,7 +2596,7 @@
 		region_state:BST = {
 			create_pop = {
 				culture = khoisan
-				size = 263992
+				size = 563992
 			}
 			create_pop = {
 				culture = sotho
