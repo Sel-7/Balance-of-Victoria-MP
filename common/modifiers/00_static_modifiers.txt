@@ -165,18 +165,20 @@ tax_modifier_very_high = {
 
 government_wages_very_low = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	country_government_wages_mult = -0.3
+	country_government_wages_mult = -0.20
 	interest_group_ig_intelligentsia_approval_add = -5
 	interest_group_ig_petty_bourgeoisie_approval_add = -5
-	country_prestige_mult = -0.2
+	country_prestige_mult = -0.10
+	state_tax_capacity_mult = -0.20
 }
 
 government_wages_low = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	country_government_wages_mult = -0.15
+	country_government_wages_mult = -0.10
 	interest_group_ig_intelligentsia_approval_add = -2
 	interest_group_ig_petty_bourgeoisie_approval_add = -2
-	country_prestige_mult = -0.1
+	country_prestige_mult = -0.05
+	state_tax_capacity_mult = -0.10
 }
 
 government_wages_medium = {
@@ -184,16 +186,18 @@ government_wages_medium = {
 
 government_wages_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	country_government_wages_mult = 0.15
+	country_government_wages_mult = 0.10
 	interest_group_ig_intelligentsia_approval_add = 2	
 	interest_group_ig_petty_bourgeoisie_approval_add = 2
+	state_tax_capacity_mult = 0.10
 }
 
 government_wages_very_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	country_government_wages_mult = 0.3
+	country_government_wages_mult = 0.20
 	interest_group_ig_intelligentsia_approval_add = 5
 	interest_group_ig_petty_bourgeoisie_approval_add = 5
+	state_tax_capacity_mult = 0.20
 }
 
 military_wages_very_low = {
