@@ -110,3 +110,7 @@
  bov_southafrica_two_je:0 "Reform the Government"
  bov_southafrica_three_je:0 "Reform the Military"
  bov_southafrica_four_je:0 "Conquer the Cape"
+ bov_southafrica_je_reason:0 "We must take control of Southern Africa before the European powers do this first."
+ bov_southafrica_two_je_reason:0 "We need to reform the government to improve our prospects in the future."
+ bov_southafrica_three_je_reason:0 "Our military is lacking, we must build it strong enough to be able to defeat the Europeans if ever we were in threat."
+ bov_southafrica_four_je_reason:0 "We are needing to conquer the Cape from the British or die trying."
