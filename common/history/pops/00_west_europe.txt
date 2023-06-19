@@ -505,7 +505,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = south_german
-				size = 1236987
+				size = 636987
 			}
 			create_pop = {
 				culture = south_german
@@ -514,7 +514,7 @@
 			}
 			create_pop = {
 				culture = french
-				size = 1815063
+				size = 1115063
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -526,7 +526,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1680062
+				size = 1380062
 			}
 			create_pop = {
 				culture = french
@@ -874,7 +874,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 2664404
+				size = 1664404
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -905,7 +905,7 @@
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 2574808
+				size = 1574808
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -922,7 +922,7 @@
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 1131996
+				size = 6131996
 			}
 			create_pop = {
 				culture = ashkenazi

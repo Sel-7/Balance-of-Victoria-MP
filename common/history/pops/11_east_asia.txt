@@ -332,7 +332,7 @@
 			}
 			create_pop = {
 				culture = mongol
-				size = 1335900
+				size = 535900
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -414,7 +414,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = yue
-				size = 5448000
+				size = 4448000
 			}
 			create_pop = {
 				culture = manchu
@@ -466,7 +466,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = min
-				size = 5210004
+				size = 4210004
 			}
 			create_pop = {
 				culture = manchu
@@ -490,7 +490,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5664400
+				size = 4664400
 			}
 			create_pop = {
 				culture = manchu
@@ -515,7 +515,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6585904
+				size = 5585904
 			}
 			create_pop = {
 				culture = manchu
@@ -527,7 +527,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 11080192
+				size = 7080192
 			}
 			create_pop = {
 				culture = manchu
@@ -539,7 +539,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5338400
+				size = 4338400
 			}
 			create_pop = {
 				culture = manchu
@@ -561,7 +561,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5446940
+				size = 4446940
 			}
 			create_pop = {
 				culture = manchu
@@ -590,7 +590,7 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 1212596
+				size = 612596
 			}
 			create_pop = {
 				culture = miao
@@ -607,7 +607,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6473408
+				size = 4473408
 			}
 			create_pop = {
 				culture = manchu
@@ -624,7 +624,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 5312000
+				size = 4412000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -637,7 +637,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4116000
+				size = 3516000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -654,7 +654,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4222096
+				size = 3222096
 			}
 			create_pop = {
 				culture = manchu
@@ -675,7 +675,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 3513400
+				size = 3013400
 			}
 			create_pop = {
 				culture = manchu
@@ -711,7 +711,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7088000
+				size = 5088000
 			}
 		}
 	}
@@ -719,7 +719,7 @@
 		region_state:QCR = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7336004
+				size = 4336004
 			}
 		}
 	}

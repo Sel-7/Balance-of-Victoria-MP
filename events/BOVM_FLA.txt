@@ -27,7 +27,7 @@ BOVM_FLA.1 = {
 		ROOT = {
 			add_modifier = {
 				name = BOVM_FLA_development_fast
-				months = 241
+				months = 121
 			}
 		}
 	}
