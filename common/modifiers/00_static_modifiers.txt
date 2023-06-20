@@ -299,6 +299,7 @@ efficient_bureaucracy = {
 administrative_overburden = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	state_tax_waste_add = 1
+	state_construction_mult = -0.25
 }
 
 # Excess AUT reduces enactment time by -25% at 2x production to usage
