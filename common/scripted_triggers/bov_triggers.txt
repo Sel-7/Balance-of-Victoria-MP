@@ -24,10 +24,6 @@ BOVM_is_minor_mp_country = {
 			limit = { exists = c:BNL }
 			this =  c:BNL
 		}
-		trigger_if = {
-			limit = { exists = c:SWE }
-			this =  c:SWE
-		}
 	}
 }
 
