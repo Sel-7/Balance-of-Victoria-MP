@@ -1,45 +1,32 @@
 BOVM_is_minor_mp_country = {
 	OR = {
-		AND = {
-			c:SPA = ROOT #Spain
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:SWE }
+			this =  c:SWE
 		}
-		AND = {
-			c:IBE = ROOT #Iberia
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:SCA }
+			this =  c:SCA
 		}
-		AND = {
-			c:SWE = ROOT #Sweden
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:SPA }
+			this =  c:SPA
 		}
-		AND = {
-			c:SCA = ROOT #Scandinavia
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:IBE }
+			this =  c:IBE
 		}
-		AND = {
-			c:NET = ROOT #Netherlands
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:NET }
+			this =  c:NET
 		}
-		AND = {
-			c:BRZ = ROOT #Brazil
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:BNL }
+			this =  c:BNL
 		}
-		AND = {
-			c:PAG = ROOT #Patria Grande
-			is_player = yes
-		}
-		AND = {
-			c:BNL = ROOT #Benelux
-			is_player = yes
-		}
-	}
-}
-
-BOVM_is_austria_country = {
-	OR = {
-		AND = {
-			c:AUS = ROOT #Austria
-			is_player = yes
+		trigger_if = {
+			limit = { exists = c:SWE }
+			this =  c:SWE
 		}
 	}
 }
