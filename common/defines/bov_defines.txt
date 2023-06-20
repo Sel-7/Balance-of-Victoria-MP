@@ -132,3 +132,10 @@ NPolitics = {
 	POWERFUL_IG_CUTOFF = 0.18		# Powerful interest groups with less Clout than this will stop being influential
 	POWERFUL_IG_TRAIT_BONUS = 0.5		# The effects of all trait modifiers from influential IGs are increased by this, 1 = +100%
 }
+
+
+NCountry = {
+	INCORPORATION_TIME_SAME_HERITAGE = 25
+	INCORPORATION_TIME_SAME_TRAIT = 35
+	INCORPORATION_TIME_NO_MATCH = 50
+}
