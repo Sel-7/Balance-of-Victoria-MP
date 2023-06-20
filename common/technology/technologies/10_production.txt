@@ -348,7 +348,7 @@ reinforced_concrete = {
 	category = production
 	
 	modifier = {
-		building_urban_center_throughput_mult = 0.15
+		building_urban_center_throughput_mult = 0.10
 	}
 	
 	unlocking_technologies = {	
@@ -570,7 +570,7 @@ pneumatic_tools = {
 	category = production
 	
 	modifier = {
-		building_urban_center_throughput_mult = 0.1
+		building_urban_center_throughput_mult = 0.05
 		building_output_hardwood_mult = 0.25
 		country_resource_discovery_chance_mult = 0.25
 	}

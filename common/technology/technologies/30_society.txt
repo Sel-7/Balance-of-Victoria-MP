@@ -141,7 +141,7 @@ banking = {
 	category = society
 	
 	modifier = {
-		country_minting_mult = 0.05
+		country_minting_mult = 0.10
 		country_loan_interest_rate_add = -0.02
 	}
 	
@@ -360,7 +360,7 @@ central_banking = {
 	category = society
 	
 	modifier = {
-		country_minting_mult = 0.05
+		country_minting_mult = 0.10
 		country_loan_interest_rate_add = -0.02
 	}	
 	
@@ -586,7 +586,7 @@ mutual_funds = {
 	category = society
 	
 	modifier = {
-		country_minting_mult = 0.05
+		country_minting_mult = 0.10
 		country_loan_interest_rate_add = -0.02
 	}
 	
@@ -761,7 +761,7 @@ international_exchange_standards = {
 	category = society
 	
 	modifier = {
-		country_minting_mult = 0.05
+		country_minting_mult = 0.10
 		country_loan_interest_rate_add = -0.02
 		country_trade_route_quantity_mult = 0.155
 		country_trade_route_competitiveness_mult = 0.40
@@ -879,7 +879,7 @@ modern_financial_instruments = {
 	texture = "gfx/interface/icons/invention_icons/modern_financial_instruments.dds"
 	category = society
 	modifier = {
-		country_minting_mult = 0.05
+		country_minting_mult = 0.10
 		country_loan_interest_rate_add = -0.02	
 		country_trade_route_competitiveness_mult = 0.10		
 	}

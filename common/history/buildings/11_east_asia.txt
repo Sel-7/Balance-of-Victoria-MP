@@ -487,7 +487,7 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=13
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
@@ -665,7 +665,7 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=8
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}			
@@ -711,7 +711,7 @@
 			}
 			create_building={
 				building="building_glassworks"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing" "pm_merchant_guilds_building_glassworks" }
 			}
@@ -739,7 +739,7 @@
 		region_state:QCR={
 			create_building={
 				building="building_government_administration"
-				level=17
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -751,7 +751,7 @@
 			#}				
 			create_building={
 				building="building_glassworks"
-				level=10
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing" "pm_merchant_guilds_building_glassworks" }
 			}
@@ -797,7 +797,7 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=15
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
@@ -911,7 +911,7 @@
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=10
+				level=55
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_luxury_furniture" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
 			}
@@ -979,7 +979,7 @@
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=10
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_luxury_furniture" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
 			}
@@ -1121,7 +1121,7 @@
 			}
 			create_building={
 				building="building_glassworks"
-				level=10
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing" "pm_merchant_guilds_building_glassworks" }
 			}
@@ -1666,6 +1666,12 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
+				building="building_silk_plantation"
+				level=14
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_tobacco_plantation"
 				level=3
 				reserves=1
@@ -1683,7 +1689,7 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=14
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1747,7 +1753,7 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1759,13 +1765,13 @@
 			#}				
 			create_building={
 				building="building_paper_mills"
-				level=2
+				level=9
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=2
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
@@ -1811,7 +1817,7 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1829,7 +1835,7 @@
 			}
 			create_building={
 				building="building_paper_mills"
-				level=3
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
@@ -1853,7 +1859,7 @@
 			}
 			create_building={
 				building="building_silk_plantation"
-				level=3
+				level=9
 				reserves=1
 				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -1893,7 +1899,7 @@
 			}			
 			create_building={
 				building="building_textile_mills"
-				level=2
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
 			}
@@ -1973,13 +1979,13 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=11
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_paper_mills"
-				level=2
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
@@ -1991,7 +1997,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=6
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}

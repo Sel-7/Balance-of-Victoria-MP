@@ -423,7 +423,9 @@ SAF = {
 		STATE_EASTERN_CAPE
 		STATE_CAPE_COLONY 
 	}
-
+	possible = {
+		has_modifier = bov_the_great_union
+	}
 	ai_will_do = { always = yes }
 }
 

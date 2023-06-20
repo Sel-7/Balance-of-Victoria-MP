@@ -1,0 +1,124 @@
+bov_southafrica_je = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		owns_entire_state_region = STATE_ZULULAND
+		owns_entire_state_region = STATE_EASTERN_CAPE
+		owns_entire_state_region = STATE_NORTHERN_CAPE
+		owns_entire_state_region = STATE_BOTSWANA
+		
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = bov_southafrica.2
+		}
+	}
+	
+	should_be_pinned_by_default = yes
+}
+
+bov_southafrica_two_je = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		
+		has_law = law_type:law_slavery_banned
+		
+		OR = {
+			has_law = law_type:law_ethnostate
+			has_law = law_type:law_cultural_exclusion
+		}
+		OR = {
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_universal_suffrage
+		}
+		NOR = {
+			has_law = law_land_based_taxation
+			has_law = law_type:law_censorship
+			has_law = law_type:law_outlawed_dissent
+		}
+	
+		literacy_rate > 0.30
+		
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = bov_southafrica.3
+		}
+	}
+	
+	should_be_pinned_by_default = yes
+}
+
+bov_southafrica_three_je = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		army_size >= 120
+		has_technology_researched = napoleonic_warfare
+		NOT = {
+			any_scope_building = {
+				is_building_type = building_barracks				
+				OR = {
+					building_has_goods_shortage = yes
+					has_active_production_method = pm_irregular_infantry
+					has_active_production_method = pm_no_artillery
+					has_active_production_method = pm_cannon_artillery
+				}
+			}
+		}
+		has_law = law_type:law_professional_army
+		
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = bov_southafrica.4
+		}
+	}
+	
+	should_be_pinned_by_default = yes
+}
+
+bov_southafrica_four_je = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		
+		owns_entire_state_region = STATE_CAPE_COLONY
+		
+	}
+	
+	timeout = 3653
+
+	on_timeout = {
+		trigger_event = {
+			id = bov_southafrica.6
+		}
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = bov_southafrica.5
+		}
+	}
+	
+	should_be_pinned_by_default = yes
+}
+
+
+

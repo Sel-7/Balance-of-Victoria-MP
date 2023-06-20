@@ -32,11 +32,11 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 7062032
+				size = 3562032
 			}
 			create_pop = {
 				culture = bengali
-				size = 4644162
+				size = 2644162
 			}
 		}
 	}
@@ -97,7 +97,7 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 6100320
+				size = 3100320
 			}
 			create_pop = {
 				culture = british
@@ -105,7 +105,7 @@
 			}
 			create_pop = {
 				culture = kanauji
-				size = 2900848
+				size = 900848
 			}
 			create_pop = {
 				culture = panjabi
@@ -385,7 +385,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = marathi
-				size = 3239096
+				size = 2239096
 			}
 			create_pop = {
 				culture = british
@@ -438,7 +438,7 @@
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 5033705
+				size = 4033705
 			}
 			create_pop = {
 				culture = avadhi
@@ -602,7 +602,7 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 9370101
+				size = 5370101
 			}
 		}
 	}

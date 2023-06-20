@@ -351,6 +351,46 @@ BOV_chinese_stagnation = {
 	unit_defense_mult = -0.10
 	unit_offense_mult = -0.10
 }
+###SOUTH AFRICA
+bov_unite_the_south = {
+	unit_offense_mult = 0.30
+	unit_defense_mult = 0.20
+}
+
+bov_united_saf = {
+	state_migration_pull_mult = 0.10
+	state_accepted_birth_rate_mult = 0.03
+	country_prestige_mult = 0.05
+}
+
+bov_saf_reformed = {
+	state_education_access_add = 0.15
+	state_construction_mult = 0.20
+}
+
+bov_the_great_union = {
+	state_migration_pull_mult = 0.25
+	unit_defense_mult = 0.05
+}
+
+bov_take_the_cape = {
+	unit_offense_mult = 0.30
+	unit_morale_damage_mult = 0.15
+	unit_recovery_rate_add = 0.15
+	building_mobilization_cost_mult = -0.20
+}
+
+bov_end_of_british_rule = {
+	state_accepted_birth_rate_mult = 0.10
+	unit_defense_mult = 0.10
+	country_prestige_mult = 0.15
+}
+
+bov_failure_taking_cape = {
+	state_construction_mult = -0.15
+	country_prestige_mult = -0.20
+}
+
 ###Edited Vanilla Modifiers
 synthesis_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds

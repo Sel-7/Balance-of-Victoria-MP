@@ -249,7 +249,7 @@ law_laissez_faire = {
 		building_group_bg_manufacturing_throughput_mult = 0.10
 		building_group_bg_oil_extraction_throughput_mult = 0.10
 		building_group_bg_rubber_throughput_mult = 0.10
-		building_urban_center_throughput_mult = 0.10
+		building_urban_center_throughput_mult = 0.075
 		
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes

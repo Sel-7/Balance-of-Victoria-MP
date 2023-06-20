@@ -1,0 +1,239 @@
+namespace = bov_southafrica
+
+bov_southafrica.1 = { ###SAF
+	type = country_event
+	placement = root
+	title = bov_southafrica.1.t
+	desc = bov_southafrica.1.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = bov_southafrica_je
+		}
+	}
+	
+	option = {
+		name = bov_southafrica.1.a
+		
+		s:STATE_ZULULAND= {
+			add_claim = ROOT
+		}
+		s:STATE_EASTERN_CAPE = {
+			add_claim = ROOT
+		}
+		s:STATE_NORTHERN_CAPE = {
+			add_claim = ROOT
+		}
+		s:STATE_BOTSWANA = {
+			add_claim = ROOT
+		}
+		
+		add_modifier = {
+			name = bov_unite_the_south
+			months = normal_modifier_time
+		}
+
+	}
+}
+
+bov_southafrica.2 = {
+	type = country_event
+	placement = root
+	title = bov_southafrica.2.t
+	desc = bov_southafrica.2.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+	
+	option = {
+		name = bov_southafrica.2.a
+		
+		add_journal_entry = {
+			type = bov_southafrica_two_je
+		}
+		
+		add_modifier = {
+			name = bov_united_saf
+			months = normal_modifier_time
+		}
+	}
+}
+
+bov_southafrica.3 = {
+	type = country_event
+	placement = root
+	title = bov_southafrica.3.t
+	desc = bov_southafrica.3.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+	
+	option = {
+		name = bov_southafrica.3.a
+		
+		add_journal_entry = {
+			type = bov_southafrica_three_je
+		}
+		
+		add_modifier = {
+			name = bov_saf_reformed
+			months = normal_modifier_time
+		}
+	}
+}
+
+bov_southafrica.4 = {
+	type = country_event
+	placement = root
+	title = bov_southafrica.4.t
+	desc = bov_southafrica.4.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+	
+	option = {
+		name = bov_southafrica.4.a
+		
+		add_modifier = {
+			name = bov_the_great_union
+			months = -1
+		}
+	}
+	
+	option = {
+		name = bov_southafrica.4.b
+		
+		add_journal_entry = {
+			type = bov_southafrica_four_je
+		}
+		
+		add_modifier = {
+			name = bov_the_great_union
+			months = -1
+		}
+		
+		add_modifier = {
+			name = bov_take_the_cape
+			months = normal_modifier_time
+		}
+		
+		s:STATE_CAPE_COLONY = {
+			add_claim = ROOT
+		}
+	}
+}
+
+bov_southafrica.5 = {
+	type = country_event
+	placement = root
+	title = bov_southafrica.5.t
+	desc = bov_southafrica.5.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+	
+	option = {
+		name = bov_southafrica.5.a
+		
+		add_modifier = {
+			name = bov_end_of_british_rule
+			months = -1
+		}
+	}
+
+}
+
+bov_southafrica.6 = {
+	type = country_event
+	placement = root
+	title = bov_southafrica.6.t
+	desc = bov_southafrica.6.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+	
+	option = {
+		name = bov_southafrica.6.a
+		
+		add_modifier = {
+			name = bov_failure_taking_cape
+			months = 36
+		}
+	}
+
+}
