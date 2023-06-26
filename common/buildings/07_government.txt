@@ -55,6 +55,8 @@ building_university = {
 
 	levels_per_mesh = 5
 
+	has_max_level = yes
+
 	unlocking_technologies = {
 		academia
 	}
