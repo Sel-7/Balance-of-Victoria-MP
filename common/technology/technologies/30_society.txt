@@ -10,6 +10,7 @@ urbanization = {
 		state_infrastructure_from_population_add = 2
 		state_infrastructure_from_population_max_add = 40	
 		market_land_trade_capacity_add = 50
+		state_building_construction_sector_max_level_add = 1
 	}
 }
 
@@ -22,6 +23,7 @@ urban_planning = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
 		market_land_trade_capacity_add = 10
+		state_building_construction_sector_max_level_add = 1
 	}
 	
 	unlocking_technologies = {
@@ -509,6 +511,7 @@ steel_frame_buildings = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
 		market_land_trade_capacity_add = 20
+		state_building_construction_sector_max_level_add = 1
 	}
 	
 	unlocking_technologies = {
